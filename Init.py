@@ -97,7 +97,7 @@ def getData(sensors, datas, time = True):
 
     return output
 
-
+#Sucht Start und Stopp in den Daten
 def startStop(datas):
     qua = False
     acc = False
