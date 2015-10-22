@@ -106,7 +106,7 @@ def startStop(datas):
 
     startOffsets = np.zeros(len(datas))
     stopOffsets = np.zeros(len(datas))
-
+#test
     index = 0
     for data in datas:
         if (data == 'acc' and acc == False):
