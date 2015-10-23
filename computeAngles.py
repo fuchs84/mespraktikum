@@ -7,13 +7,13 @@ import pandas as pd
 
 
 
-def readComputeVectors(filePath):
-    global rotatedVectors
-    xbox1 = pd.read_csv(filePath , sep='\t')
-    testData = xbox1.as_matrix()
-    print "gelesen"
-    quaternions = searchQuaternionInData(testData)
+def computeRotation(dataSet):
+    quaternions = searchQuaternionInData(dataSet)
     rotatedVectors = rotationQuaternion(quaternions)
+    np.savetxt('rotatedVectorsE1.csv', rotatedVectors[:, :, 0], delemiter='\t')
+    np.savetxt('rotatedVectorsE2.csv', rotatedVectors[:, :, 1], delemiter='\t')
+    np.savetxt('rotatedVectorsE3.csv', rotatedVectors[:, :, 2], delemiter='\t')
+
 
 
 # Sucht die Quaternions aus einem Datenset heraus.
@@ -52,7 +52,7 @@ def rotationQuaternion(quaternions):
     e3 = np.matrix([[0.0], [0.0], [1.0]])
 
     numberOfSensors = len(quaternions[0, :])/4
-    rotatedVectors = np.zeros(shape=(len(quaternions[:,0]), 9, numberOfSensors))
+    rotatedVectors = np.zeros(shape=(len(quaternions[:,0]), numberOfSensors*3, 3))
     for i in range(1, len(quaternions[:, 0])):
         for j in range(0, numberOfSensors):
             start = j*4
@@ -62,9 +62,15 @@ def rotationQuaternion(quaternions):
             rotateE2 = rotationMatrix*e2
             rotateE3 = rotationMatrix*e3
 
-            rotatedVectors[i, 0:3, j] = np.transpose(rotateE1)
-            rotatedVectors[i, 3:6, j] = np.transpose(rotateE2)
-            rotatedVectors[i, 6:9, j] = np.transpose(rotateE3)
+            start = j*3
+            stop = j*3+3
+            rotatedVectors[i,start:stop, 0] = np.transpose(rotateE1)
+            rotatedVectors[i,start:stop, 1] = np.transpose(rotateE2)
+            rotatedVectors[i,start:stop, 2] = np.transpose(rotateE3)
+
+            #rotatedVectors[i, 0:3, j] = np.transpose(rotateE1)
+            #rotatedVectors[i, 3:6, j] = np.transpose(rotateE2)
+            #rotatedVectors[i, 6:9, j] = np.transpose(rotateE3)
     return rotatedVectors
 
 def computeAngles(s1, s2, rotatedVectors):
@@ -89,3 +95,15 @@ def swapRotatedVectors(s1, s2, rotatedVectors):
     rotatedVectors[:, :, s1] = rotatedVectors[:, :, s2]
     rotatedVectors[:, :, s2] = temp
     return rotatedVectors
+
+def computeRotation(dataSet):
+    quaternions = searchQuaternionInData(dataSet)
+    rotatedVectors = rotationQuaternion(quaternions)
+    np.savetxt('rotatedVectorsE1.csv', rotatedVectors[:, :, 0], delimiter='\t')
+    np.savetxt('rotatedVectorsE2.csv', rotatedVectors[:, :, 1], delimiter='\t')
+    np.savetxt('rotatedVectorsE3.csv', rotatedVectors[:, :, 2], delimiter='\t')
+
+xbox1 = pd.read_csv('/Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged.csv', sep='\t')
+dataMatrix = xbox1.as_matrix()
+
+computeRotation(dataMatrix)

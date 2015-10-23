@@ -16,12 +16,28 @@ import Classifier
 import PeakDetection
 import scipy.io
 
-xbox1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\VectorenID001.csv', sep='\t')
-Vectoren = xbox1.as_matrix()
-xbox1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\20150901\merged.csv', sep='\t')
-dataMatrix = xbox1.as_matrix()
-label = scipy.io.loadmat(r'C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat')
-label = label['seg']
+#person: 0 = Sebastian, 1 = Matthias
+person = -1;
+
+if(person == 0):
+    #Sebastian
+    rawData = pd.read_csv(r'C:\Users\Sebastian\Desktop\VectorenID001.csv', sep='\t')
+    Vectoren = rawData.as_matrix()
+    rawData = pd.read_csv(r'C:\Users\Sebastian\Desktop\20150901\merged.csv', sep='\t')
+    dataMatrix = rawData.as_matrix()
+    label = scipy.io.loadmat(r'C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat')
+    label = label['seg']
+
+elif (person == 1):
+    #Matthias
+    rawData = pd.read_csv('', sep='\t')
+    Vectoren = rawData.as_matrix()
+    rawData = pd.read_csv('/Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged.csv', sep='\t')
+    dataMatrix = rawData.as_matrix()
+    label = scipy.io.loadmat('/Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat')
+    label = label['seg']
+else:
+    print 'keine Person ausgewählt oder ungueltige Nummer'
 
 
 
@@ -40,14 +56,10 @@ print Sensor
 #trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
 
 
-
-
-
-
 print "classify start"
 start =10000
 traindata = Vectoren[:30000,:]
-testdata = Vectoren[]
+testdata = Vectoren[30000:,:]
 
 
 clfbayes= Classifier.classify(traindata,testdata,Sensor,classifier="SVM")
