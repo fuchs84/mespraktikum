@@ -2,10 +2,12 @@ __author__ = 'Sebastian'
 from scipy.signal import argrelmin,argrelmax
 from sklearn import datasets
 from sklearn.naive_bayes import GaussianNB
+from sklearn.ensemble import AdaBoostClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn import tree
 from sklearn import svm,datasets
 from sklearn import linear_model
+from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
 import numpy as np
 from sklearn.lda import LDA
@@ -32,6 +34,10 @@ def classify(training, test, Sensoren, classifier="Bayes"):
         clf = linear_model.LinearRegression()
     elif classifier is "LDA":
         clf= LDA()
+    elif classifier is "AdaBoost":
+        clf= AdaBoostClassifier()
+    elif classifier is "Forest":
+        clf= RandomForestClassifier(n_estimators=100)
     elif classifier is "SVM":
         clf = svm.SVC()
     elif classifier is "DecisionTree":
