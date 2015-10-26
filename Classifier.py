@@ -5,11 +5,8 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.naive_bayes import MultinomialNB
 from sklearn import tree
 from sklearn import svm,datasets
-from sklearn.ensemble import ExtraTreesClassifier
 from sklearn import linear_model
 import pandas as pd
-from sklearn.feature_selection import SelectKBest
-from sklearn.feature_selection import chi2
 import numpy as np
 from sklearn.lda import LDA
 import matplotlib.pyplot as plt
@@ -90,27 +87,6 @@ def plot_confusion_matrix(cm, title='Konfusionsmatrix', cmap=plt.cm.Blues):
     plt.ylabel('wahres label')
     plt.xlabel('klassifiziertes label')
 
-def featureSelection(data, Featurenumber):
-    label = data[:,1]
-    datanew = data[:,102:]
-    for i in range(0,len(datanew)):
-        datanew[i] = map(abs, datanew[i])
-    size = Featurenumber
-    X_new = SelectKBest(chi2, k=size).fit_transform(datanew, label)
-    data[:,2:size+2] = X_new
-    return data[:,:size+2]
-
-def featureSelectionTree(data):
-    label = data[:,1]
-    datanew = data[:,102:]
-    for i in range(0,len(datanew)):
-        datanew[i] = map(abs, datanew[i])
-
-    clf = ExtraTreesClassifier()
-    X_new = clf.fit(datanew, label).transform(datanew)
-    size = len(X_new[0])
-    data[:,2:size+2] = X_new
-    return data[:,:size+2], size
 
 def createsymmetricsplit(data, start, end):
     Vectoren = data
