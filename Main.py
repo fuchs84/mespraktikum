@@ -16,36 +16,20 @@ import Classifier
 import PeakDetection
 import scipy.io
 
-#person: 0 = Sebastian, 1 = Matthias
-person = -1;
-
-if(person == 0):
-    #Sebastian
-    rawData = pd.read_csv(r'C:\Users\Sebastian\Desktop\VectorenID001.csv', sep='\t')
-    Vectoren = rawData.as_matrix()
-    rawData = pd.read_csv(r'C:\Users\Sebastian\Desktop\20150901\merged.csv', sep='\t')
-    dataMatrix = rawData.as_matrix()
-    label = scipy.io.loadmat(r'C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat')
-    label = label['seg']
-
-elif (person == 1):
-    #Matthias
-    rawData = pd.read_csv('', sep='\t')
-    Vectoren = rawData.as_matrix()
-    rawData = pd.read_csv('/Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged.csv', sep='\t')
-    dataMatrix = rawData.as_matrix()
-    label = scipy.io.loadmat('/Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat')
-    label = label['seg']
-else:
-    print 'keine Person ausgewählt oder ungueltige Nummer'
+xbox1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\VectorenID001.csv', sep='\t')
+Vectoren = xbox1.as_matrix()
+xbox1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\20150901\merged.csv', sep='\t')
+dataMatrix = xbox1.as_matrix()
+label = scipy.io.loadmat(r'C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat')
+label = label['seg']
 
 
 
 matrixnew = Labeling.labeldata(dataMatrix,label)
 
-Sensor1 = range(24,28)
-Sensor2 = range(11,15)
-Sensor3 = range(37,41)
+Sensor1 = range(11,15)
+Sensor2 = range(24,28)
+Sensor3 = range(27,41)
 Sensor4 = range(50,54)
 Sensor5 = range(63,67)
 Sensor6 = range(76,80)
@@ -56,15 +40,21 @@ print Sensor
 #trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
 
 
+
+
+
+
 print "classify start"
-start =10000
-traindata = Vectoren[:30000,:]
-testdata = Vectoren[30000:,:]
+
+traindata = Vectoren[4000:20000,:]
+testdata = Vectoren[20000:35000,:]
 
 
-clfbayes= Classifier.classify(traindata,testdata,Sensor,classifier="SVM")
+clfbayes = Classifier.classify(traindata,testdata,Sensor,classifier="SVM")
 
 Classifier.printclassifier(clfbayes,traindata,testdata,Sensor)
+
+Classifier.confusemat(clfbayes,testdata,Sensor)
 print "classify finished"
 #short= dataMatrix[46000:,:]
 #np.savetxt('testdataproband001.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f'] ,X= short, delimiter='\t')
