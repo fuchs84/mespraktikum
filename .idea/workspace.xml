@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee3f9596-db00-4c9f-b350-dbb859b14530" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FeatureSelection.py" afterPath="$PROJECT_DIR$/FeatureSelection.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WaveletTransformation.py" afterPath="$PROJECT_DIR$/WaveletTransformation.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computeAngles.py" afterPath="$PROJECT_DIR$/computeAngles.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -420,7 +418,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445878614788</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adjusted Classifier&#10;adjusted FeatureSelection">
+      <created>1445883278409</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1445883278409</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
