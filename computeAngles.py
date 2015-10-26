@@ -73,6 +73,7 @@ def rotationQuaternion(quaternions):
             #rotatedVectors[i, 6:9, j] = np.transpose(rotateE3)
     return rotatedVectors
 
+
 def computeAngles(s1, s2, rotatedVectors):
     angle = np.zeros(shape=(len(rotatedVectors[:, 0, 0]), 3))
     for i in range (0, len(rotatedVectors[:, 0, 0])):
@@ -102,8 +103,3 @@ def computeRotation(dataSet):
     np.savetxt('rotatedVectorsE1.csv', rotatedVectors[:, :, 0], delimiter='\t')
     np.savetxt('rotatedVectorsE2.csv', rotatedVectors[:, :, 1], delimiter='\t')
     np.savetxt('rotatedVectorsE3.csv', rotatedVectors[:, :, 2], delimiter='\t')
-
-xbox1 = pd.read_csv('/Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged.csv', sep='\t')
-dataMatrix = xbox1.as_matrix()
-
-computeRotation(dataMatrix)

@@ -3,6 +3,7 @@ __author__ = 'MatthiasFuchs'
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import chi2
 from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.decomposition import PCA
 
 
 def featureSelection(data, Featurenumber):
@@ -26,3 +27,4 @@ def featureSelectionTree(data):
     size = len(X_new[0])
     data[:,2:size+2] = X_new
     return data[:,:size+2], size
+
