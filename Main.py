@@ -16,12 +16,29 @@ import Classifier
 import PeakDetection
 import scipy.io
 
-xbox1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\VectorenID001.csv', sep='\t')
-Vectoren = xbox1.as_matrix()
-xbox1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\20150901\merged.csv', sep='\t')
-dataMatrix = xbox1.as_matrix()
-label = scipy.io.loadmat(r'C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat')
-label = label['seg']
+# person: 0 = Sebastian, 1 = Tobias, 2 = Matthias
+person = -1
+
+if(person == 0):
+    rowData = pd.read_csv(r'C:\Users\Sebastian\Desktop\VectorenID001.csv', sep='\t')
+    Vectoren = rowData.as_matrix()
+    rowData = pd.read_csv(r'C:\Users\Sebastian\Desktop\20150901\merged.csv', sep='\t')
+    dataMatrix = rowData.as_matrix()
+    label = scipy.io.loadmat(r'C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat')
+    label = label['seg']
+elif (person == 1):
+    print 'kann nix'
+elif (person == 2):
+    rowData = pd.read_csv('', sep='\t')
+    Vectoren = rowData.as_matrix()
+    rowData = pd.read_csv('/Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged.csv', sep='\t')
+    dataMatrix = rowData.as_matrix()
+    label = scipy.io.loadmat(r'/Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat')
+    label = label['seg']
+else:
+    print 'ungueltige Person'
+
+
 
 
 
