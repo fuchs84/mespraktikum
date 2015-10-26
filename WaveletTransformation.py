@@ -62,10 +62,10 @@ def plotWTData(signal, coefs, newSignal, newCoefs):
     plt.show()
 
 signal = data[:, 2]
-coefs = computeWT(signal, 'db8', 10)
-newCoefs = computeMedianWT(coefs, 3, 1)
-newCoefs = computeMedianWT(newCoefs, 1, 101)
-newCoefs = computeMedianWT(newCoefs, 2, 1)
+coefs = computeWT(signal, 'db8', 4)
+newCoefs = computeMedianWT(coefs, 2, 5)
+newCoefs = computeMedianWT(newCoefs, 3, 5)
+newCoefs = computeMedianWT(newCoefs, 4, 5)
 
 newSignal = computeIWT(newCoefs, 'db8')
 plotWTData(signal, coefs, newSignal, newCoefs)
