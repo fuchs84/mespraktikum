@@ -18,7 +18,7 @@ def featureSelectionSelectKBest(data, Featurenumber):
     data[:,2:size+2] = X_new
     return data[:,:size+2]
 
-# Sucht die besten Features und gibt die groesse des Datansaetz zurück
+# Sucht die besten Features und gibt die groesse des Datansaetz zurueck
 def featureSelectionTree(data):
     label = data[:,1]
     datanew = data[:,2:]
