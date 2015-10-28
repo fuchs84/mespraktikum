@@ -24,6 +24,7 @@ signal2 = \
 
 T = 1.0/50
 
+#Berechnet verschiedene Werte von FFT (Dient zur Weiterverarbeitung)
 def computeValues(FFT, mode):
     N = len(FFT)
     freq = np.fft.fftfreq(N, T)
@@ -39,26 +40,31 @@ def computeValues(FFT, mode):
         imag = np.imag(FFT[:N/2])
     return bins, abs, real, imag
 
+#Berechnet die FFT eines gegebenen Signals
 def computeFFT(signal):
     N = len(signal)
     FFT = [i / (N/2) for i in np.fft.fft(signal)]
     return FFT
 
+#Berechnet das Signal eines gegebenen FFTs
 def computeIFFT(FFT):
     N = len(FFT)
     signal = [i/(N/2) for i in np.fft.ifft(FFT)]
     return signal
 
+#Berechnet mittelwertfreie Daten
 def computeZeroMean(data):
     mean = sum(data)/len(data)
     zeroMean = data - mean
     return zeroMean
 
+#Berechnet die Zeitachse mit einer Samplerate von T=1/50
 def computeTimeAxis(data):
     N = len(data)
     axis = np.arange(N)*T
     return axis
 
+#Sucht das globale Maximum in den Daten und gibt den Wert und die Matrixposition zurueck
 def globalMax(data):
     value = data[0]
     matrixPosition = 0
@@ -66,7 +72,7 @@ def globalMax(data):
         if (value < data[i]):
             value = data[i]
             matrixPosition = i
-    return matrixPosition
+    return value, matrixPosition
 
 
 #FFT = computeFFT(signal2)

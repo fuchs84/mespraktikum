@@ -86,7 +86,7 @@ def getData(sensors, datas, inputData, time = True):
         if (offset != -1):
             for i in range(0, len(start)):
                 if(start[i] != -1 and stop[i] != -1):
-                    sensorOffset = 13*offset
+                    sensorOffset = 22*offset
                     startData = defaultOffset+sensorOffset+start[i]
                     stopData = defaultOffset+sensorOffset+stop[i]
                     output = np.c_[output, inputData[:, startData:stopData]]

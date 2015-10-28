@@ -30,15 +30,17 @@ signal2 = \
 #rowData = pd.read_csv('/Users/MatthiasFuchs/Desktop/Daten+Labels/Testdaten/walk001.csv', sep= '\t')
 #data = rowData.as_matrix()
 
-
+#Berechnet aus dem Signal die Waveletkoeffizienten und gibt diese zurueck
 def computeWT(signal, wavelet = 'haar', level = 3):
     coefs = pw.wavedec(signal , wavelet, level=level, mode='zpd')
     return coefs
 
+#Berechnet aus den Waveletkoeffizienten das Signal und gibt es zurueck
 def computeIWT(coefs, wavelet = 'haar'):
     signal = pw.waverec(coefs, wavelet, mode= 'zpd')
     return signal
 
+#Bearbeitung der Waveletkoeffizienten mittels Medianfilter
 def computeMedianWT(coefs, level, median = 1):
     newCoefs = coefs[:]
     if(1 <= level <= len(coefs)):
@@ -47,6 +49,7 @@ def computeMedianWT(coefs, level, median = 1):
         print 'level ungueltig'
     return newCoefs
 
+#Ausgabe der Daten zur Veraunschaulichung
 def plotWTData(signal, coefs, newSignal, newCoefs):
     level = len(coefs)
     newLevel = len(newCoefs)
