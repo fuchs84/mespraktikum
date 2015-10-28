@@ -41,15 +41,15 @@ else:
     print 'ungueltige Person'
 
 
-matrixnew = Labeling.labeldata(dataMatrix,label)
+matrixnew = Labeling.labeldata(Vectorenberechnet,label)
 
-Sensor1 = range(102,105)
-Sensor2 = range(115,118)
-Sensor3 = range(128,131)
-Sensor4 = range(141,144)
-Sensor5 = range(154,157)
-Sensor6 = range(167,170)
-Sensor7 = range(180,183)
+Sensor1 = range(169,178)
+Sensor2 = range(191,200)
+Sensor3 = range(213,222)
+Sensor4 = range(235,244)
+Sensor5 = range(257,266)
+Sensor6 = range(279,288)
+Sensor7 = range(301,310)
 
 
 Sensor = Sensor1+Sensor2+Sensor3+Sensor4+Sensor5+Sensor6+Sensor7
@@ -62,10 +62,10 @@ print Sensor
 
 
 print "classify start"
-xlf, X_train, X_test, y_train, y_test = Classifier.classify(Vectoren,Sensor,classifier="Forest")
+xlf, X_train, X_test, y_train, y_test = Classifier.classify(matrixnew,Sensor,classifier="Forest")
 print xlf.score(X_test,y_test)
-Classifier.printclassifier(xlf, Vectoren[:,Sensor], Vectoren[:,1], Vectoren[:,1],Sensor)
-Classifier.compareclassifier(Vectoren,Sensor)
+Classifier.printclassifier(xlf, matrixnew[:,Sensor], matrixnew[:,1], matrixnew[:,1],Sensor)
+Classifier.compareclassifier(matrixnew,Sensor)
 print "classify finished"
 #short= dataMatrix[46000:,:]
 #np.savetxt('testdataproband001.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f'] ,X= short, delimiter='\t')

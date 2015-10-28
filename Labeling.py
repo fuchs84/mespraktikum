@@ -18,5 +18,5 @@ def labeldata(dataMatrix, label):
             except IndexError:
                 p=1
 
-    return dataMatrix
+    return dataMatrix[1:,:]
 
