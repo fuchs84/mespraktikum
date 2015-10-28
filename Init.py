@@ -27,59 +27,59 @@ def getData(sensors, datas, time = True):
     for sensor in sensors:
         if (sensor == 'RNS' and sensorBools[0] == False):
             print 'RNS'
-            offset = 0
+            offset = 7
             sensorBools[0] = True
         elif (sensor == 'RLA' and sensorBools[1] == False):
             print 'RLA'
-            offset = 1
+            offset = 6
             sensorBools[1] = True
         elif (sensor == 'RUA' and sensorBools[2] == False):
             print 'RUA'
-            offset = 2
+            offset = 5
             sensorBools[2] = True
         elif (sensor == 'STE' and sensorBools[3] == False):
             print 'STE'
-            offset = 3
+            offset = 1
             sensorBools[3] = True
         elif (sensor == 'LUA' and sensorBools[4] == False):
             print 'LUA'
-            offset = 4
+            offset = 2
             sensorBools[4] = True
         elif (sensor == 'LLA' and sensorBools[5] == False):
             print 'LLA'
-            offset = 5
+            offset = 3
             sensorBools[5] = True
         elif (sensor == 'LNS' and sensorBools[6] == False):
             print 'LNS'
-            offset = 6
+            offset = 4
             sensorBools[6] = True
         elif (sensor == 'RUF' and sensorBools[7] == False):
             print 'RUF'
-            offset = 7
+            offset = 14
             sensorBools[7] = True
         elif (sensor == 'RLL' and sensorBools[8] == False):
             print 'RLL'
-            offset = 8
+            offset = 13
             sensorBools[8] = True
         elif (sensor == 'RUL' and sensorBools[9] == False):
             print 'RUL'
-            offset = 9
+            offset = 12
             sensorBools[9] = True
         elif (sensor == 'CEN' and sensorBools[10] == False):
             print 'CEN'
-            offset = 10
+            offset = 8
             sensorBools[10] = True
         elif (sensor == 'LUL' and sensorBools[11] == False):
             print 'LUL'
-            offset = 11
+            offset = 9
             sensorBools[11] = True
         elif (sensor == 'LLL' and sensorBools[12] == False):
             print 'LLL'
-            offset = 12
+            offset = 10
             sensorBools[12] = True
         elif (sensor == 'LUF' and sensorBools[13] == False):
             print 'LUF'
-            offset = 13
+            offset = 11
             sensorBools[13] = True
         else:
             offset = -1
