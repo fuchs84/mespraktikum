@@ -17,7 +17,7 @@ import PeakDetection
 import scipy.io
 
 # person: 0 = Sebastian, 1 = Tobias, 2 = Matthias
-person = 0
+person = -1
 
 if(person == 0):
     rawData = pd.read_csv(r'C:\Users\Sebastian\Desktop\VectorenID001.csv', sep='\t')
@@ -47,11 +47,12 @@ matrixnew = Labeling.labeldata(dataMatrix,label)
 Sensor1 = range(11,15)
 Sensor2 = range(24,28)
 Sensor3 = range(27,41)
-Sensor4 = range(40,54)
-Sensor5 = range(53,57)
-Sensor6 = range(66,70)
+Sensor4 = range(50,54)
+Sensor5 = range(63,67)
+Sensor6 = range(76,80)
 
-Sensor = Sensor1+Sensor2+Sensor3+Sensor4+Sensor5+Sensor6
+Sensor = Sensor1+Sensor2+Sensor3
+#Sensor= Sensor4+Sensor5+Sensor6
 print Sensor
 #trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
 
@@ -62,11 +63,11 @@ print Sensor
 
 print "classify start"
 
-traindata = Vectoren[4000:10000,:]
-testdata = Vectoren[10000:20000,:]
+traindata = Vectoren[4000:20000,:]
+testdata = Vectoren[20000:35000,:]
 
 
-clfbayes = Classifier.classify(traindata,testdata,Sensor,classifier="Forest")
+clfbayes = Classifier.classify(traindata,testdata,Sensor,classifier="SVM")
 
 Classifier.printclassifier(clfbayes,traindata,testdata,Sensor)
 
