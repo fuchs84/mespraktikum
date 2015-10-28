@@ -8,11 +8,12 @@ import numpy as np
 
 #Sucht die geforderten Daten im Datenset und gibt diese zurueck
 #sensors: 'RNS', 'RLA', 'RUA', 'STE', 'LUA', 'LLA', 'LNS', 'RUF', 'RLL', 'RUL', 'CEN', 'LUL', 'LLL', 'LUF'
-#datas: 'acc', 'gyr', 'mag', 'qua', 'rotX', 'rotY', 'rotZ'
+#datas: 'acc', 'gyr', 'mag', 'qua', 'rE1', 'rE2', 'rE3'
 #inputData: Eingabedaten
 #time: True, False
 #return: Matrix mit ausgewaehlten Werten
-def getData(sensors, datas, inputData, time = True):
+def getData(inputData, sensors = ['RNS', 'RLA', 'RUA', 'STE', 'LUA', 'LLA', 'LNS', 'RUF', 'RLL', 'RUL', 'CEN', 'LUL', 'LLL', 'LUF'],
+            datas = ['acc', 'gyr', 'mag', 'qua', 'rE1', 'rE2', 'rE3'], time = True):
 
     sensorBools = [False, False, False, False, False, False, False, False, False, False, False, False, False, False]
     if (time == True):
