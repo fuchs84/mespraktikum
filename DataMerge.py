@@ -12,9 +12,9 @@ import pandas as pd
 import computeAngles as ca
 
 #daten laden die benoetigt werden
-x1bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20150922\x1\xbus.csv', sep = "\t")
+x1bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\c4\xbus.csv', sep = "\t")
 
-x2bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20150922\x2\xbus.csv', sep = "\t")
+x2bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\55\xbus.csv', sep = "\t")
 
 
 
