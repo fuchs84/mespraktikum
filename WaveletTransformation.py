@@ -26,8 +26,9 @@ signal2 = \
 0.25*np.sin(2*np.pi * 5.5*t)
 #End Testsignal
 
-rowData = pd.read_csv('/Users/MatthiasFuchs/Desktop/Daten+Labels/Testdaten/walk001.csv', sep= '\t')
-data = rowData.as_matrix()
+#Testcode
+#rowData = pd.read_csv('/Users/MatthiasFuchs/Desktop/Daten+Labels/Testdaten/walk001.csv', sep= '\t')
+#data = rowData.as_matrix()
 
 
 def computeWT(signal, wavelet = 'haar', level = 3):
@@ -61,14 +62,15 @@ def plotWTData(signal, coefs, newSignal, newCoefs):
         plt.plot(newCoefs[i])
     plt.show()
 
-signal = data[:, 2]
-coefs = computeWT(signal, 'db8', 4)
-newCoefs = computeMedianWT(coefs, 2, 5)
-newCoefs = computeMedianWT(newCoefs, 3, 5)
-newCoefs = computeMedianWT(newCoefs, 4, 5)
+#Testcode
+#signal = data[:, 2]
+#coefs = computeWT(signal, 'db8', 4)
+#newCoefs = computeMedianWT(coefs, 2, 5)
+#newCoefs = computeMedianWT(newCoefs, 3, 5)
+#newCoefs = computeMedianWT(newCoefs, 4, 5)
 
-newSignal = computeIWT(newCoefs, 'db8')
-plotWTData(signal, coefs, newSignal, newCoefs)
+#newSignal = computeIWT(newCoefs, 'db8')
+#plotWTData(signal, coefs, newSignal, newCoefs)
 
 # signal = data[:, 15]
 #
