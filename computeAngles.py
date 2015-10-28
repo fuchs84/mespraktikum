@@ -97,7 +97,7 @@ def swapRotatedVectors(s1, s2, rotatedVectors):
     rotatedVectors[:, :, s2] = temp
     return rotatedVectors
 
-#Fuehrt alle Berechnungen aus und gibt die Werte als Matrix zurück [Samples, Vector, Achse]
+#Fuehrt alle Berechnungen aus und gibt die Werte als Matrix zurueck [Samples, Vector, Achse]
 def computeRotation(dataSet):
     quaternions = searchQuaternionInData(dataSet)
     rotatedVectors = rotationQuaternion(quaternions)

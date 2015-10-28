@@ -17,11 +17,13 @@ import PeakDetection
 import scipy.io
 
 # person: 0 = Sebastian, 1 = Tobias, 2 = Matthias
-person = -1
+person = 0
 
 if(person == 0):
     rawData = pd.read_csv(r'C:\Users\Sebastian\Desktop\VectorenID001.csv', sep='\t')
     Vectoren = rawData.as_matrix()
+    rawData = pd.read_csv(r'C:\Users\Sebastian\Documents\PycharmMES\mespraktikum\merged.csv', sep='\t')
+    Vectorenberechnet = rawData.as_matrix()
     rowData = pd.read_csv(r'C:\Users\Sebastian\Desktop\20150901\merged.csv', sep='\t')
     dataMatrix = rowData.as_matrix()
     label = scipy.io.loadmat(r'C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat')
@@ -38,10 +40,8 @@ elif (person == 2):
 else:
     print 'ungueltige Person'
 
-
-
-
-
+plt.plot(Vectorenberechnet[:,15:18])
+plt.show()
 matrixnew = Labeling.labeldata(dataMatrix,label)
 
 Sensor1 = range(11,15)
@@ -51,8 +51,7 @@ Sensor4 = range(50,54)
 Sensor5 = range(63,67)
 Sensor6 = range(76,80)
 
-Sensor = Sensor1+Sensor2+Sensor3
-#Sensor= Sensor4+Sensor5+Sensor6
+Sensor = Sensor1+Sensor2+Sensor3+Sensor4+Sensor5+Sensor6
 print Sensor
 #trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
 
@@ -67,7 +66,7 @@ traindata = Vectoren[4000:20000,:]
 testdata = Vectoren[20000:35000,:]
 
 
-clfbayes = Classifier.classify(traindata,testdata,Sensor,classifier="SVM")
+clfbayes = Classifier.classify(traindata,testdata,Sensor,classifier="Forest")
 
 Classifier.printclassifier(clfbayes,traindata,testdata,Sensor)
 
