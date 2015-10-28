@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee3f9596-db00-4c9f-b350-dbb859b14530" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FourierTransformation.py" afterPath="$PROJECT_DIR$/FourierTransformation.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Init.py" afterPath="$PROJECT_DIR$/Init.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WaveletTransformation.py" afterPath="$PROJECT_DIR$/WaveletTransformation.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mespraktikum.iws" />
@@ -26,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Init.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Init.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Init.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+            <state vertical-scroll-proportion="2.3174872">
+              <caret line="91" column="52" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="52" />
               <folding>
                 <element signature="e#30#49#0" expanded="true" />
               </folding>
@@ -38,14 +36,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FourierTransformation.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FourierTransformation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FourierTransformation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5093379">
-              <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-              <folding>
-                <element signature="e#30#61#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/WaveletTransformation.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding>
                 <element signature="e#29#47#0" expanded="true" />
               </folding>
@@ -149,12 +145,10 @@
         <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/Classifier.py" />
         <option value="$PROJECT_DIR$/FeatureSelection.py" />
+        <option value="$PROJECT_DIR$/WaveletTransformation.py" />
         <option value="$PROJECT_DIR$/computeAngles.py" />
         <option value="$PROJECT_DIR$/DataMerge.py" />
-        <option value="$PROJECT_DIR$/DataTuning.py" />
-        <option value="$PROJECT_DIR$/WaveletTransformation.py" />
         <option value="$PROJECT_DIR$/Init.py" />
-        <option value="$PROJECT_DIR$/FourierTransformation.py" />
       </list>
     </option>
   </component>
@@ -448,17 +442,11 @@
       <option name="project" value="LOCAL" />
       <updated>1446056689124</updated>
     </task>
-    <task id="LOCAL-00009" summary="add comments&#10;adjusted Init">
-      <created>1446058142168</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1446058142168</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -493,14 +481,21 @@
     <MESSAGE value="adjusted Main" />
     <MESSAGE value="adjusted Classifier&#10;adjusted FeatureSelection" />
     <MESSAGE value="add comments" />
-    <MESSAGE value="add comments&#10;adjusted Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comments&#10;adjusted Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FeatureSelection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -553,9 +548,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding>
-            <element signature="e#30#61#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -629,9 +622,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding>
-            <element signature="e#30#61#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -705,9 +696,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding>
-            <element signature="e#30#61#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -781,9 +770,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding>
-            <element signature="e#30#61#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -926,13 +913,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataMerge.py">
+    <entry file="file://$PROJECT_DIR$/WaveletTransformation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
           <folding>
-            <element signature="e#25#52#0" expanded="true" />
+            <element signature="e#29#47#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FourierTransformation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -946,32 +941,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WaveletTransformation.py">
+    <entry file="file://$PROJECT_DIR$/DataMerge.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding>
-            <element signature="e#29#47#0" expanded="true" />
+            <element signature="e#25#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Init.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+        <state vertical-scroll-proportion="2.3174872">
+          <caret line="91" column="52" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="52" />
           <folding>
             <element signature="e#30#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FourierTransformation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5093379">
-          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-          <folding>
-            <element signature="e#30#61#0" expanded="true" />
           </folding>
         </state>
       </provider>

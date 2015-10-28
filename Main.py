@@ -43,14 +43,16 @@ else:
 
 matrixnew = Labeling.labeldata(dataMatrix,label)
 
-Sensor1 = range(11,14)
-Sensor2 = range(24,27)
-Sensor3 = range(27,40)
-Sensor4 = range(50,53)
-Sensor5 = range(63,66)
-Sensor6 = range(76,79)
+Sensor1 = range(102,105)
+Sensor2 = range(115,118)
+Sensor3 = range(128,131)
+Sensor4 = range(141,144)
+Sensor5 = range(154,157)
+Sensor6 = range(167,170)
+Sensor7 = range(180,183)
 
-Sensor = Sensor1+Sensor2+Sensor3+Sensor4+Sensor5+Sensor6
+
+Sensor = Sensor1+Sensor2+Sensor3+Sensor4+Sensor5+Sensor6+Sensor7
 print Sensor
 #trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
 
@@ -62,7 +64,7 @@ print Sensor
 print "classify start"
 xlf, X_train, X_test, y_train, y_test = Classifier.classify(Vectoren,Sensor,classifier="Forest")
 print xlf.score(X_test,y_test)
-Classifier.printclassifier(xlf,X_train, X_test, y_train, y_test,Sensor)
+Classifier.printclassifier(xlf, Vectoren[:,Sensor], Vectoren[:,1], Vectoren[:,1],Sensor)
 Classifier.compareclassifier(Vectoren,Sensor)
 print "classify finished"
 #short= dataMatrix[46000:,:]
