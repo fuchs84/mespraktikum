@@ -4,23 +4,21 @@ import pandas as pd
 import numpy as np
 
 
-path = '/Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged.csv'
-rowData = pd.read_csv(path, sep= '\t')
-data = rowData.as_matrix()
 
+
+#Sucht die geforderten Daten im Datenset und gibt diese zurueck
 #sensors: 'RNS', 'RLA', 'RUA', 'STE', 'LUA', 'LLA', 'LNS', 'RUF', 'RLL', 'RUL', 'CEN', 'LUL', 'LLL', 'LUF'
-#datas: 'acc', 'gyr', 'mag', 'qua'
+#datas: 'acc', 'gyr', 'mag', 'qua', 'rotX', 'rotY', 'rotZ'
+#inputData: Eingabedaten
 #time: True, False
 #return: Matrix mit ausgewaehlten Werten
-
-def getData(sensors, datas, time = True):
-
+def getData(sensors, datas, inputData, time = True):
 
     sensorBools = [False, False, False, False, False, False, False, False, False, False, False, False, False, False]
     if (time == True):
-        output = data[:, 0:2]
+        output = inputData[:, 0:2]
     else:
-        output = np.empty(shape=(len(data[:, 0]), 0))
+        output = np.empty(shape=(len(inputData[:, 0]), 0))
 
     start, stop = startStop(datas)
     defaultOffset = 2
@@ -91,7 +89,7 @@ def getData(sensors, datas, time = True):
                     sensorOffset = 13*offset
                     startData = defaultOffset+sensorOffset+start[i]
                     stopData = defaultOffset+sensorOffset+stop[i]
-                    output = np.c_[output, data[:, startData:stopData]]
+                    output = np.c_[output, inputData[:, startData:stopData]]
                     print ("start: %d stop: %d" % (startData, stopData))
     np.savetxt('selectedData.csv', output, delimiter='\t')
 
@@ -103,10 +101,13 @@ def startStop(datas):
     acc = False
     gyr = False
     mag = False
+    rotX = False
+    rotY = False
+    rotZ = False
 
     startOffsets = np.zeros(len(datas))
     stopOffsets = np.zeros(len(datas))
-#test
+
     index = 0
     for data in datas:
         if (data == 'acc' and acc == False):
@@ -125,6 +126,18 @@ def startStop(datas):
             qua = True
             startOffsets[index] = 9
             stopOffsets[index] = 13
+        elif (data == 'rotX' and rotX == False):
+            rotX = True
+            startOffsets[index] = 13
+            stopOffsets[index] = 16
+        elif (data == 'rotY' and rotY == False):
+            rotY = True
+            startOffsets[index] = 16
+            stopOffsets[index] = 19
+        elif (data == 'rotZ' and rotZ == False):
+            rotZ = True
+            startOffsets[index] = 19
+            stopOffsets[index] = 22
         else:
             startOffsets[index] = -1
             stopOffsets[index] = -1
@@ -133,6 +146,5 @@ def startStop(datas):
 
     return startOffsets, stopOffsets
 
-output = getData(['RNS', 'LUF'], ['acc', 'qua'], False)
 
 
