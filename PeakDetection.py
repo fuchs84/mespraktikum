@@ -8,17 +8,36 @@ import pandas as pd
 import math
 import pylab as plb
 
-#Diese Methode liefert den Winkel in einer Achse zwischenqzwei Sensoren
-#Implementierung von mehreren Achsen gleichzeitig ausstehend
-def fourier(dataMatrix, Sensor):
-    fftall = []
-    for Sensors in Sensor:
-        arrayused = dataMatrix[:,Sensors]
-        fftsensor = np.fft.fft(arrayused)
-        fftall.append(fftsensor)
-    return fftall
+#gibt durchscnittliche Zeit zwischen den  Peaks im Graphen an
+def timebetweenpeaks(dataMatrix, Sensor,Min = False):
+    timedifference = []
+    if Min==False:
+        for Sensors in Sensor:
+            peaks = (argrelmax(dataMatrix[:,Sensors],order=10))
+            distance = []
+            for p in range(0,len(peaks[0])-1):
+                distance.append((peaks[0][p+1]-peaks[0][p]))
+            number=0
+            for d in distance:
+                number +=d
+            timedifference.append((number/len(distance)))
 
-def tobiwindow(dataMatrix, Sensor, Windowsize=1):
+    else:
+        for Sensors in Sensor:
+            peaks = (argrelmax(dataMatrix[:,Sensors],order=10))
+            distance = []
+            for p in range(0,len(peaks[0])-1):
+                distance.append((peaks[0][p+1]-peaks[0][p]))
+            number=0
+            for d in distance:
+                number +=d
+            timedifference.append((number/len(distance)))
+
+    return pd.DataFrame(timedifference)
+
+
+
+def Steigung(dataMatrix, Sensor, Windowsize=1):
     tobi = []
     for Sensors in Sensor:
         array = []
@@ -45,6 +64,7 @@ def medianfilter(dataMatrix,Sensor, Windowsize):
         median.append(array)
     return median
 
+#Gibt die Autocorrelation eines Sensorwertes oder Vectors an
 def autocorr(dataMatrix,Sensor):
     autocorrelation = []
     for Sensors in Sensor:
@@ -52,6 +72,7 @@ def autocorr(dataMatrix,Sensor):
         autocorrelation.append(result[result.size/2:])
     return autocorrelation
 
+#berechnet die Standardabweichung eines oder mehrerer Sensoren
 def getdeviation(dataMatrix,Sensor):
     deviation = []
 
@@ -93,6 +114,11 @@ def histogramm(data):
         hist.append(np.histogram(tests))
     return pd.DataFrame(hist)
 
+
+
+
+
+#---------------------------------------------------------veraltet----------------------------------------------------------------
 def vectoronquaternionposition(dataMatrix):
     #berechnen der Vektoren aus den Quaternions und speichern anstelle der Quaternions, Position 4 ist der addierte Wert der Vektoren
     traindata = dataMatrix
@@ -111,7 +137,7 @@ def vectoronquaternionposition(dataMatrix):
         traindata[:len(medi[0]),i+2]=medi[2]
         traindata[:len(medi[0]),i+3]=medi[3]
         print "train med calc"
-        diff = tobiwindow(traindata,[i+3])
+        diff = Steigung(traindata,[i+3])
         traindata[:len(diff[0]),i+3]=diff[0]
         print "train diff calc"
     np.savetxt('Vectoren.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f'] ,X= traindata, delimiter='\t')
@@ -181,4 +207,10 @@ def timebetweenpeaks(dataMatrix, Sensor,Min = False):
 
     return pd.DataFrame(timedifference)
 
-
+def fourier(dataMatrix, Sensor):
+    fftall = []
+    for Sensors in Sensor:
+        arrayused = dataMatrix[:,Sensors]
+        fftsensor = np.fft.fft(arrayused)
+        fftall.append(fftsensor)
+    return fftall
