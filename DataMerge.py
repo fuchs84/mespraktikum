@@ -11,9 +11,9 @@ import pylab as plb
 import pandas as pd
 
 #daten laden die benoetigt werden
-x1bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\20150922\x1\xbus1.csv', sep = "\t")
+x1bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\55\xbus.csv', sep = "\t")
 
-x2bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\20150922\x2\xbus1.csv', sep = "\t")
+x2bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\c4\xbus.csv', sep = "\t")
 
 
 
@@ -164,7 +164,7 @@ print "keine zeit-Nullen"
 #mergedtime.to_csv('mergeddata.csv',sep='\t', index= False, header= False)
 print "exited"
 savearray = np.array(mergerino)
-np.savetxt('merged.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f'] ,X= savearray, delimiter='\t')
+np.savetxt('mergetest.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f'] ,X= savearray, delimiter='\t')
 print "saved"
 
 
@@ -180,6 +180,6 @@ plt.subplot(4, 1, 3)
 plt.plot(dfx2.iloc[:,3:])
 
 plt.subplot(4, 1, 4)
-plt.plot(mergerino.iloc[:,2:])
+plt.plot(mergerino.iloc[:,95:])
 
 plt.show()
