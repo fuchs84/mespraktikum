@@ -7,15 +7,6 @@ import pandas as pd
 
 
 
-def computeRotation(dataSet):
-    quaternions = searchQuaternionInData(dataSet)
-    rotatedVectors = rotationQuaternion(quaternions)
-    np.savetxt('rotatedVectorsE1.csv', rotatedVectors[:, :, 0], delemiter='\t')
-    np.savetxt('rotatedVectorsE2.csv', rotatedVectors[:, :, 1], delemiter='\t')
-    np.savetxt('rotatedVectorsE3.csv', rotatedVectors[:, :, 2], delemiter='\t')
-
-
-
 # Sucht die Quaternions aus einem Datenset heraus.
 def searchQuaternionInData(dataSet):
     numberOfSensors = (len(dataSet[0, :])-2)/13
@@ -73,7 +64,7 @@ def rotationQuaternion(quaternions):
             #rotatedVectors[i, 6:9, j] = np.transpose(rotateE3)
     return rotatedVectors
 
-
+# Berechnet den Winkel ziwschen zwei Vektoren
 def computeAngles(s1, s2, rotatedVectors):
     angle = np.zeros(shape=(len(rotatedVectors[:, 0, 0]), 3))
     for i in range (0, len(rotatedVectors[:, 0, 0])):

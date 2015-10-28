@@ -8,7 +8,7 @@ import numpy as np
 from sklearn.decomposition import PCA
 
 
-def featureSelection(data, Featurenumber):
+def featureSelectionSelectKBest(data, Featurenumber):
     label = data[:,1]
     datanew = data[:,2:]
     for i in range(0,len(datanew)):
@@ -18,6 +18,7 @@ def featureSelection(data, Featurenumber):
     data[:,2:size+2] = X_new
     return data[:,:size+2]
 
+# Sucht die besten Features und gibt die groesse des Datansaetz zurück
 def featureSelectionTree(data):
     label = data[:,1]
     datanew = data[:,2:]
@@ -30,12 +31,12 @@ def featureSelectionTree(data):
     data[:,2:size+2] = X_new
     return data[:,:size+2], size
 
-
 def featureSelectionVarianceThreshold(data, probability = 0.8):
     dataRaw = data[:, 2:]
     sel = VarianceThreshold(threshold=(probability*(1 - probability)))
     dataNew = sel.fit_transform(dataRaw)
     return np.c_[data[:, :2], dataNew]
+
 
 def featureSelectionPCA(data, components):
     dataRaw = data[:, 2:]
