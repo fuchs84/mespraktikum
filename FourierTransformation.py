@@ -68,17 +68,18 @@ def globalMax(data):
             matrixPosition = i
     return matrixPosition
 
-FFT = computeFFT(signal2)
-bins, abs = computeValues(FFT, 1)
 
-print len(FFT)
-print len(signal2)
+#FFT = computeFFT(signal2)
+#bins, abs, _, _ = computeValues(FFT, 1)
 
-plt.subplot(2, 1, 1)
-plt.plot(signal2)
-plt.subplot(2, 1, 2)
-plt.plot(bins, abs)
-plt.show()
+#print len(FFT)
+#print len(signal2)
+
+#plt.subplot(2, 1, 1)
+#plt.plot(signal2)
+#plt.subplot(2, 1, 2)
+#plt.plot(bins, abs)
+#plt.show()
 
 
 # # FFT + bins + normalization
