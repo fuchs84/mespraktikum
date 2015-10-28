@@ -12,7 +12,9 @@ import pandas as pd
 
 #daten laden die benoetigt werden
 x1bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\20150922\x1\xbus1.csv', sep = "\t")
+
 x2bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\20150922\x2\xbus1.csv', sep = "\t")
+
 
 
 #speichern der daten als dataframes
@@ -21,6 +23,7 @@ datax11 = pd.DataFrame(x1bus1.as_matrix())
 datax21 = pd.DataFrame(x2bus1.as_matrix())
 #datax22 = pd.DataFrame(x2bus2.as_matrix())
 #datax23 = pd.DataFrame(x2bus3.as_matrix())
+
 
 #aneinanderfuegen von daten des gleichen sensorsets
 x1bus = pd.concat([datax11])
@@ -161,10 +164,6 @@ print "keine zeit-Nullen"
 #mergedtime.to_csv('mergeddata.csv',sep='\t', index= False, header= False)
 print "exited"
 savearray = np.array(mergerino)
-
-
-
-
 np.savetxt('merged.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f'] ,X= savearray, delimiter='\t')
 print "saved"
 
