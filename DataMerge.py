@@ -9,6 +9,7 @@ import pandas as pd
 import math
 import pylab as plb
 import pandas as pd
+import computeAngles as ca
 
 #daten laden die benoetigt werden
 x1bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\20150922\x1\xbus1.csv', sep = "\t")
@@ -164,7 +165,43 @@ print "keine zeit-Nullen"
 #mergedtime.to_csv('mergeddata.csv',sep='\t', index= False, header= False)
 print "exited"
 savearray = np.array(mergerino)
-np.savetxt('merged.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f'] ,X= savearray, delimiter='\t')
+
+rotatedVectors = ca.computeRotation(savearray)
+
+output = savearray[:, :2]
+for i in range(0, 13):
+    startData = 2 + i * 13
+    stopData = 2 + i * 13 + 13
+    startVectors = i * 3
+    stopVectors = i * 3 + 3
+    print ('startData: %d stopData: %d' %(startData, stopData))
+    print ('startVectors: %d stopVectors: %d' %(startVectors, stopVectors))
+
+    output = np.c_[output, savearray[:, startData:stopData], rotatedVectors[:, startVectors:stopVectors, 0],
+                   rotatedVectors[:, startVectors:stopVectors, 1],rotatedVectors[:, startVectors:stopVectors, 2]]
+
+    print ('output.shape')
+
+
+np.savetxt('merged.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+                              '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+                              '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+                              '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+                              '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+                              '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+                              '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+                              '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+                              '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+                              '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+                              '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+                              '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+                              '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+                              '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+                              '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+                              '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+                              '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+                              '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+                              '%f','%f','%f','%f',] ,X= output, delimiter='\t')
 print "saved"
 
 

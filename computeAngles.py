@@ -97,9 +97,11 @@ def swapRotatedVectors(s1, s2, rotatedVectors):
     rotatedVectors[:, :, s2] = temp
     return rotatedVectors
 
+#Fuehrt alle Berechnungen aus und gibt die Werte als Matrix zurück [Samples, Vector, Achse]
 def computeRotation(dataSet):
     quaternions = searchQuaternionInData(dataSet)
     rotatedVectors = rotationQuaternion(quaternions)
-    np.savetxt('rotatedVectorsE1.csv', rotatedVectors[:, :, 0], delimiter='\t')
-    np.savetxt('rotatedVectorsE2.csv', rotatedVectors[:, :, 1], delimiter='\t')
-    np.savetxt('rotatedVectorsE3.csv', rotatedVectors[:, :, 2], delimiter='\t')
+    #np.savetxt('rotatedVectorsE1.csv', rotatedVectors[:, :, 0], delimiter='\t')
+    #np.savetxt('rotatedVectorsE2.csv', rotatedVectors[:, :, 1], delimiter='\t')
+    #np.savetxt('rotatedVectorsE3.csv', rotatedVectors[:, :, 2], delimiter='\t')
+    return rotatedVectors
