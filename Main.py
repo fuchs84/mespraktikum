@@ -11,6 +11,8 @@ import pandas as pd
 from sklearn.ensemble import ExtraTreesClassifier
 import math
 import pylab as plb
+import Init
+import FeatureSelection
 import Labeling
 import Classifier
 import PeakDetection
@@ -42,6 +44,7 @@ else:
 
 
 matrixnew = Labeling.labeldata(Vectorenberechnet,label)
+matrixnew = Init.getData(sensors=["STE","CEN"],datas=["re1", "re2", "re3"],inputData=matrixnew)
 
 Sensor1 = range(169,178)
 Sensor2 = range(191,200)
@@ -53,11 +56,13 @@ Sensor7 = range(301,310)
 
 
 Sensor = Sensor1+Sensor2+Sensor3+Sensor4+Sensor5+Sensor6+Sensor7
-print Sensor
+#print Sensor
 #trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
 
-
-
+i = 3
+featuredata = FeatureSelection.featureSelectionSelectKBest(matrixnew, i)
+Sensor = range(2,i+2)
+Classifier.compareclassifier(featuredata,Sensor)
 
 
 

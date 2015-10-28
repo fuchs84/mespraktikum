@@ -78,13 +78,13 @@ def compareclassifier(data, Sensoren):
     clf.fit(X_train,y_train)
     print clf.score(X_test, y_test)
     print "Randomforest"
-    clf= RandomForestClassifier(n_estimators=100)
+    clf= RandomForestClassifier(n_estimators=10)
     clf.fit(X_train,y_train)
     print clf.score(X_test, y_test)
-    print "Support Vector Machine"
-    clf = svm.SVC()
-    clf.fit(X_train,y_train)
-    print clf.score(X_test, y_test)
+    #print "Support Vector Machine"
+    #clf = svm.SVC()
+    #clf.fit(X_train,y_train)
+    #print clf.score(X_test, y_test)
     print "DecisionTree"
     clf = tree.DecisionTreeClassifier()
     clf.fit(X_train,y_train)

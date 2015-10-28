@@ -14,7 +14,9 @@ def featureSelectionSelectKBest(data, Featurenumber):
     for i in range(0,len(datanew)):
         datanew[i] = map(abs, datanew[i])
     size = Featurenumber
-    X_new = SelectKBest(chi2, k=size).fit_transform(datanew, label)
+    selector = SelectKBest(chi2, k=size).fit(data[:,2:],data[:,1])
+    print selector.get_support(True)
+    X_new = selector.fit_transform(datanew, label)
     data[:,2:size+2] = X_new
     return data[:,:size+2]
 
