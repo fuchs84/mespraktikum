@@ -1,0 +1,5 @@
+Datum: 29.10.2015 Uhrzeit: 18:0:52
+Kommentar: INIT History!!!
+Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
+Daten: acc gyr mag qua rE1 rE2 rE3 
+
