@@ -44,9 +44,13 @@ else:
 
 
 matrixnew = Labeling.labeldata(Vectorenberechnet,label)
+frame = pd.DataFrame(matrixnew)
+frame = frame.iloc[:,1]
+print frame.value_counts()
+
 
 Sensor1 = range(2,310)
-Sensor2 = range(191,200)
+Sensor2 = range(2,22)
 Sensor3 = range(213,222)
 Sensor4 = range(235,244)
 Sensor5 = range(257,266)
@@ -61,15 +65,11 @@ Sensor = Sensor1#+Sensor2+Sensor3+Sensor4+Sensor5+Sensor6+Sensor7
 
 
 
-
 print "classify start"
-x= FeatureSelection.getNbestTreeFeaturesPos(matrixnew,20)
-
-for i in range(3,23):
-    xlf, X_train, X_test, y_train, y_test = Classifier.classify(matrixnew,x[range(2,i)],classifier="Forest")
 
 
-plt.show()
+
+
 #Classifier.printclassifier(xlf, matrixnew[:,Sensor], matrixnew[:,1], matrixnew[:,1],Sensor)
 #Classifier.compareclassifier(matrixnew,Sensor)
 print "classify finished"

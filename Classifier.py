@@ -50,7 +50,7 @@ def classify(data, Sensoren, classifier="Bayes"):
     lista = map(abs, lista)
     b = [1 if i else 0 for i in lista]
 
-    print "Score: " + str(sum(b))
+    print "Fehlerkennung: " + str(sum(b))
     return clf,X_train, X_test, y_train, y_test
     #Ausgeben des  Ergebnises zum Vergleich der wahren Labels mit den Klassifizieten
 
@@ -60,35 +60,83 @@ def compareclassifier(data, Sensoren):
     print "Naive Bayes"
     clf = GaussianNB()
     clf.fit(X_train,y_train)
-    print clf.score(X_test, y_test)
+    print "Score: " + str(clf.score(X_test, y_test))
+    lista = clf.predict(X_test)-y_test
+    lista = map(abs, lista)
+    b = [1 if i else 0 for i in lista]
+
+    print "Fehlerkennungen: " + str(sum(b))
+    print confusion_matrix(y_test,clf.predict(X_test))
     print "Gradient Decent"
     clf = SGDClassifier()
     clf.fit(X_train,y_train)
-    print clf.score(X_test, y_test)
+    print "Score: " + str(clf.score(X_test, y_test))
+    lista = clf.predict(X_test)-y_test
+    lista = map(abs, lista)
+    b = [1 if i else 0 for i in lista]
+
+    print "Fehlerkennungen: " + str(sum(b))
+    print confusion_matrix(y_test,clf.predict(X_test))
     print "Linear"
     clf = linear_model.LinearRegression()
     clf.fit(X_train,y_train)
-    print clf.score(X_test, y_test)
+    print "Score: " + str(clf.score(X_test, y_test))
+    lista = clf.predict(X_test)-y_test
+    lista = map(abs, lista)
+    b = [1 if i else 0 for i in lista]
+
+    print "Fehlerkennungen: " + str(sum(b))
+    #print confusion_matrix(y_test,clf.predict(X_test))
     print "LDA"
     clf= LDA()
     clf.fit(X_train,y_train)
-    print clf.score(X_test, y_test)
+    print "Score: " + str(clf.score(X_test, y_test))
+    lista = clf.predict(X_test)-y_test
+    lista = map(abs, lista)
+    b = [1 if i else 0 for i in lista]
+
+    print "Fehlerkennungen: " + str(sum(b))
+    print confusion_matrix(y_test,clf.predict(X_test))
     print "AdaBoost"
     clf= AdaBoostClassifier()
     clf.fit(X_train,y_train)
-    print clf.score(X_test, y_test)
+    print "Score: " + str(clf.score(X_test, y_test))
+    lista = clf.predict(X_test)-y_test
+    lista = map(abs, lista)
+    b = [1 if i else 0 for i in lista]
+
+    print "Fehlerkennungen: " + str(sum(b))
+    print confusion_matrix(y_test,clf.predict(X_test))
     print "Randomforest"
     clf= RandomForestClassifier(n_estimators=10)
     clf.fit(X_train,y_train)
-    print clf.score(X_test, y_test)
-    #print "Support Vector Machine"
-    #clf = svm.SVC()
-    #clf.fit(X_train,y_train)
-    #print clf.score(X_test, y_test)
+    print "Score: " + str(clf.score(X_test, y_test))
+    lista = clf.predict(X_test)-y_test
+    lista = map(abs, lista)
+    b = [1 if i else 0 for i in lista]
+
+    print "Fehlerkennungen: " + str(sum(b))
+    print confusion_matrix(y_test,clf.predict(X_test))
+    print "Support Vector Machine(Linear)"
+    clf = svm.SVC()
+    clf.fit(X_train,y_train)
+    print "Score: " + str(clf.score(X_test, y_test))
+    lista = clf.predict(X_test)-y_test
+    lista = map(abs, lista)
+    b = [1 if i else 0 for i in lista]
+
+    print "Fehlerkennungen: " + str(sum(b))
+    print confusion_matrix(y_test,clf.predict(X_test))
     print "DecisionTree"
     clf = tree.DecisionTreeClassifier()
     clf.fit(X_train,y_train)
-    print clf.score(X_test, y_test)
+    print "Score: " + str(clf.score(X_test, y_test))
+    lista = clf.predict(X_test)-y_test
+    lista = map(abs, lista)
+    b = [1 if i else 0 for i in lista]
+
+    print "Fehlerkennungen: " + str(sum(b))
+    print confusion_matrix(y_test,clf.predict(X_test))
 
 
 
