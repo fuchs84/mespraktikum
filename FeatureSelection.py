@@ -53,7 +53,6 @@ def featureSelectionPCA(data, components):
 def getNbestTreeFeaturesPos(data, n,  Klassifizierer="Forest"):
     end = len(data[1,:])
     xlf, X_train, X_test, y_train, y_test = Classifier.classify(data,range(2,end),classifier=Klassifizierer)
-    Classifier.printclassifier(xlf,data[:,range(2,end)],y_train,data[:,1])
     z = (xlf.feature_importances_)
     z= np.array(z)
     k = z.argsort()[-n:][::-1]

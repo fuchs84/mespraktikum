@@ -63,10 +63,12 @@ Sensor = Sensor1#+Sensor2+Sensor3+Sensor4+Sensor5+Sensor6+Sensor7
 
 
 print "classify start"
-xlf, X_train, X_test, y_train, y_test = Classifier.classify(matrixnew,Sensor,classifier="LDA")
-print xlf.coef_.shape
-print xlf.score(X_test,y_test)
-plt.plot(xlf.coef_[:,:])
+x= FeatureSelection.getNbestTreeFeaturesPos(matrixnew,20)
+
+for i in range(3,23):
+    xlf, X_train, X_test, y_train, y_test = Classifier.classify(matrixnew,x[range(2,i)],classifier="Forest")
+
+
 plt.show()
 #Classifier.printclassifier(xlf, matrixnew[:,Sensor], matrixnew[:,1], matrixnew[:,1],Sensor)
 #Classifier.compareclassifier(matrixnew,Sensor)
