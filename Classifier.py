@@ -94,7 +94,7 @@ def compareclassifier(data, Sensoren):
 
 
 #Gibt die Ergebnisse des Klassifizierers in einem Graphen aus
-def printclassifier(clf, X_test, y_train, y_test,Sensoren):
+def printclassifier(clf, X_test, y_train, y_test):
     plt.subplot(3, 1, 1)
     plt.plot(clf.predict(X_test), label = "Zugeteilte Labelwerte")
     plt.subplot(3, 1, 2)

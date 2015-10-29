@@ -44,9 +44,8 @@ else:
 
 
 matrixnew = Labeling.labeldata(Vectorenberechnet,label)
-matrixnew = Init.getData(sensors=["STE","CEN"],datas=["re1", "re2", "re3"],inputData=matrixnew)
 
-Sensor1 = range(169,178)
+Sensor1 = range(2,310)
 Sensor2 = range(191,200)
 Sensor3 = range(213,222)
 Sensor4 = range(235,244)
@@ -55,22 +54,22 @@ Sensor6 = range(279,288)
 Sensor7 = range(301,310)
 
 
-Sensor = Sensor1+Sensor2+Sensor3+Sensor4+Sensor5+Sensor6+Sensor7
+Sensor = Sensor1#+Sensor2+Sensor3+Sensor4+Sensor5+Sensor6+Sensor7
 #print Sensor
 #trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
 
-i = 3
-featuredata = FeatureSelection.featureSelectionSelectKBest(matrixnew, i)
-Sensor = range(2,i+2)
-Classifier.compareclassifier(featuredata,Sensor)
+
 
 
 
 print "classify start"
-xlf, X_train, X_test, y_train, y_test = Classifier.classify(matrixnew,Sensor,classifier="Forest")
+xlf, X_train, X_test, y_train, y_test = Classifier.classify(matrixnew,Sensor,classifier="LDA")
+print xlf.coef_.shape
 print xlf.score(X_test,y_test)
-Classifier.printclassifier(xlf, matrixnew[:,Sensor], matrixnew[:,1], matrixnew[:,1],Sensor)
-Classifier.compareclassifier(matrixnew,Sensor)
+plt.plot(xlf.coef_[:,:])
+plt.show()
+#Classifier.printclassifier(xlf, matrixnew[:,Sensor], matrixnew[:,1], matrixnew[:,1],Sensor)
+#Classifier.compareclassifier(matrixnew,Sensor)
 print "classify finished"
 #short= dataMatrix[46000:,:]
 #np.savetxt('testdataproband001.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f'] ,X= short, delimiter='\t')
