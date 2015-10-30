@@ -18,6 +18,7 @@ import Classifier
 import PeakDetection
 import scipy.io
 import time as t
+import FeatureKonstruktion
 
 
 
@@ -29,7 +30,7 @@ time = 'Zeit: %2i:%2i:%2i' % (lt[3], lt[4], lt[5])
 
 #Personenauswahl
 #person: 0 = Sebastian, 1 = Tobias, 2 = Matthias
-person = -1
+person = 0
 pathData = ''
 pathLabel = ''
 if(person == 0):
@@ -68,15 +69,23 @@ fd.close()
 
 #Daten + Label
 matrixnew = Labeling.labeldata(dataMatrix,label)
-
 #Datenauswahl
 matrixnew = Init.getData(matrixnew)
 
 #Sensorauswahl
 Sensor = range(2, 6)
 
+#Test Filter
+Filteredmatrix = FeatureKonstruktion.lowpass(matrixnew,Ordnung= 5)
+plt.subplot(2,1,1)
+plt.plot(matrixnew[9000:10000,2])
+plt.subplot(2,1,2)
+plt.plot(Filteredmatrix[9000:10000,2])
+plt.show()
+
+
 #Trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
-clf,X_train, X_test, y_train, y_test = Classifier.classify(matrixnew,Sensor,classifier="AdaBoost")
+#clf,X_train, X_test, y_train, y_test = Classifier.classify(matrixnew,Sensor,classifier="AdaBoost")
 
 #Starten des Klassifizierers
 print "classify start"
