@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ee3f9596-db00-4c9f-b350-dbb859b14530" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FeatureKonstruktion.py" afterPath="$PROJECT_DIR$/FeatureKonstruktion.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/History.txt" afterPath="$PROJECT_DIR$/History.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mespraktikum.iws" />
@@ -111,8 +109,8 @@
       <file leaf-file-name="FeatureKonstruktion.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FeatureKonstruktion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26020408">
-              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.54931974">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -164,8 +162,8 @@
         <option value="$PROJECT_DIR$/WaveletTransformation.py" />
         <option value="$PROJECT_DIR$/FourierTransformation.py" />
         <option value="$PROJECT_DIR$/Init.py" />
-        <option value="$PROJECT_DIR$/FeatureKonstruktion.py" />
         <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/FeatureKonstruktion.py" />
       </list>
     </option>
   </component>
@@ -516,7 +514,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446207069012</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="FeatureKonsturktuin">
+      <created>1446208551908</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1446208551908</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1029,8 +1033,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FeatureKonstruktion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26020408">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.54931974">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

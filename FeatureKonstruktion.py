@@ -7,12 +7,24 @@ from scipy import signal
 __author__ = 'Sebastian'
 
 
-def lowpass(dataMatrix, Ordnung =2, filtertype = "lowpass"):
+def filter(dataMatrix,highcut, lowcut, Ordnung =2, filtertype = "lowpass"):
+    fs = 50
+    nyquist = 0.5*50
+    cutoffhigh,cutofflow = 0
+    cutoffhigh= highcut/nyquist
+    cutofflow = lowcut/nyquist
+    if filtertype == "lowpass":
+        bandbreite = cutoffhigh
+    elif filtertype == "highpass":
+        bandbreite = cutofflow
+    elif filtertype == "bandpass":
+        bandbreite = [cutofflow,cutoffhigh]
+
     y= np.array(dataMatrix)
     k = np.array(y, dtype=float)
     y2 =np.array(y)
     for i in range(len(k.T)):
-        b, a = signal.butter(Ordnung, 0.02, btype = filtertype)
+        b, a = signal.butter(Ordnung, bandbreite, btype = filtertype)
         y2[:,i] = signal.lfilter(b, a, k[:,i])  # standard filter
     y2 = np.array(y2)
     return np.c_[dataMatrix[:, :2],  y2[:,2:]]
