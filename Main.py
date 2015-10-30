@@ -78,9 +78,9 @@ Sensor = range(2, 6)
 #Test Filter
 Filteredmatrix = FeatureKonstruktion.lowpass(matrixnew,Ordnung= 5)
 plt.subplot(2,1,1)
-plt.plot(matrixnew[9000:10000,2])
+plt.plot(matrixnew[:,15])
 plt.subplot(2,1,2)
-plt.plot(Filteredmatrix[9000:10000,2])
+plt.plot(Filteredmatrix[:,15])
 plt.show()
 
 

@@ -12,7 +12,7 @@ def lowpass(dataMatrix, Ordnung =2, filtertype = "lowpass"):
     k = np.array(y, dtype=float)
     y2 =np.array(y)
     for i in range(len(k.T)):
-        b, a = signal.butter(Ordnung, 4, btype = filtertype)
+        b, a = signal.butter(Ordnung, 0.02, btype = filtertype)
         y2[:,i] = signal.lfilter(b, a, k[:,i])  # standard filter
     y2 = np.array(y2)
     return np.c_[dataMatrix[:, :2],  y2[:,2:]]
