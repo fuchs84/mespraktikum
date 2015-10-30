@@ -6,6 +6,9 @@ import time as t
 
 
 
+rowData = pd.read_csv('/Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv', sep='\t')
+dataMatrix = rowData.as_matrix()
+
 #Sucht die geforderten Daten im Datenset und gibt diese zurueck
 #sensors: 'RNS', 'RLA', 'RUA', 'STE', 'LUA', 'LLA', 'LNS', 'RUF', 'RLL', 'RUL', 'CEN', 'LUL', 'LLL', 'LUF'
 #datas: 'acc', 'gyr', 'mag', 'qua', 'rE1', 'rE2', 'rE3'
@@ -180,3 +183,9 @@ def startStop(datas):
         index += 1
 
     return startOffsets, stopOffsets, string
+
+
+
+newData = getData(dataMatrix, comment= 'INIT History!!!')
+print dataMatrix.shape
+print newData.shape

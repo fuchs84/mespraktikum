@@ -1,7 +1,7 @@
 __author__ = 'Sebastian'
 from scipy.signal import argrelmin,argrelmax
 from sklearn import datasets
-from sklearn.naive_bayes import GaussianNB
+from sklearn.naive_bayes import GaussianNB,BernoulliNB
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn import tree
@@ -26,7 +26,7 @@ def classify(data, Sensoren, classifier="Bayes"):
 
     #Auswahl des Klassifizierers
     if classifier is "Bayes":
-        clf = GaussianNB()
+        clf = BernoulliNB()
     elif classifier is "Gradient":
         clf = SGDClassifier()
     elif classifier is "Linear":
@@ -34,13 +34,13 @@ def classify(data, Sensoren, classifier="Bayes"):
     elif classifier is "LDA":
         clf= LDA()
     elif classifier is "AdaBoost":
-        clf= AdaBoostClassifier()
+        clf= AdaBoostClassifier(n_estimators=100)
     elif classifier is "Forest":
         clf= RandomForestClassifier(n_estimators=100)
     elif classifier is "SVM":
         clf = svm.SVC()
     elif classifier is "DecisionTree":
-        clf = tree.DecisionTreeClassifier()
+        clf = tree.DecisionTreeClassifier(criterion="entropy")
     else:
         print "kein korrekter Klassifizierer gewawehlt,Naive Bayes wurde verwendet"
         clf = GaussianNB()
@@ -50,7 +50,10 @@ def classify(data, Sensoren, classifier="Bayes"):
     lista = map(abs, lista)
     b = [1 if i else 0 for i in lista]
 
-    print "Fehlerkennung: " + str(sum(b))
+    #print "Fehlerkennung: " + str(sum(b))
+    print "Score: " + str(clf.score(X_test, y_test))
+    print confusion_matrix(y_test,clf.predict(X_test))
+
     return clf,X_train, X_test, y_train, y_test
     #Ausgeben des  Ergebnises zum Vergleich der wahren Labels mit den Klassifizieten
 
@@ -128,7 +131,7 @@ def compareclassifier(data, Sensoren):
     print "Fehlerkennungen: " + str(sum(b))
     print confusion_matrix(y_test,clf.predict(X_test))
     print "DecisionTree"
-    clf = tree.DecisionTreeClassifier()
+    clf = tree.DecisionTreeClassifier(criterion="entropy")
     clf.fit(X_train,y_train)
     print "Score: " + str(clf.score(X_test, y_test))
     lista = clf.predict(X_test)-y_test

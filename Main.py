@@ -44,9 +44,7 @@ else:
 
 
 matrixnew = Labeling.labeldata(Vectorenberechnet,label)
-frame = pd.DataFrame(matrixnew)
-frame = frame.iloc[:,1]
-print frame.value_counts()
+matrixnew = Init.getData(matrixnew)
 
 
 Sensor1 = range(2,310)
@@ -61,6 +59,8 @@ Sensor7 = range(301,310)
 Sensor = Sensor1#+Sensor2+Sensor3+Sensor4+Sensor5+Sensor6+Sensor7
 #print Sensor
 #trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
+
+clf,X_train, X_test, y_train, y_test = Classifier.classify(matrixnew,Sensor,classifier="AdaBoost")
 
 
 
