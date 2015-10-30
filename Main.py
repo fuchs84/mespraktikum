@@ -34,7 +34,7 @@ pathData = ''
 pathLabel = ''
 if(person == 0):
     print 'Sebastian'
-    pathData = r'C:\Users\Sebastian\Documents\PycharmMES\mespraktikum\merged.csv'
+    pathData = r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv'
     pathLabel = r'C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat'
     rawData = pd.read_csv(pathData, sep='\t')
     dataMatrix = rawData.as_matrix()
