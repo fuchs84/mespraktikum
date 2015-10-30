@@ -2,12 +2,9 @@ __author__ = 'MatthiasFuchs'
 
 import pandas as pd
 import numpy as np
-import time as t
 
 
 
-rowData = pd.read_csv('/Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv', sep='\t')
-dataMatrix = rowData.as_matrix()
 
 #Sucht die geforderten Daten im Datenset und gibt diese zurueck
 #sensors: 'RNS', 'RLA', 'RUA', 'STE', 'LUA', 'LLA', 'LNS', 'RUF', 'RLL', 'RUL', 'CEN', 'LUL', 'LLL', 'LUF'
@@ -113,12 +110,9 @@ def getData(inputData, sensors = ['RNS', 'RLA', 'RUA', 'STE', 'LUA', 'LLA', 'LNS
                     output = np.c_[output, inputData[:, startData:stopData]]
                     print ("start: %d stop: %d" % (startData, stopData))
 
-    lt = t.localtime()
-    history = 'Datum: '+ str(lt[2]) + '.' + str(lt[1]) + '.' + str(lt[0]) + \
-              ' Uhrzeit: ' + str(lt[3]) + ':' + str(lt[4]) + ':' + str(lt[5]) + '\n' + \
-              'Kommentar: ' + comment + '\n' + sensorString + '\n' + dataString + '\n' + '\n'
 
-    fd = open('selectedDataHistory.txt','a')
+    history = sensorString + '\n' + dataString + '\n'
+    fd = open('History.txt','a')
     fd.write(history)
     fd.close()
 
@@ -184,8 +178,3 @@ def startStop(datas):
 
     return startOffsets, stopOffsets, string
 
-
-
-newData = getData(dataMatrix, comment= 'INIT History!!!')
-print dataMatrix.shape
-print newData.shape

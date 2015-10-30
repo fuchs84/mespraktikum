@@ -1,0 +1,4 @@
+Datum: 30.10.2015 Zeit: 12:30:41
+Kommentar: Init
+Datenpfad: 
+Labelpfad: 

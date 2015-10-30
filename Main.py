@@ -17,59 +17,69 @@ import Labeling
 import Classifier
 import PeakDetection
 import scipy.io
+import time as t
 
-# person: 0 = Sebastian, 1 = Tobias, 2 = Matthias
-person = 0
 
+
+
+#Datum und Zeit
+lt = t.localtime()
+date = 'Datum: %2i.%2i.%4i' % (lt[2], lt[1], lt[0])
+time = 'Zeit: %2i:%2i:%2i' % (lt[3], lt[4], lt[5])
+
+#Personenauswahl
+#person: 0 = Sebastian, 1 = Tobias, 2 = Matthias
+person = -1
+pathData = ''
+pathLabel = ''
 if(person == 0):
-    rawData = pd.read_csv(r'C:\Users\Sebastian\Desktop\VectorenID001.csv', sep='\t')
-    Vectoren = rawData.as_matrix()
-    rawData = pd.read_csv(r'C:\Users\Sebastian\Documents\PycharmMES\mespraktikum\merged.csv', sep='\t')
-    Vectorenberechnet = rawData.as_matrix()
-    rowData = pd.read_csv(r'C:\Users\Sebastian\Desktop\20150901\merged.csv', sep='\t')
-    dataMatrix = rowData.as_matrix()
-    label = scipy.io.loadmat(r'C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat')
+    print 'Sebastian'
+    pathData = r'C:\Users\Sebastian\Documents\PycharmMES\mespraktikum\merged.csv'
+    pathLabel = r'C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat'
+    rawData = pd.read_csv(pathData, sep='\t')
+    dataMatrix = rawData.as_matrix()
+    label = scipy.io.loadmat(pathLabel)
     label = label['seg']
 elif (person == 1):
-    print 'kann nix'
+    print 'Tobias'
 elif (person == 2):
-    rawData = pd.read_csv('', sep='\t')
-    Vectoren = rawData.as_matrix()
-    rowData = pd.read_csv('/Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged.csv', sep='\t')
-    dataMatrix = rowData.as_matrix()
-    label = scipy.io.loadmat(r'/Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat')
+    print 'Matthias'
+    pathData = r''
+    pathLabel = r''
+    rawData = pd.read_csv(pathData, sep='\t')
+    dataMatrix = rawData.as_matrix()
+    label = scipy.io.loadmat(pathLabel)
     label = label['seg']
 else:
     print 'ungueltige Person'
 
+comment = ''
+#History
+fd = open('History.txt','a')
+history = date + ' ' + time + '\n'
+fd.write(history)
+history = 'Kommentar: '+ comment + '\n'
+fd.write(history)
+history = 'Datenpfad: ' + pathData + '\n'
+fd.write(history)
+history = 'Labelpfad: ' + pathLabel + '\n'
+fd.write(history)
+fd.close()
 
-matrixnew = Labeling.labeldata(Vectorenberechnet,label)
+#Daten + Label
+matrixnew = Labeling.labeldata(dataMatrix,label)
+
+#Datenauswahl
 matrixnew = Init.getData(matrixnew)
 
+#Sensorauswahl
+Sensor = range(2, 6)
 
-Sensor1 = range(2,310)
-Sensor2 = range(2,22)
-Sensor3 = range(213,222)
-Sensor4 = range(235,244)
-Sensor5 = range(257,266)
-Sensor6 = range(279,288)
-Sensor7 = range(301,310)
-
-
-Sensor = Sensor1#+Sensor2+Sensor3+Sensor4+Sensor5+Sensor6+Sensor7
-#print Sensor
-#trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
-
+#Trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
 clf,X_train, X_test, y_train, y_test = Classifier.classify(matrixnew,Sensor,classifier="AdaBoost")
 
-
-
-
+#Starten des Klassifizierers
 print "classify start"
-
-
-
-
 #Classifier.printclassifier(xlf, matrixnew[:,Sensor], matrixnew[:,1], matrixnew[:,1],Sensor)
 #Classifier.compareclassifier(matrixnew,Sensor)
 print "classify finished"
