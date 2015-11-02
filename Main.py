@@ -32,7 +32,7 @@ time = 'Zeit: %2i:%2i:%2i' % (lt[3], lt[4], lt[5])
 
 #Personenauswahl
 #person: 0 = Sebastian, 1 = Tobias, 2 = Matthias
-person = 0
+person = 2
 pathData = ''
 pathLabel = ''
 if(person == 0):
@@ -47,8 +47,8 @@ elif (person == 1):
     print 'Tobias'
 elif (person == 2):
     print 'Matthias'
-    pathData = r''
-    pathLabel = r''
+    pathData = r'/Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv'
+    pathLabel = r'/Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat'
     rawData = pd.read_csv(pathData, sep='\t')
     dataMatrix = rawData.as_matrix()
     label = scipy.io.loadmat(pathLabel)
@@ -71,7 +71,6 @@ fd.close()
 
 #Daten + Label
 matrixnew = Labeling.labeldata(dataMatrix,label)
-signal = matrixnew[5000:10000,6]
 
 #Datenauswahl
 matrixnew = Init.getData(matrixnew)
@@ -80,15 +79,16 @@ matrixnew = Init.getData(matrixnew)
 Sensor = range(2, 6)
 
 #Test Filter
-signal = matrixnew[5000:10000,6]
+signal = matrixnew[5000:7000,3]
+
 
 FourierTransformation.maxAbsFreq(signal)
-step = StepExtraction.stepDetection(matrixnew)
-plt.subplot(2,1,1)
-plt.plot(step[5000:10000,310])
-plt.subplot(2,1,2)
-plt.plot(step[5000:10000,6])
-plt.show()
+# step = StepExtraction.stepDetection(matrixnew)
+# plt.subplot(2,1,1)
+# plt.plot(step[5000:10000,310])
+# plt.subplot(2,1,2)
+# plt.plot(step[5000:10000,6])
+# plt.show()
 
 
 #Trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
