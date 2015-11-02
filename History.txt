@@ -1,266 +1,542 @@
-Datum: 30.10.2015 Zeit: 12:30:41
-Kommentar: Init
-Datenpfad: 
-Labelpfad: 
-Datum: 30.10.2015 Zeit: 12:45:27
+Datum:  2.11.2015 Zeit: 11:32: 1
 Kommentar: 
-Datenpfad: 
-Labelpfad: 
-Datum: 30.10.2015 Zeit: 12:45:54
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 12:46:25
+Datum:  2.11.2015 Zeit: 11:32:45
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 12:46:57
+Feature Selection:
+Datum: 02.11.2015 Zeit: 11:34:19
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 12:47:27
+Datum: 02.11.2015 Zeit: 11:35:25
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 12:47:54
+Feature Selection:[198 242 266]
+Datum: 02.11.2015 Zeit: 11:37:31
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 12:49: 6
+Feature Selection:[198 242 266]
+
+Datum: 02.11.2015 Zeit: 11:49:18
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 12:49:48
+Datum: 02.11.2015 Zeit: 11:51:36
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 12:50:38
+Datum: 02.11.2015 Zeit: 11:52:24
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 12:51:16
+
+Datum: 02.11.2015 Zeit: 12:03:54
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 12:52: 1
+
+Datum: 02.11.2015 Zeit: 12:12:43
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 12:52:29
+
+Datum: 02.11.2015 Zeit: 12:27:18
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 12:56: 5
+Klassifizierer: Forest
+
+Datum: 02.11.2015 Zeit: 12:51:33
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 12:56:32
+Feature Selection: SelectKBest
+Selected Feature: [198 242 266]
+Datum: 02.11.2015 Zeit: 12:52:07
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 12:57: 8
+Feature Selection: SelectKBest
+Selected Feature: [198 242 266]
+Datum: 02.11.2015 Zeit: 12:53:19
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 12:57:52
+Feature Selection: SelectKBest
+Selected Feature: [198 242 266]
+Klassifizierer: Naive Bayes
+Score: 0.686080457757
+Confusionsmatrix: 
+[[    0     0     0     0   298]
+ [    0     0     0     0  4262]
+ [    0     0     0     0  4897]
+ [    0     0     0     0  1296]
+ [    0     0     0     0 23501]]
+
+Datum: 02.11.2015 Zeit: 13:02:09
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 12:58:18
+Feature Selection: SelectKBest
+Selected Feature: [198 242 266]
+Datum: 02.11.2015 Zeit: 13:06:43
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 12:58:49
+Feature Selection: SelectKBest
+Selected Feature: [198 242 266]
+Datum: 02.11.2015 Zeit: 13:08:15
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 12:59:49
+Feature Selection: SelectKBest
+Selected Feature: [198 242 266]
+Datum: 02.11.2015 Zeit: 13:10:38
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13: 0:16
+Feature Selection: SelectKBest
+Selected Feature: [198 242 266]
+Datum: 02.11.2015 Zeit: 13:24:21
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13: 2: 0
+Feature Selection: SelectKBest
+Selected Feature: [198 242 266]
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[  298     0     0     0     0]
+ [    0  4262     0     0     0]
+ [    0     0  4897     0     0]
+ [    0     0     0  1296     0]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.0378349973726
+Fehlerkennung: 32958
+Confusionsmatrix: 
+[[    0     0     0   298     0]
+ [    0     0     0  4262     0]
+ [    0     0     0  4897     0]
+ [    0     0     0  1296     0]
+ [    0     0     0 23501     0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 1.0
+Fehlerkennung: 34254
+Confusionsmatrix: 
+[[    0     0     0   298     0]
+ [    0     0     0  4262     0]
+ [    0     0     0  4897     0]
+ [    0     0     0  1296     0]
+ [    0     0     0 23501     0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.686080457757
+Fehlerkennung: 10753
+Confusionsmatrix: 
+[[    0     0     0     0   298]
+ [    0     0     0     0  4262]
+ [    0     0     0     0  4897]
+ [    0     0     0     0  1296]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.837741577626
+Fehlerkennung: 5558
+Confusionsmatrix: 
+[[  298     0     0     0     0]
+ [    0     0  4262     0     0]
+ [    0     0  4897     0     0]
+ [    0     0  1296     0     0]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[  298     0     0     0     0]
+ [    0  4262     0     0     0]
+ [    0     0  4897     0     0]
+ [    0     0     0  1296     0]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Datum: 02.11.2015 Zeit: 13:29:38
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13: 2:30
+Feature Selection: SelectKBest
+Selected Feature: [198 242 266]
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[  298     0     0     0     0]
+ [    0  4262     0     0     0]
+ [    0     0  4897     0     0]
+ [    0     0     0  1296     0]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.686080457757
+Fehlerkennung: 10753
+Confusionsmatrix: 
+[[    0     0     0     0   298]
+ [    0     0     0     0  4262]
+ [    0     0     0     0  4897]
+ [    0     0     0     0  1296]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 1.0
+Fehlerkennung: 34254
+Confusionsmatrix: 
+[[    0     0     0     0   298]
+ [    0     0     0     0  4262]
+ [    0     0     0     0  4897]
+ [    0     0     0     0  1296]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.686080457757
+Fehlerkennung: 10753
+Confusionsmatrix: 
+[[    0     0     0     0   298]
+ [    0     0     0     0  4262]
+ [    0     0     0     0  4897]
+ [    0     0     0     0  1296]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.837741577626
+Fehlerkennung: 5558
+Confusionsmatrix: 
+[[  298     0     0     0     0]
+ [    0     0  4262     0     0]
+ [    0     0  4897     0     0]
+ [    0     0  1296     0     0]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[  298     0     0     0     0]
+ [    0  4262     0     0     0]
+ [    0     0  4897     0     0]
+ [    0     0     0  1296     0]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+
+
+Datum: 02.11.2015 Zeit: 13:32:01
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13: 3:57
+Feature Selection: SelectKBest
+Selected Feature: [198 242 266]
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[  298     0     0     0     0]
+ [    0  4262     0     0     0]
+ [    0     0  4897     0     0]
+ [    0     0     0  1296     0]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.686080457757
+Fehlerkennung: 10753
+Confusionsmatrix: 
+[[    0     0     0     0   298]
+ [    0     0     0     0  4262]
+ [    0     0     0     0  4897]
+ [    0     0     0     0  1296]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 1.0
+Fehlerkennung: 34254
+Confusionsmatrix: 
+[[    0     0     0     0   298]
+ [    0     0     0     0  4262]
+ [    0     0     0     0  4897]
+ [    0     0     0     0  1296]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.686080457757
+Fehlerkennung: 10753
+Confusionsmatrix: 
+[[    0     0     0     0   298]
+ [    0     0     0     0  4262]
+ [    0     0     0     0  4897]
+ [    0     0     0     0  1296]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.837741577626
+Fehlerkennung: 5558
+Confusionsmatrix: 
+[[  298     0     0     0     0]
+ [    0     0  4262     0     0]
+ [    0     0  4897     0     0]
+ [    0     0  1296     0     0]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[  298     0     0     0     0]
+ [    0  4262     0     0     0]
+ [    0     0  4897     0     0]
+ [    0     0     0  1296     0]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[  298     0     0     0     0]
+ [    0  4262     0     0     0]
+ [    0     0  4897     0     0]
+ [    0     0     0  1296     0]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+
+
+Datum: 02.11.2015 Zeit: 13:56:53
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13: 6:39
+Feature Selection: SelectKBest
+Selected Feature: [198 242 266]
+Klassifizierer: Naive Bayes
+Score: 0.686080457757
+Fehlerkennung: 10753
+Confusionsmatrix: 
+[[    0     0     0     0   298]
+ [    0     0     0     0  4262]
+ [    0     0     0     0  4897]
+ [    0     0     0     0  1296]
+ [    0     0     0     0 23501]]
+
+
+Datum: 02.11.2015 Zeit: 14:10:31
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13: 7:13
+Feature Selection: SelectKBest
+Selected Feature: [198 242 266]
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[  298     0     0     0     0]
+ [    0  4262     0     0     0]
+ [    0     0  4897     0     0]
+ [    0     0     0  1296     0]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.686080457757
+Fehlerkennung: 10753
+Confusionsmatrix: 
+[[    0     0     0     0   298]
+ [    0     0     0     0  4262]
+ [    0     0     0     0  4897]
+ [    0     0     0     0  1296]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 1.0
+Fehlerkennung: 34254
+Confusionsmatrix: 
+[[    0     0     0     0   298]
+ [    0     0     0     0  4262]
+ [    0     0     0     0  4897]
+ [    0     0     0     0  1296]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.686080457757
+Fehlerkennung: 10753
+Confusionsmatrix: 
+[[    0     0     0     0   298]
+ [    0     0     0     0  4262]
+ [    0     0     0     0  4897]
+ [    0     0     0     0  1296]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.837741577626
+Fehlerkennung: 5558
+Confusionsmatrix: 
+[[  298     0     0     0     0]
+ [    0     0  4262     0     0]
+ [    0     0  4897     0     0]
+ [    0     0  1296     0     0]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[  298     0     0     0     0]
+ [    0  4262     0     0     0]
+ [    0     0  4897     0     0]
+ [    0     0     0  1296     0]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[  298     0     0     0     0]
+ [    0  4262     0     0     0]
+ [    0     0  4897     0     0]
+ [    0     0     0  1296     0]
+ [    0     0     0     0 23501]]
+--------------------------------------------------
+
+
+Datum: 02.11.2015 Zeit: 14:11:01
 Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13: 7:56
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13: 8:43
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13:10:44
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13:12:41
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13:13:22
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13:13:49
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13:14:18
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13:15:40
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13:16:23
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13:16:51
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13:17:21
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13:17:59
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13:18:41
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13:19:17
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13:19:53
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13:20:20
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13:21: 5
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13:21:31
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum: 30.10.2015 Zeit: 13:22:18
-Kommentar: 
-Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
-Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
-Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
+Feature Selection: SelectKBest
+Selected Feature: [198 242 266]
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.719740760203
+Fehlerkennung: 9600
+Confusionsmatrix: 
+[[    4     0   159     0   135]
+ [    2     0   657     0  3603]
+ [    0     0  4738     0   159]
+ [    0     0   366     0   930]
+ [    9     0  3580     0 19912]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.774332924622
+Fehlerkennung: 7730
+Confusionsmatrix: 
+[[    0     2    45     0   251]
+ [    0     3   112     0  4147]
+ [    0     1  3482     0  1414]
+ [    0     0    72     0  1224]
+ [    0    13   449     0 23039]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0126662052452
+Fehlerkennung: 34254
+Confusionsmatrix: 
+[[    0     2    45     0   251]
+ [    0     3   112     0  4147]
+ [    0     1  3482     0  1414]
+ [    0     0    72     0  1224]
+ [    0    13   449     0 23039]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.686168038769
+Fehlerkennung: 10750
+Confusionsmatrix: 
+[[    0     0     4     0   294]
+ [    0     0     0     0  4262]
+ [    0     0     4     0  4893]
+ [    0     0     0     0  1296]
+ [    0     0     1     0 23500]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.795936241023
+Fehlerkennung: 6990
+Confusionsmatrix: 
+[[    0     0    76     0   222]
+ [    1     0   116     0  4145]
+ [    0     0  4222     0   675]
+ [    0     0    87     0  1209]
+ [    2     0   457     0 23042]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.778741168915
+Fehlerkennung: 7579
+Confusionsmatrix: 
+[[   27    35    81     2   153]
+ [   16   522   115    39  3570]
+ [   44    67  4323    17   446]
+ [    5    86    76    44  1085]
+ [   44  1163   353   182 21759]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.694984527354
+Fehlerkennung: 10448
+Confusionsmatrix: 
+[[   51    41    71     7   128]
+ [   48   822   126   211  3055]
+ [   83   131  4139    70   474]
+ [   18   176    80   144   878]
+ [  158  3178   526   989 18650]]
+--------------------------------------------------
+
+

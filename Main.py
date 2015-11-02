@@ -25,12 +25,12 @@ import FeatureKonstruktion
 
 #Datum und Zeit
 lt = t.localtime()
-date = 'Datum: %2i.%2i.%4i' % (lt[2], lt[1], lt[0])
-time = 'Zeit: %2i:%2i:%2i' % (lt[3], lt[4], lt[5])
+date = 'Datum: %02i.%02i.%04i' % (lt[2], lt[1], lt[0])
+time = 'Zeit: %02i:%02i:%02i' % (lt[3], lt[4], lt[5])
 
 #Personenauswahl
 #person: 0 = Sebastian, 1 = Tobias, 2 = Matthias
-person = 0
+person = 2
 pathData = ''
 pathLabel = ''
 if(person == 0):
@@ -45,8 +45,8 @@ elif (person == 1):
     print 'Tobias'
 elif (person == 2):
     print 'Matthias'
-    pathData = r''
-    pathLabel = r''
+    pathData = r'/Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv'
+    pathLabel = r'/Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat'
     rawData = pd.read_csv(pathData, sep='\t')
     dataMatrix = rawData.as_matrix()
     label = scipy.io.loadmat(pathLabel)
@@ -67,21 +67,17 @@ history = 'Labelpfad: ' + pathLabel + '\n'
 fd.write(history)
 fd.close()
 
+
+
 #Daten + Label
 matrixnew = Labeling.labeldata(dataMatrix,label)
 #Datenauswahl
 matrixnew = Init.getData(matrixnew)
 
 #Sensorauswahl
-Sensor = range(2, 6)
+Sensor = range(2, 5)
 
-#Test Filter
-Filteredmatrix = FeatureKonstruktion.lowpass(matrixnew,Ordnung= 5)
-plt.subplot(2,1,1)
-plt.plot(matrixnew[:,15])
-plt.subplot(2,1,2)
-plt.plot(Filteredmatrix[:,15])
-plt.show()
+
 
 
 #Trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
@@ -89,10 +85,16 @@ plt.show()
 
 #Starten des Klassifizierers
 print "classify start"
+
+matrix = FeatureSelection.featureSelectionSelectKBest(matrixnew, 3)
+Classifier.compareclassifier(matrix, Sensor)
+
 #Classifier.printclassifier(xlf, matrixnew[:,Sensor], matrixnew[:,1], matrixnew[:,1],Sensor)
 #Classifier.compareclassifier(matrixnew,Sensor)
 print "classify finished"
 #short= dataMatrix[46000:,:]
 #np.savetxt('testdataproband001.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f'] ,X= short, delimiter='\t')
 
-
+fd = open('History.txt','a')
+fd.write('\n\n')
+fd.close()

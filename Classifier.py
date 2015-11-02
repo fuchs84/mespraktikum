@@ -27,22 +27,31 @@ def classify(data, Sensoren, classifier="Bayes"):
     #Auswahl des Klassifizierers
     if classifier is "Bayes":
         clf = BernoulliNB()
+        history = 'Klassifizierer: Naive Bayes' + '\n'
     elif classifier is "Gradient":
         clf = SGDClassifier()
+        history = 'Klassifizierer: Gradient Decent' + '\n'
     elif classifier is "Linear":
         clf = linear_model.LinearRegression()
+        history = 'Klassifizierer: Linear Regression' + '\n'
     elif classifier is "LDA":
         clf= LDA()
+        history = 'Klassifizierer: LDA' + '\n'
     elif classifier is "AdaBoost":
         clf= AdaBoostClassifier(n_estimators=100)
+        history = 'Klassifizierer: AdaBoost' + '\n'
     elif classifier is "Forest":
         clf= RandomForestClassifier(n_estimators=100)
+        history = 'Klassifizierer: Forest' + '\n'
     elif classifier is "SVM":
         clf = svm.SVC()
+        history = 'Klassifizierer: SVN' + '\n'
     elif classifier is "DecisionTree":
         clf = tree.DecisionTreeClassifier(criterion="entropy")
+        history = 'Klassifizierer: DecisionTree' + '\n'
     else:
         print "kein korrekter Klassifizierer gewawehlt,Naive Bayes wurde verwendet"
+        history = 'Klassifizierer: Fehler' + '\n'
         clf = GaussianNB()
     #Trainieren des Klassifitierers
     clf.fit(X_train, y_train)
@@ -50,15 +59,32 @@ def classify(data, Sensoren, classifier="Bayes"):
     lista = map(abs, lista)
     b = [1 if i else 0 for i in lista]
 
-    #print "Fehlerkennung: " + str(sum(b))
-    print "Score: " + str(clf.score(X_test, y_test))
-    print confusion_matrix(y_test,clf.predict(X_test))
+    score = clf.score(X_test, y_test)
+    confusionMatrix = confusion_matrix(y_test,clf.predict(X_test))
+
+    print "Fehlerkennung: " + str(sum(b))
+    print "Score: " + str(score)
+    print confusionMatrix
+
+    history = history + 'Score: ' + str(score) + '\n'
+    history = history + 'Fehlerkennung: ' + str(sum(b)) + '\n'
+    history = history + 'Confusionsmatrix: ' + '\n'
+    history = history + str(confusionMatrix) + '\n'
+
+    fd = open('History.txt','a')
+    fd.write(history)
+    fd.close()
 
     return clf,X_train, X_test, y_train, y_test
     #Ausgeben des  Ergebnises zum Vergleich der wahren Labels mit den Klassifizieten
 
 def compareclassifier(data, Sensoren):
     X_train, X_test, y_train, y_test = cross_validation.train_test_split(data[:,Sensoren], data[:,1], test_size=0.4, random_state=0)
+
+    history = 'Vergleiche Klassifizierer: \n'
+    fd = open('History.txt','a')
+    fd.write(history)
+    fd.close()
 
     print "Naive Bayes"
     clf = GaussianNB()
@@ -68,8 +94,23 @@ def compareclassifier(data, Sensoren):
     lista = map(abs, lista)
     b = [1 if i else 0 for i in lista]
 
-    print "Fehlerkennungen: " + str(sum(b))
-    print confusion_matrix(y_test,clf.predict(X_test))
+    history = 'Klassifizier: Naive Bayes' + '\n'
+
+    score = clf.score(X_test, y_test)
+    confusionMatrix = confusion_matrix(y_test,clf.predict(X_test))
+
+    print "Fehlerkennung: " + str(sum(b))
+    print confusionMatrix
+
+    history = history + 'Score: ' + str(score) + '\n'
+    history = history + 'Fehlerkennung: ' + str(sum(b)) + '\n'
+    history = history + 'Confusionsmatrix: ' + '\n'
+    history = history + str(confusionMatrix) + '\n'
+    history = history + '--------------------------------------------------' + '\n'
+    fd = open('History.txt','a')
+    fd.write(history)
+    fd.close()
+
     print "Gradient Decent"
     clf = SGDClassifier()
     clf.fit(X_train,y_train)
@@ -78,8 +119,23 @@ def compareclassifier(data, Sensoren):
     lista = map(abs, lista)
     b = [1 if i else 0 for i in lista]
 
-    print "Fehlerkennungen: " + str(sum(b))
-    print confusion_matrix(y_test,clf.predict(X_test))
+    history = 'Klassifizier: Gradient Decent' + '\n'
+
+    score = clf.score(X_test, y_test)
+    confusionMatrix = confusion_matrix(y_test,clf.predict(X_test))
+
+    print "Fehlerkennung: " + str(sum(b))
+    print confusionMatrix
+
+    history = history + 'Score: ' + str(score) + '\n'
+    history = history + 'Fehlerkennung: ' + str(sum(b)) + '\n'
+    history = history + 'Confusionsmatrix: ' + '\n'
+    history = history + str(confusionMatrix) + '\n'
+    history = history + '--------------------------------------------------' + '\n'
+    fd = open('History.txt','a')
+    fd.write(history)
+    fd.close()
+
     print "Linear"
     clf = linear_model.LinearRegression()
     clf.fit(X_train,y_train)
@@ -88,8 +144,23 @@ def compareclassifier(data, Sensoren):
     lista = map(abs, lista)
     b = [1 if i else 0 for i in lista]
 
-    print "Fehlerkennungen: " + str(sum(b))
-    #print confusion_matrix(y_test,clf.predict(X_test))
+    history = 'Klassifizier: Linear Regression' + '\n'
+
+    score = clf.score(X_test, y_test)
+    #confusionMatrix = confusion_matrix(y_test,clf.predict(X_test))
+
+    print "Fehlerkennung: " + str(sum(b))
+    print confusionMatrix
+
+    history = history + 'Score: ' + str(score) + '\n'
+    history = history + 'Fehlerkennung: ' + str(sum(b)) + '\n'
+    history = history + 'Confusionsmatrix: ' + '\n'
+    history = history + str(confusionMatrix) + '\n'
+    history = history + '--------------------------------------------------' + '\n'
+    fd = open('History.txt','a')
+    fd.write(history)
+    fd.close()
+
     print "LDA"
     clf= LDA()
     clf.fit(X_train,y_train)
@@ -98,8 +169,23 @@ def compareclassifier(data, Sensoren):
     lista = map(abs, lista)
     b = [1 if i else 0 for i in lista]
 
-    print "Fehlerkennungen: " + str(sum(b))
-    print confusion_matrix(y_test,clf.predict(X_test))
+    history = 'Klassifizier: LDA' + '\n'
+
+    score = clf.score(X_test, y_test)
+    confusionMatrix = confusion_matrix(y_test,clf.predict(X_test))
+
+    print "Fehlerkennung: " + str(sum(b))
+    print confusionMatrix
+
+    history = history + 'Score: ' + str(score) + '\n'
+    history = history + 'Fehlerkennung: ' + str(sum(b)) + '\n'
+    history = history + 'Confusionsmatrix: ' + '\n'
+    history = history + str(confusionMatrix) + '\n'
+    history = history + '--------------------------------------------------' + '\n'
+    fd = open('History.txt','a')
+    fd.write(history)
+    fd.close()
+
     print "AdaBoost"
     clf= AdaBoostClassifier()
     clf.fit(X_train,y_train)
@@ -108,8 +194,23 @@ def compareclassifier(data, Sensoren):
     lista = map(abs, lista)
     b = [1 if i else 0 for i in lista]
 
-    print "Fehlerkennungen: " + str(sum(b))
-    print confusion_matrix(y_test,clf.predict(X_test))
+    history = 'Klassifizier: AdaBoost' + '\n'
+
+    score = clf.score(X_test, y_test)
+    confusionMatrix = confusion_matrix(y_test,clf.predict(X_test))
+
+    print "Fehlerkennung: " + str(sum(b))
+    print confusionMatrix
+
+    history = history + 'Score: ' + str(score) + '\n'
+    history = history + 'Fehlerkennung: ' + str(sum(b)) + '\n'
+    history = history + 'Confusionsmatrix: ' + '\n'
+    history = history + str(confusionMatrix) + '\n'
+    history = history + '--------------------------------------------------' + '\n'
+    fd = open('History.txt','a')
+    fd.write(history)
+    fd.close()
+
     print "Randomforest"
     clf= RandomForestClassifier(n_estimators=10)
     clf.fit(X_train,y_train)
@@ -118,18 +219,48 @@ def compareclassifier(data, Sensoren):
     lista = map(abs, lista)
     b = [1 if i else 0 for i in lista]
 
-    print "Fehlerkennungen: " + str(sum(b))
-    print confusion_matrix(y_test,clf.predict(X_test))
-    print "Support Vector Machine(Linear)"
-    clf = svm.SVC()
-    clf.fit(X_train,y_train)
-    print "Score: " + str(clf.score(X_test, y_test))
-    lista = clf.predict(X_test)-y_test
-    lista = map(abs, lista)
-    b = [1 if i else 0 for i in lista]
+    history = 'Klassifizier: Randomforest' + '\n'
+    score = clf.score(X_test, y_test)
+    confusionMatrix = confusion_matrix(y_test,clf.predict(X_test))
 
-    print "Fehlerkennungen: " + str(sum(b))
-    print confusion_matrix(y_test,clf.predict(X_test))
+    print "Fehlerkennung: " + str(sum(b))
+    print confusionMatrix
+
+    history = history + 'Score: ' + str(score) + '\n'
+    history = history + 'Fehlerkennung: ' + str(sum(b)) + '\n'
+    history = history + 'Confusionsmatrix: ' + '\n'
+    history = history + str(confusionMatrix) + '\n'
+    history = history + '--------------------------------------------------' + '\n'
+    fd = open('History.txt','a')
+    fd.write(history)
+    fd.close()
+
+    # print "Support Vector Machine(Linear)"
+    # clf = svm.SVC()
+    # clf.fit(X_train,y_train)
+    # print "Score: " + str(clf.score(X_test, y_test))
+    # lista = clf.predict(X_test)-y_test
+    # lista = map(abs, lista)
+    # b = [1 if i else 0 for i in lista]
+    #
+    # history = 'Klassifizier: Support Vector Machine (Linear)' + '\n'
+    #
+    # score = clf.score(X_test, y_test)
+    # confusionMatrix = confusion_matrix(y_test,clf.predict(X_test))
+    #
+    # print "Fehlerkennung: " + str(sum(b))
+    # print "Score: " + str(score)
+    # print confusionMatrix
+    #
+    # history = history + 'Score: ' + str(score) + '\n'
+    # history = history + 'Fehlerkennung: ' + str(sum(b)) + '\n'
+    # history = history + 'Confusionsmatrix: ' + '\n'
+    # history = history + str(confusionMatrix) + '\n'
+    # history = history + '--------------------------------------------------' + '\n'
+    # fd = open('History.txt','a')
+    # fd.write(history)
+    # fd.close()
+
     print "DecisionTree"
     clf = tree.DecisionTreeClassifier(criterion="entropy")
     clf.fit(X_train,y_train)
@@ -138,10 +269,23 @@ def compareclassifier(data, Sensoren):
     lista = map(abs, lista)
     b = [1 if i else 0 for i in lista]
 
-    print "Fehlerkennungen: " + str(sum(b))
-    print confusion_matrix(y_test,clf.predict(X_test))
+    history = 'Klassifizier: Decision Tree' + '\n'
 
+    score = clf.score(X_test, y_test)
+    confusionMatrix = confusion_matrix(y_test,clf.predict(X_test))
 
+    print "Fehlerkennung: " + str(sum(b))
+    print "Score: " + str(score)
+    print confusionMatrix
+
+    history = history + 'Score: ' + str(score) + '\n'
+    history = history + 'Fehlerkennung: ' + str(sum(b)) + '\n'
+    history = history + 'Confusionsmatrix: ' + '\n'
+    history = history + str(confusionMatrix) + '\n'
+    history = history + '--------------------------------------------------' + '\n'
+    fd = open('History.txt','a')
+    fd.write(history)
+    fd.close()
 
 
 #Gibt die Ergebnisse des Klassifizierers in einem Graphen aus

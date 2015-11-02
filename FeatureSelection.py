@@ -19,6 +19,11 @@ def featureSelectionSelectKBest(data, Featurenumber):
     print selector.get_support(True)
     X_new = selector.fit_transform(datanew, label)
     data[:,2:size+2] = X_new
+    fd = open('History.txt','a')
+    history = 'Feature Selection: SelectKBest' + '\n' + 'Selected Feature: ' + str(selector.get_support(True)) + '\n'
+    fd.write(history)
+    fd.close()
+
     return data[:,:size+2]
 
 # Sucht die besten Features und gibt die groesse des Datansaetz zurueck
@@ -32,12 +37,20 @@ def featureSelectionTree(data):
     X_new = clf.fit(datanew, label).transform(datanew)
     size = len(X_new[0])
     data[:,2:size+2] = X_new
+    fd = open('History.txt','a')
+    history = 'Feature Selection: Tree' + '\n' + 'Selected Feature: ' + str(clf.get_support(True)) + '\n'
+    fd.write(history)
+    fd.close()
     return data[:,:size+2], size
 
 def featureSelectionVarianceThreshold(data, probability = 0.8):
     dataRaw = data[:, 2:]
     sel = VarianceThreshold(threshold=(probability*(1 - probability)))
     dataNew = sel.fit_transform(dataRaw)
+    fd = open('History.txt','a')
+    history = 'Feature Selection: Variance Threshold' + '\n' + 'Selected Feature: ' + str(sel.get_support(True)) + '\n'
+    fd.write(history)
+    fd.close()
     return np.c_[data[:, :2], dataNew]
 
 
@@ -46,6 +59,10 @@ def featureSelectionPCA(data, components):
     label = data[:, 1]
     sel = PCA(n_components= components, copy=True)
     dataNew = sel.fit_transform(dataRaw, label)
+    fd = open('History.txt','a')
+    history = 'Feature Selection: PCA' + '\n' + 'Selected Feature: ' + str(sel.get_support(True)) + '\n'
+    fd.write(history)
+    fd.close()
     return  np.c_[data[:, :2], dataNew]
 
 
