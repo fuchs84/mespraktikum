@@ -10,6 +10,8 @@ from sklearn import svm
 import pandas as pd
 from sklearn.ensemble import ExtraTreesClassifier
 import math
+import FourierTransformation
+import StepExtraction
 import pylab as plb
 import Init
 import FeatureSelection
@@ -69,6 +71,8 @@ fd.close()
 
 #Daten + Label
 matrixnew = Labeling.labeldata(dataMatrix,label)
+signal = matrixnew[5000:10000,6]
+
 #Datenauswahl
 matrixnew = Init.getData(matrixnew)
 
@@ -76,11 +80,14 @@ matrixnew = Init.getData(matrixnew)
 Sensor = range(2, 6)
 
 #Test Filter
-Filteredmatrix = FeatureKonstruktion.lowpass(matrixnew,Ordnung= 5)
+signal = matrixnew[5000:10000,6]
+
+FourierTransformation.maxAbsFreq(signal)
+step = StepExtraction.stepDetection(matrixnew)
 plt.subplot(2,1,1)
-plt.plot(matrixnew[:,15])
+plt.plot(step[5000:10000,310])
 plt.subplot(2,1,2)
-plt.plot(Filteredmatrix[:,15])
+plt.plot(step[5000:10000,6])
 plt.show()
 
 

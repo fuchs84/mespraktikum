@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import FeatureKonstruktion
+import FourierTransformation
 import pandas as pd
 import math
 import pylab as plb
@@ -10,8 +11,16 @@ import pylab as plb
 __author__ = 'Sebastian'
 
 
-def getmaximas(dataMatrix, Sensor=[3]):
-    Filtered = FeatureKonstruktion.filter(dataMatrix,Sensor,0.5)
+def getmaximas(dataMatrix, Sensor=[6]):
+    plt.subplot(2,1,1)
+    plt.plot(dataMatrix[5000:10000,Sensor])
+    dataMatrix = FeatureKonstruktion.filter(dataMatrix,Sensor,5)
+    plt.subplot(2,1,2)
+    plt.plot(dataMatrix[5000:10000,Sensor])
+    plt.show()
+    maxAbsValue, maxAbsFreq = FourierTransformation.maxAbsFreq(dataMatrix[5000:10000,Sensor])
+    print maxAbsFreq
+    Filtered = FeatureKonstruktion.filter(dataMatrix,Sensor,maxAbsFreq)
     print argrelmax(Filtered[:,Sensor],order=10)
     return argrelmax(Filtered[:,Sensor],order=10)
 
