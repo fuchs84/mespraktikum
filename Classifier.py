@@ -288,6 +288,7 @@ def compareclassifier(data, Sensoren):
     fd.close()
 
 
+
 #Gibt die Ergebnisse des Klassifizierers in einem Graphen aus
 def printclassifier(clf, X_test, y_train, y_test):
     plt.subplot(3, 1, 1)
