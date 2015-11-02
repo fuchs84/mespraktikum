@@ -13,7 +13,7 @@ import numpy as np
 #time: True, False
 #return: Matrix mit ausgewaehlten Werten
 def getData(inputData, sensors = ['RNS', 'RLA', 'RUA', 'STE', 'LUA', 'LLA', 'LNS', 'RUF', 'RLL', 'RUL', 'CEN', 'LUL', 'LLL', 'LUF'],
-            datas = ['acc', 'gyr', 'mag', 'qua', 'rE1', 'rE2', 'rE3'], time = True, comment = ' '):
+            datas = ['acc', 'gyr', 'mag', 'qua', 'rE1', 'rE2', 'rE3'], time = True):
 
     sensorBools = [False, False, False, False, False, False, False, False, False, False, False, False, False, False]
     if (time == True):

@@ -19,6 +19,7 @@ import PeakDetection
 import scipy.io
 import time as t
 import FeatureKonstruktion
+import WaveletTransformation
 
 
 
@@ -30,7 +31,7 @@ time = 'Zeit: %2i:%2i:%2i' % (lt[3], lt[4], lt[5])
 
 #Personenauswahl
 #person: 0 = Sebastian, 1 = Tobias, 2 = Matthias
-person = 0
+person = 2
 pathData = ''
 pathLabel = ''
 if(person == 0):
@@ -45,8 +46,8 @@ elif (person == 1):
     print 'Tobias'
 elif (person == 2):
     print 'Matthias'
-    pathData = r''
-    pathLabel = r''
+    pathData = r'/Users/MatthiasFuchs/Desktop/Daten+Labels/Testdaten/walk001.csv'
+    pathLabel = r'/Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat'
     rawData = pd.read_csv(pathData, sep='\t')
     dataMatrix = rawData.as_matrix()
     label = scipy.io.loadmat(pathLabel)
@@ -68,21 +69,13 @@ fd.write(history)
 fd.close()
 
 #Daten + Label
-matrixnew = Labeling.labeldata(dataMatrix,label)
+#matrixnew = Labeling.labeldata(dataMatrix,label)
 #Datenauswahl
-matrixnew = Init.getData(matrixnew)
+#matrixnew = Init.getData(dataMatrix, ['CEN'],['quat'])
+#print matrixnew.shape
 
 #Sensorauswahl
 Sensor = range(2, 6)
-
-#Test Filter
-Filteredmatrix = FeatureKonstruktion.lowpass(matrixnew,Ordnung= 5)
-plt.subplot(2,1,1)
-plt.plot(matrixnew[:,15])
-plt.subplot(2,1,2)
-plt.plot(Filteredmatrix[:,15])
-plt.show()
-
 
 #Trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
 #clf,X_train, X_test, y_train, y_test = Classifier.classify(matrixnew,Sensor,classifier="AdaBoost")
