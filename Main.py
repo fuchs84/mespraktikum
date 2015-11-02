@@ -19,7 +19,7 @@ import PeakDetection
 import scipy.io
 import time as t
 import FeatureKonstruktion
-import WaveletTransformation
+import FourierTransformation
 
 
 
@@ -73,9 +73,6 @@ fd.close()
 #Datenauswahl
 #matrixnew = Init.getData(dataMatrix, ['CEN'],['quat'])
 #print matrixnew.shape
-
-#Sensorauswahl
-Sensor = range(2, 6)
 
 #Trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
 #clf,X_train, X_test, y_train, y_test = Classifier.classify(matrixnew,Sensor,classifier="AdaBoost")

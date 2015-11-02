@@ -6,7 +6,7 @@ import cmath
 
 #Testsignal
 N = 512 # Sample count
-fs = 128 # Sampling rate
+fs = 50 # Sampling rate
 st = 1.0 / fs # Sample time
 t = np.arange(N) * st # Time vector
 
@@ -18,7 +18,7 @@ signal1 = \
 signal2 = \
 0.25*np.sin(2*np.pi * 2.5*t) +\
 0.25*np.sin(2*np.pi * 3.5*t) +\
-0.25*np.sin(2*np.pi * 4.5*t) +\
+0.5*np.sin(2*np.pi * 4.5*t) +\
 0.25*np.sin(2*np.pi * 5.5*t)
 #End Testsignal
 
@@ -49,8 +49,9 @@ def computeFFT(signal):
 #Berechnet das Signal eines gegebenen FFTs
 def computeIFFT(FFT):
     N = len(FFT)
-    signal = [i/(N/2) for i in np.fft.ifft(FFT)]
+    signal = [i*(N/2) for i in np.fft.ifft(FFT)]
     return signal
+
 
 #Berechnet mittelwertfreie Daten
 def computeZeroMean(data):
@@ -73,6 +74,22 @@ def globalMax(data):
             value = data[i]
             matrixPosition = i
     return value, matrixPosition
+
+def maxAbsFreq(signal):
+    zeroMean = computeZeroMean(signal)
+    fft = computeFFT(zeroMean)
+    bins, abs, real, imag = computeValues(fft, 1)
+    maxAbsValue, matrixPosition = globalMax(abs)
+
+    maxAbsFreq = bins[matrixPosition]
+    plt.subplot(2, 1, 1)
+    plt.plot(zeroMean)
+    plt.subplot(2, 1, 2)
+    plt.plot(bins, abs)
+    plt.show()
+    return maxAbsValue, maxAbsFreq
+
+
 
 
 #FFT = computeFFT(signal2)
