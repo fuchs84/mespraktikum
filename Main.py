@@ -71,17 +71,14 @@ fd.close()
 matrixnew = Labeling.labeldata(dataMatrix,label)
 #Datenauswahl
 matrixnew = Init.getData(matrixnew)
-
-#Sensorauswahl
-Sensor = range(2, 6)
+Sensor= []
 
 #Test Filter
-Filteredmatrix = FeatureKonstruktion.lowpass(matrixnew,Ordnung= 5)
-plt.subplot(2,1,1)
-plt.plot(matrixnew[:,15])
-plt.subplot(2,1,2)
-plt.plot(Filteredmatrix[:,15])
-plt.show()
+
+
+
+
+
 
 
 #Trennen der Daten in Trainings und Testdaten fuer die Klassifizierer

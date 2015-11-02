@@ -7,10 +7,9 @@ from scipy import signal
 __author__ = 'Sebastian'
 
 
-def filter(dataMatrix,highcut, lowcut, Ordnung =2, filtertype = "lowpass"):
+def filter(dataMatrix,Sensors, highcut=0, lowcut= 0, Ordnung =2, filtertype = "lowpass"):
     fs = 50
     nyquist = 0.5*50
-    cutoffhigh,cutofflow = 0
     cutoffhigh= highcut/nyquist
     cutofflow = lowcut/nyquist
     if filtertype == "lowpass":
@@ -23,9 +22,9 @@ def filter(dataMatrix,highcut, lowcut, Ordnung =2, filtertype = "lowpass"):
     y= np.array(dataMatrix)
     k = np.array(y, dtype=float)
     y2 =np.array(y)
-    for i in range(len(k.T)):
-        b, a = signal.butter(Ordnung, bandbreite, btype = filtertype)
-        y2[:,i] = signal.lfilter(b, a, k[:,i])  # standard filter
+    b, a = signal.butter(Ordnung, bandbreite, btype = filtertype)
+    for Sensor in Sensors:
+        y2[:,Sensor] = signal.lfilter(b, a, k[:,Sensor])  # standard filter
     y2 = np.array(y2)
     return np.c_[dataMatrix[:, :2],  y2[:,2:]]
 
