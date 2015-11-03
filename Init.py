@@ -204,4 +204,3 @@ def startStopData(datas):
             print 'Keine gueltige Eingabe oder doppelte Eingabe (datas)'
 
     return startOffsets, stopOffsets, string
-
