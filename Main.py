@@ -70,7 +70,7 @@ fd.write(history)
 fd.close()
 
 #Daten + Label
-matrixnew = Labeling.selectLabel(dataMatrix,label, 8)
+matrixnew = Labeling.selectLabel(dataMatrix,label,8)
 
 #Datenauswahl
 matrixnew = Init.getData(matrixnew)
@@ -80,11 +80,17 @@ Sensor = range(2, 6)
 
 #Test Filter
 
+
+
 step = StepExtraction.stepDetection(matrixnew)
+frame  = pd.DataFrame(step)
+frame = frame.iloc[100:80000,310]
+counts = frame.value_counts()
+print counts.value_counts()
 plt.subplot(2,1,1)
 plt.plot(step[:80000,310])
 plt.subplot(2,1,2)
-plt.plot(step[:80000,179])
+plt.plot(step[:80000,181])
 plt.show()
 
 
