@@ -32,7 +32,7 @@ time = 'Zeit: %2i:%2i:%2i' % (lt[3], lt[4], lt[5])
 
 #Personenauswahl
 #person: 0 = Sebastian, 1 = Tobias, 2 = Matthias
-person = 2
+person = 0
 pathData = ''
 pathLabel = ''
 if(person == 0):
@@ -70,31 +70,22 @@ fd.write(history)
 fd.close()
 
 #Daten + Label
-matrixnew = Labeling.labeldata(dataMatrix,label)
-#walk = Labeling.selectLabel(matrixnew, label, 6)
+matrixnew = Labeling.selectLabel(dataMatrix,label, 8)
 
 #Datenauswahl
 matrixnew = Init.getData(matrixnew)
-#positions = Init.getPosition(['CEN'], ['acc', 'rE3'])
-#print positions
-
 
 #Sensorauswahl
 Sensor = range(2, 6)
 
-
-
 #Test Filter
-signal = matrixnew[5000:7000,3]
 
-
-FourierTransformation.maxAbsFreq(signal)
-# step = StepExtraction.stepDetection(matrixnew)
-# plt.subplot(2,1,1)
-# plt.plot(step[5000:10000,310])
-# plt.subplot(2,1,2)
-# plt.plot(step[5000:10000,6])
-# plt.show()
+step = StepExtraction.stepDetection(matrixnew)
+plt.subplot(2,1,1)
+plt.plot(step[:80000,310])
+plt.subplot(2,1,2)
+plt.plot(step[:80000,179])
+plt.show()
 
 
 #Trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
@@ -108,6 +99,4 @@ print "classify finished"
 #short= dataMatrix[46000:,:]
 #np.savetxt('testdataproband001.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f'] ,X= short, delimiter='\t')
 
-fd = open('History.txt','a')
-fd.write('\n \n')
-fd.close()
+

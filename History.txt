@@ -2170,16 +2170,10 @@ Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
 Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
 Sensoren: RNS RLA RUA STE LUA LLA LNS RUF RLL RUL CEN LUL LLL LUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum:  2.11.2015 Zeit: 18:24:40
+Datum:  2.11.2015 Zeit: 19:16: 1
 Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
-Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF 
-Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum:  2.11.2015 Zeit: 18:25:50
-Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
 Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
 Datum:  3.11.2015 Zeit: 12:16:34
@@ -2486,3 +2480,45 @@ Sensoren: CEN
 Daten: acc rE3 
 
  
+Datum:  3.11.2015 Zeit: 18:15:21
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF 
+Daten: acc gyr mag qua rE1 rE2 rE3 
+Datum:  3.11.2015 Zeit: 18:16:42
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF 
+Daten: acc gyr mag qua rE1 rE2 rE3 
+Datum:  3.11.2015 Zeit: 18:18:34
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF 
+Daten: acc gyr mag qua rE1 rE2 rE3 
+Datum:  3.11.2015 Zeit: 18:20:39
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF 
+Daten: acc gyr mag qua rE1 rE2 rE3 
+Datum:  3.11.2015 Zeit: 18:23:58
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF 
+Daten: acc gyr mag qua rE1 rE2 rE3 
+Datum:  3.11.2015 Zeit: 18:24:45
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF 
+Daten: acc gyr mag qua rE1 rE2 rE3 

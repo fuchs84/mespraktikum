@@ -8,7 +8,8 @@ import math
 import pylab as plb
 
 
-def labeldata(dataMatrix, label):
+def labeldata(dataMatrix, Matlablabel):
+    label = Matlablabel
     label = label[:,(0,1,3)]
 
     for i in range(0,len(label)):
@@ -20,8 +21,8 @@ def labeldata(dataMatrix, label):
 
     return dataMatrix[1:,:]
 
-def selectLabel(dataMatrix, label, labelNumber):
-
+def selectLabel(dataMatrix, Matlablabel, labelNumber):
+    label = Matlablabel
     output = np.empty(shape=(0, len(dataMatrix[0, :])))
 
     for i in range (0, len(label)):
