@@ -20,3 +20,15 @@ def labeldata(dataMatrix, label):
 
     return dataMatrix[1:,:]
 
+def selectLabel(dataMatrix, label, labelNumber):
+
+    output = np.empty(shape=(0, len(dataMatrix[0, :])))
+
+    for i in range (0, len(label)):
+        if(label[i, 3] == labelNumber):
+            start = label[i,0]
+            stop = label[i,1]+1
+            print dataMatrix[start:stop, :].shape
+            print output.shape
+            output = np.r_[output, dataMatrix[start:stop, :]]
+    return output
