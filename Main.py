@@ -32,7 +32,7 @@ time = 'Zeit: %2i:%2i:%2i' % (lt[3], lt[4], lt[5])
 
 #Personenauswahl
 #person: 0 = Sebastian, 1 = Tobias, 2 = Matthias
-person = 0
+person = 2
 pathData = ''
 pathLabel = ''
 if(person == 0):
@@ -70,10 +70,17 @@ fd.write(history)
 fd.close()
 
 #Daten + Label
-matrixnew = Labeling.selectLabel(dataMatrix,label, 8)
-
+matrixnew = Labeling.selectLabel(dataMatrix,label, [8, 2])
 #Datenauswahl
-matrixnew = Init.getData(matrixnew)
+#matrixnew = Init.getData(matrixnew)
+pos = Init.getPosition(['RUF', 'LUF'], ['acc'])
+
+
+#signalR = matrixnew[:, pos[2]]
+signalL = matrixnew[:, pos[5]]
+
+#_, freqR = FourierTransformation.maxAbsFreq(signalR)
+_, freqL = FourierTransformation.maxAbsFreq(signalL)
 
 #Sensorauswahl
 Sensor = range(2, 6)
@@ -100,3 +107,6 @@ print "classify finished"
 #np.savetxt('testdataproband001.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f'] ,X= short, delimiter='\t')
 
 
+fd = open('History.txt','a')
+fd.write('\n \n')
+fd.close()

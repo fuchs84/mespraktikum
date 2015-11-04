@@ -46,16 +46,17 @@ def getPosition(sensors, datas):
     start, stop, dataString = startStopData(datas)
     startSensors, sensorString = startSensor(sensors)
 
-    output = np.empty(shape=(1, 0))
+    output = []
+    print output
 
     for sensor in startSensors:
         if (sensor != -1):
             for i in range(0, len(start)):
                 if(start[i] != -1 and stop[i] != -1):
                     sensorOffset = 22*sensor
-                    startData = defaultOffset+sensorOffset+start[i]
-                    stopData = defaultOffset+sensorOffset+stop[i]
-                    output = np.c_[output, startData, stopData]
+                    startData = int(defaultOffset+sensorOffset+start[i])
+                    stopData = int(defaultOffset+sensorOffset+stop[i])
+                    output = output + range(startData, stopData)
                     print ("start: %d stop: %d" % (startData, stopData))
 
     history = 'getPosition: \n' + sensorString + '\n' + dataString + '\n'
