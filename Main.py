@@ -88,7 +88,7 @@ Sensor = range(2, 6)
 
 #Test Filter
 FeatureKonstruktion.histogramStride(matrixnew)
-step = StepExtraction.stepDetectionback(matrixnew)
+Steparray, step = StepExtraction.stepDetectionback(matrixnew)
 
 plt.subplot(2,1,1)
 plt.plot(step[5600:7000,310])

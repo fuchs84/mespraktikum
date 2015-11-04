@@ -51,18 +51,23 @@ def stepDetectionback(dataMatrix):
     maxima = minimas[0]
 
     newmatrix = dataMatrix
+    Steps = []
     for i in range(0,maxima[0]):
         newmatrix[i,0]= maxima[0]
+    Steps.append([0,maxima[0]])
+
     for j in range(0,len(maxima)-1):
 
         for k in range(maxima[j],maxima[j+1]):
             newmatrix[k,0]= maxima[j]
+        Steps.append([maxima[j],maxima[j+1]])
 
     for z in range(maxima[len(maxima)-1],len(dataMatrix[:,0])):
         newmatrix[z,0] = maxima[len(maxima)-1]
+    Steps.append([maxima[len(maxima)-1],len(dataMatrix[:,0])])
+    Steparray = np.array(Steps)
 
-
-    return np.c_[dataMatrix,  newmatrix[:,0]]
+    return Steparray, np.c_[dataMatrix,  newmatrix[:,0]]
 
 def stepDetectionTwoFoot(dataMatrix):
     left = getmaximas(dataMatrix,Sensor=[224])

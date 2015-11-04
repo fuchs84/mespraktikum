@@ -12,7 +12,7 @@ __author__ = 'Sebastian'
 
 def histogramStride(dataMatrix):
     matrixnew = dataMatrix
-    step = StepExtraction.stepDetectionback(matrixnew)
+    Steparray, step = StepExtraction.stepDetectionback(matrixnew)
     step1 = pd.DataFrame(step)
     step1 = step1.iloc[:,310]
     step1=  np.array(step1.value_counts())
