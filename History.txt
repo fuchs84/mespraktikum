@@ -2522,114 +2522,147 @@ Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
 getData: 
 Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF 
 Daten: acc gyr mag qua rE1 rE2 rE3 
-Datum:  4.11.2015 Zeit: 12:34:58
+Datum:  4.11.2015 Zeit: 13:34:33
 Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
 getPosition: 
 Sensoren: RUF LUF 
 Daten: acc 
-Datum:  4.11.2015 Zeit: 12:35:41
+
+ 
+Datum:  4.11.2015 Zeit: 13:38:25
 Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
 getPosition: 
 Sensoren: RUF LUF 
 Daten: acc 
-Datum:  4.11.2015 Zeit: 12:40:16
+
+ 
+Datum:  4.11.2015 Zeit: 13:43:23
 Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
-Datum:  4.11.2015 Zeit: 12:41:11
-Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
-Datum:  4.11.2015 Zeit: 12:41:31
-Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
-Datum:  4.11.2015 Zeit: 12:42:42
-Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
 getPosition: 
 Sensoren: RUF LUF 
 Daten: acc 
-Datum:  4.11.2015 Zeit: 12:44:12
+Datum:  4.11.2015 Zeit: 13:46:25
 Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
-Datum:  4.11.2015 Zeit: 12:44:36
-Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
-Datum:  4.11.2015 Zeit: 12:44:55
-Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
 getPosition: 
 Sensoren: RUF LUF 
 Daten: acc 
-Datum:  4.11.2015 Zeit: 12:46:26
+Datum:  4.11.2015 Zeit: 13:50:17
 Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
 getPosition: 
 Sensoren: RUF LUF 
 Daten: acc 
-Datum:  4.11.2015 Zeit: 12:47:53
+
+ 
+
+ 
+
+ 
+Datum:  4.11.2015 Zeit: 14: 2: 0
 Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
 getPosition: 
 Sensoren: RUF LUF 
 Daten: acc 
-Datum:  4.11.2015 Zeit: 12:50:45
+Datum:  4.11.2015 Zeit: 14: 3:42
 Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
 getPosition: 
 Sensoren: RUF LUF 
 Daten: acc 
-Datum:  4.11.2015 Zeit: 12:55: 0
+Datum:  4.11.2015 Zeit: 14: 4:37
 Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
 getPosition: 
 Sensoren: RUF LUF 
 Daten: acc 
-Datum:  4.11.2015 Zeit: 12:59: 0
+
+ 
+Datum:  4.11.2015 Zeit: 14: 5:24
 Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
 getPosition: 
 Sensoren: RUF LUF 
 Daten: acc 
-Datum:  4.11.2015 Zeit: 12:59:35
+Datum:  4.11.2015 Zeit: 14: 6: 1
 Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
 getPosition: 
 Sensoren: RUF LUF 
 Daten: acc 
-Datum:  4.11.2015 Zeit: 13:16:58
+Datum:  4.11.2015 Zeit: 14: 6:40
 Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
 getPosition: 
 Sensoren: RUF LUF 
 Daten: acc 
-Datum:  4.11.2015 Zeit: 13:28: 7
+Datum:  4.11.2015 Zeit: 14: 7:33
 Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
 getPosition: 
 Sensoren: RUF LUF 
 Daten: acc 
-Datum:  4.11.2015 Zeit: 13:30: 6
+Datum:  4.11.2015 Zeit: 14: 7:50
 Kommentar: 
-Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
-Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Datum:  4.11.2015 Zeit: 14: 8:34
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Datum:  4.11.2015 Zeit: 14:13: 0
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+
+ 
+Datum:  4.11.2015 Zeit: 14:56:36
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+
+ 
+Datum:  4.11.2015 Zeit: 14:58: 4
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+
+ 
+Datum:  4.11.2015 Zeit: 15: 0:32
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
 getPosition: 
 Sensoren: RUF LUF 
 Daten: acc 

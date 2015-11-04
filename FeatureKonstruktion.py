@@ -1,10 +1,25 @@
 import numpy as np
 from scipy.signal import argrelmin, argrelmax
 import math
+import matplotlib.pyplot as plt
+import pandas as pd
+import StepExtraction
 from scipy import signal
 
 
 __author__ = 'Sebastian'
+
+
+def histogramStride(dataMatrix):
+    matrixnew = dataMatrix
+    step = StepExtraction.stepDetectionback(matrixnew)
+    step1 = pd.DataFrame(step)
+    step1 = step1.iloc[:,310]
+    step1=  np.array(step1.value_counts())
+
+    plt.hist(step1)
+    plt.show()
+
 
 
 def filter(dataMatrix,Sensors, highcut=0, lowcut= 0, Ordnung =2, filtertype = "lowpass"):

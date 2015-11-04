@@ -32,7 +32,7 @@ time = 'Zeit: %2i:%2i:%2i' % (lt[3], lt[4], lt[5])
 
 #Personenauswahl
 #person: 0 = Sebastian, 1 = Tobias, 2 = Matthias
-person = 2
+person = 0
 pathData = ''
 pathLabel = ''
 if(person == 0):
@@ -85,13 +85,15 @@ _, freqL = FourierTransformation.maxAbsFreq(signalL)
 #Sensorauswahl
 Sensor = range(2, 6)
 
-#Test Filter
 
-step = StepExtraction.stepDetection(matrixnew)
+#Test Filter
+FeatureKonstruktion.histogramStride(matrixnew)
+step = StepExtraction.stepDetectionback(matrixnew)
+
 plt.subplot(2,1,1)
-plt.plot(step[:80000,310])
+plt.plot(step[5600:7000,310])
 plt.subplot(2,1,2)
-plt.plot(step[:80000,179])
+plt.plot(step[5600:7000,224])
 plt.show()
 
 
