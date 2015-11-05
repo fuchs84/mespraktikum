@@ -20,6 +20,43 @@ def histogramStride(dataMatrix):
     plt.hist(step1)
     plt.show()
 
+def stepvariance(dataMatrix, stepLabel):
+    variance = np.zeros(shape=(len(stepLabel),len(dataMatrix[1,:])))
+    for i in range(0, len(stepLabel)):
+        temparray = np.array(dataMatrix[stepLabel[i,0]:stepLabel[i,1],:])
+        variance [i,[0,1]] = temparray[5,[0,1]]
+        for j in range(2,len(dataMatrix[1,:])):
+            variance[i,j] = np.var(temparray[:,j])
+    return variance
+
+def stepmean(dataMatrix, stepLabel):
+    mean = np.zeros(shape=(len(stepLabel),len(dataMatrix[1,:])))
+    for i in range(0, len(stepLabel)):
+        temparray = np.array(dataMatrix[stepLabel[i,0]:stepLabel[i,1],:])
+        mean [i,[0,1]] = temparray[0,[0,1]]
+        for j in range(2,len(dataMatrix[1,:])):
+            mean[i,j] = np.mean(temparray[:,j])
+    return mean
+
+def stepmedian(dataMatrix, stepLabel):
+    median = np.zeros(shape=(len(stepLabel),len(dataMatrix[1,:])))
+    for i in range(0, len(stepLabel)):
+        temparray = np.array(dataMatrix[stepLabel[i,0]:stepLabel[i,1],:])
+        median [i,[0,1]] = temparray[0,[0,1]]
+        for j in range(2,len(dataMatrix[1,:])):
+            median[i,j] = np.median(temparray[:,j])
+    return median
+
+def stepaverage(dataMatrix, stepLabel):
+    average = np.zeros(shape=(len(stepLabel),len(dataMatrix[1,:])))
+    for i in range(0, len(stepLabel)):
+        temparray = np.array(dataMatrix[stepLabel[i,0]:stepLabel[i,1],:])
+        average [i,[0,1]] = temparray[0,[0,1]]
+        for j in range(2,len(dataMatrix[1,:])):
+            average[i,j] = np.average(temparray[:,j])
+    return average
+
+
 
 
 def filter(dataMatrix,Sensors, highcut=0, lowcut= 0, Ordnung =2, filtertype = "lowpass"):

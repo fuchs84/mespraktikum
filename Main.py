@@ -70,7 +70,8 @@ fd.write(history)
 fd.close()
 
 #Daten + Label
-matrixnew = Labeling.selectLabel(dataMatrix,label, [8, 2])
+matrixnew = Labeling.labeldata(dataMatrix,label)
+matrixnew = Labeling.selectLabel(matrixnew,label, [8, 2])
 #Datenauswahl
 #matrixnew = Init.getData(matrixnew)
 pos = Init.getPosition(['RUF', 'LUF'], ['acc'])
@@ -81,20 +82,24 @@ signalL = matrixnew[:, pos[5]]
 
 #_, freqR = FourierTransformation.maxAbsFreq(signalR)
 _, freqL = FourierTransformation.maxAbsFreq(signalL)
-
+print dataMatrix[:,1]
 #Sensorauswahl
-Sensor = range(2, 6)
-
+Sensor = range(2, 310)
 
 #Test Filter
-FeatureKonstruktion.histogramStride(matrixnew)
 Steparray, step = StepExtraction.stepDetectionback(matrixnew)
+FeatureKonstruktion.histogramStride(step)
 
+vari = FeatureKonstruktion.stepmedian(matrixnew,Steparray)
+print vari
 plt.subplot(2,1,1)
-plt.plot(step[5600:7000,310])
+plt.plot(vari[:,290])
 plt.subplot(2,1,2)
-plt.plot(step[5600:7000,224])
+plt.plot(matrixnew[:,290])
 plt.show()
+print vari
+print matrixnew[:,1]
+Classifier.compareclassifier(vari,Sensor)
 
 
 #Trennen der Daten in Trainings und Testdaten fuer die Klassifizierer

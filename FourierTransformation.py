@@ -82,11 +82,7 @@ def maxAbsFreq(signal):
     maxAbsValue, matrixPosition = globalMax(abs)
 
     maxAbsFreq = bins[matrixPosition]
-    plt.subplot(2, 1, 1)
-    plt.plot(zeroMean)
-    plt.subplot(2, 1, 2)
-    plt.plot(bins, abs)
-    plt.show()
+
     return maxAbsValue, maxAbsFreq
 
 

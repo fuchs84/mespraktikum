@@ -2738,3 +2738,1057 @@ Sensoren: RUF LUF
 Daten: acc 
 
  
+Datum:  5.11.2015 Zeit:  9:16:25
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+
+ 
+Datum:  5.11.2015 Zeit:  9:30: 3
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Datum:  5.11.2015 Zeit:  9:31:20
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+
+ 
+Datum:  5.11.2015 Zeit:  9:34:17
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+
+ 
+Datum:  5.11.2015 Zeit:  9:35:32
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+
+ 
+Datum:  5.11.2015 Zeit:  9:43:49
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+
+ 
+Datum:  5.11.2015 Zeit:  9:44:33
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+
+ 
+Datum:  5.11.2015 Zeit:  9:46:27
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+
+ 
+Datum:  5.11.2015 Zeit:  9:49: 2
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+
+ 
+Datum:  5.11.2015 Zeit:  9:50:13
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+
+ 
+Datum:  5.11.2015 Zeit:  9:52:44
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Datum:  5.11.2015 Zeit:  9:52:55
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+
+ 
+
+ 
+Datum:  5.11.2015 Zeit: 12:41: 1
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+
+ 
+Datum:  5.11.2015 Zeit: 12:51:48
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Datum:  5.11.2015 Zeit: 12:54:17
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.0559701492537
+Fehlerkennung: 506
+Confusionsmatrix: 
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.0149253731343
+Fehlerkennung: 528
+Confusionsmatrix: 
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -0.319661206586
+Fehlerkennung: 536
+Confusionsmatrix: 
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.0932835820896
+Fehlerkennung: 486
+Confusionsmatrix: 
+[[0 0 0 ..., 0 1 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 1 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 1 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.0223880597015
+Fehlerkennung: 524
+Confusionsmatrix: 
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.0597014925373
+Fehlerkennung: 504
+Confusionsmatrix: 
+[[0 0 1 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 1 0 ..., 0 0 0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.0597014925373
+Fehlerkennung: 504
+Confusionsmatrix: 
+[[0 0 0 ..., 0 1 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+
+ 
+Datum:  5.11.2015 Zeit: 12:56:46
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum:  5.11.2015 Zeit: 12:57:14
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.0559701492537
+Fehlerkennung: 506
+Confusionsmatrix: 
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.0242537313433
+Fehlerkennung: 523
+Confusionsmatrix: 
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 2 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 2 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 3 0 0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -0.319661206586
+Fehlerkennung: 536
+Confusionsmatrix: 
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 2 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 2 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 3 0 0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.0932835820896
+Fehlerkennung: 486
+Confusionsmatrix: 
+[[0 0 0 ..., 0 1 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 1 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 1 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.0223880597015
+Fehlerkennung: 524
+Confusionsmatrix: 
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.0615671641791
+Fehlerkennung: 503
+Confusionsmatrix: 
+[[0 0 0 ..., 0 1 0]
+ [0 1 0 ..., 1 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 1]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.0597014925373
+Fehlerkennung: 504
+Confusionsmatrix: 
+[[0 0 0 ..., 0 1 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+
+ 
+Datum:  5.11.2015 Zeit: 12:59:29
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.0559701492537
+Fehlerkennung: 506
+Confusionsmatrix: 
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.0167910447761
+Fehlerkennung: 527
+Confusionsmatrix: 
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -0.319661206586
+Fehlerkennung: 536
+Confusionsmatrix: 
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.0932835820896
+Fehlerkennung: 486
+Confusionsmatrix: 
+[[0 0 0 ..., 0 1 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 1 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 1 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.0223880597015
+Fehlerkennung: 524
+Confusionsmatrix: 
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.0597014925373
+Fehlerkennung: 504
+Confusionsmatrix: 
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.0634328358209
+Fehlerkennung: 502
+Confusionsmatrix: 
+[[0 0 0 ..., 0 1 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+
+ 
+Datum:  5.11.2015 Zeit: 13: 0:47
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.0213863242931
+Fehlerkennung: 27135
+Confusionsmatrix: 
+[[13  0 18 ...,  0  6  0]
+ [ 0 35  0 ...,  5  0 10]
+ [15  0 11 ...,  0  7  0]
+ ..., 
+ [ 0 45  0 ...,  2  0  9]
+ [ 9  0 10 ...,  0  6  0]
+ [ 0 48  0 ...,  3  0  6]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.0203404500866
+Fehlerkennung: 27164
+Confusionsmatrix: 
+[[ 0  0  0 ...,  0  0  0]
+ [ 0  4  0 ...,  0  0 22]
+ [ 0  0  0 ...,  0  0  0]
+ ..., 
+ [ 0  5  0 ...,  0  0 15]
+ [ 0  0  0 ...,  0  0  0]
+ [ 0  3  0 ...,  0  0 15]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0641898448249
+Fehlerkennung: 27728
+Confusionsmatrix: 
+[[ 0  0  0 ...,  0  0  0]
+ [ 0  4  0 ...,  0  0 22]
+ [ 0  0  0 ...,  0  0  0]
+ ..., 
+ [ 0  5  0 ...,  0  0 15]
+ [ 0  0  0 ...,  0  0  0]
+ [ 0  3  0 ...,  0  0 15]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.0246682054241
+Fehlerkennung: 27044
+Confusionsmatrix: 
+[[ 2  0 11 ...,  0  7  0]
+ [ 0 10  0 ..., 13  0 26]
+ [ 2  0  5 ...,  0  6  0]
+ ..., 
+ [ 0 11  0 ...,  6  0 18]
+ [ 6  0  8 ...,  0  5  0]
+ [ 0 15  0 ..., 26  0 10]]
+--------------------------------------------------
+Datum:  5.11.2015 Zeit: 13: 3:22
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.0213863242931
+Fehlerkennung: 27135
+Confusionsmatrix: 
+[[13  0 18 ...,  0  6  0]
+ [ 0 35  0 ...,  5  0 10]
+ [15  0 11 ...,  0  7  0]
+ ..., 
+ [ 0 45  0 ...,  2  0  9]
+ [ 9  0 10 ...,  0  6  0]
+ [ 0 48  0 ...,  3  0  6]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.0177077322562
+Fehlerkennung: 27237
+Confusionsmatrix: 
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.0457660126947
+Fehlerkennung: 26459
+Confusionsmatrix: 
+[[12  0 57 ...,  0 23  0]
+ [ 0 29  0 ..., 16  0 62]
+ [58  0  8 ...,  0 11  0]
+ ..., 
+ [ 0 31  0 ...,  9  0 61]
+ [62  0 21 ...,  0  4  0]
+ [ 0 89  0 ..., 74  0 10]]
+--------------------------------------------------
+Datum:  5.11.2015 Zeit: 13: 5:47
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.876767166763
+Fehlerkennung: 3417
+Confusionsmatrix: 
+[[ 2694     1  1458]
+ [    0     0     1]
+ [ 1946    11 21617]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.895917484132
+Fehlerkennung: 2886
+Confusionsmatrix: 
+[[ 2709     0  1444]
+ [    0     0     1]
+ [ 1441     0 22133]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.58038754764
+Fehlerkennung: 27728
+Confusionsmatrix: 
+[[ 2709     0  1444]
+ [    0     0     1]
+ [ 1441     0 22133]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.947634160415
+Fehlerkennung: 1452
+Confusionsmatrix: 
+[[ 2991     0  1162]
+ [    0     0     1]
+ [  275    14 23285]]
+--------------------------------------------------
+Datum:  5.11.2015 Zeit: 13: 7: 2
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.932835820896
+Fehlerkennung: 36
+Confusionsmatrix: 
+[[ 57  13]
+ [ 23 443]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.919776119403
+Fehlerkennung: 43
+Confusionsmatrix: 
+[[ 34  36]
+ [  7 459]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.454045672241
+Fehlerkennung: 536
+Confusionsmatrix: 
+[[ 34  36]
+ [  7 459]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.955223880597
+Fehlerkennung: 24
+Confusionsmatrix: 
+[[ 59  11]
+ [ 13 453]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.96828358209
+Fehlerkennung: 17
+Confusionsmatrix: 
+[[ 63   7]
+ [ 10 456]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.958955223881
+Fehlerkennung: 22
+Confusionsmatrix: 
+[[ 61   9]
+ [ 13 453]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.932835820896
+Fehlerkennung: 36
+Confusionsmatrix: 
+[[ 58  12]
+ [ 24 442]]
+--------------------------------------------------
+
+ 
+Datum:  5.11.2015 Zeit: 13:10: 0
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[536]]
+--------------------------------------------------
+Datum:  5.11.2015 Zeit: 13:11:30
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.919776119403
+Fehlerkennung: 43
+Confusionsmatrix: 
+[[ 45  25]
+ [ 18 448]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.902985074627
+Fehlerkennung: 52
+Confusionsmatrix: 
+[[ 20  50]
+ [  2 464]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -15.7111432175
+Fehlerkennung: 536
+Confusionsmatrix: 
+[[ 20  50]
+ [  2 464]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.955223880597
+Fehlerkennung: 24
+Confusionsmatrix: 
+[[ 55  15]
+ [  9 457]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.955223880597
+Fehlerkennung: 24
+Confusionsmatrix: 
+[[ 58  12]
+ [ 12 454]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.953358208955
+Fehlerkennung: 25
+Confusionsmatrix: 
+[[ 62   8]
+ [ 17 449]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.919776119403
+Fehlerkennung: 43
+Confusionsmatrix: 
+[[ 49  21]
+ [ 22 444]]
+--------------------------------------------------
+
+ 
+Datum:  5.11.2015 Zeit: 13:13: 0
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Klassifizier: Decision Tree
+Score: 0.0627163877669
+Fehlerkennung: 25989
+Confusionsmatrix: 
+[[10  0 32 ...,  0 21  0]
+ [ 0 34  0 ..., 14  0 51]
+ [36  0  9 ...,  0 15  0]
+ ..., 
+ [ 0 19  0 ..., 30  0 49]
+ [37  0 15 ...,  0  9  0]
+ [ 0 54  0 ..., 50  0 22]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.921641791045
+Fehlerkennung: 42
+Confusionsmatrix: 
+[[ 45  25]
+ [ 17 449]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.914179104478
+Fehlerkennung: 46
+Confusionsmatrix: 
+[[ 39  31]
+ [ 15 451]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -4.44528572841
+Fehlerkennung: 536
+Confusionsmatrix: 
+[[ 39  31]
+ [ 15 451]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.962686567164
+Fehlerkennung: 20
+Confusionsmatrix: 
+[[ 60  10]
+ [ 10 456]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.957089552239
+Fehlerkennung: 23
+Confusionsmatrix: 
+[[ 58  12]
+ [ 11 455]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.962686567164
+Fehlerkennung: 20
+Confusionsmatrix: 
+[[ 61   9]
+ [ 11 455]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.942164179104
+Fehlerkennung: 31
+Confusionsmatrix: 
+[[ 58  12]
+ [ 19 447]]
+--------------------------------------------------
+
+ 
+Datum:  5.11.2015 Zeit: 14:54:29
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.932835820896
+Fehlerkennung: 36
+Confusionsmatrix: 
+[[ 57  13]
+ [ 23 443]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.889925373134
+Fehlerkennung: 59
+Confusionsmatrix: 
+[[ 12  58]
+ [  1 465]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.454045672241
+Fehlerkennung: 536
+Confusionsmatrix: 
+[[ 12  58]
+ [  1 465]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.955223880597
+Fehlerkennung: 24
+Confusionsmatrix: 
+[[ 59  11]
+ [ 13 453]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.96828358209
+Fehlerkennung: 17
+Confusionsmatrix: 
+[[ 63   7]
+ [ 10 456]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.957089552239
+Fehlerkennung: 23
+Confusionsmatrix: 
+[[ 61   9]
+ [ 14 452]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.94776119403
+Fehlerkennung: 28
+Confusionsmatrix: 
+[[ 61   9]
+ [ 19 447]]
+--------------------------------------------------
+
+ 
+Datum:  5.11.2015 Zeit: 14:59:32
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.932835820896
+Fehlerkennung: 36
+Confusionsmatrix: 
+[[ 57  13]
+ [ 23 443]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.869402985075
+Fehlerkennung: 70
+Confusionsmatrix: 
+[[  0  70]
+ [  0 466]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.454045672241
+Fehlerkennung: 536
+Confusionsmatrix: 
+[[  0  70]
+ [  0 466]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.955223880597
+Fehlerkennung: 24
+Confusionsmatrix: 
+[[ 59  11]
+ [ 13 453]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.96828358209
+Fehlerkennung: 17
+Confusionsmatrix: 
+[[ 63   7]
+ [ 10 456]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.962686567164
+Fehlerkennung: 20
+Confusionsmatrix: 
+[[ 63   7]
+ [ 13 453]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.945895522388
+Fehlerkennung: 29
+Confusionsmatrix: 
+[[ 60  10]
+ [ 19 447]]
+--------------------------------------------------
+
+ 
+Datum:  5.11.2015 Zeit: 15: 0:23
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.92723880597
+Fehlerkennung: 39
+Confusionsmatrix: 
+[[ 54  16]
+ [ 23 443]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.876865671642
+Fehlerkennung: 66
+Confusionsmatrix: 
+[[  5  65]
+ [  1 465]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.384836833243
+Fehlerkennung: 536
+Confusionsmatrix: 
+[[  5  65]
+ [  1 465]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.955223880597
+Fehlerkennung: 24
+Confusionsmatrix: 
+[[ 55  15]
+ [  9 457]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.949626865672
+Fehlerkennung: 27
+Confusionsmatrix: 
+[[ 57  13]
+ [ 14 452]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.957089552239
+Fehlerkennung: 23
+Confusionsmatrix: 
+[[ 61   9]
+ [ 14 452]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.92723880597
+Fehlerkennung: 39
+Confusionsmatrix: 
+[[ 61   9]
+ [ 30 436]]
+--------------------------------------------------
+
+ 
+Datum:  5.11.2015 Zeit: 15: 4:51
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.929104477612
+Fehlerkennung: 38
+Confusionsmatrix: 
+[[ 53  17]
+ [ 21 445]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.615671641791
+Fehlerkennung: 206
+Confusionsmatrix: 
+[[ 59  11]
+ [195 271]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.37314678742
+Fehlerkennung: 536
+Confusionsmatrix: 
+[[ 59  11]
+ [195 271]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.949626865672
+Fehlerkennung: 27
+Confusionsmatrix: 
+[[ 54  16]
+ [ 11 455]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.949626865672
+Fehlerkennung: 27
+Confusionsmatrix: 
+[[ 54  16]
+ [ 11 455]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.957089552239
+Fehlerkennung: 23
+Confusionsmatrix: 
+[[ 60  10]
+ [ 13 453]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.923507462687
+Fehlerkennung: 41
+Confusionsmatrix: 
+[[ 54  16]
+ [ 25 441]]
+--------------------------------------------------
+
+ 
+Datum:  5.11.2015 Zeit: 15: 6:28
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Vergleiche Klassifizierer: 
+Datum:  5.11.2015 Zeit: 15:25:56
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getPosition: 
+Sensoren: RUF LUF 
+Daten: acc 
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.92723880597
+Fehlerkennung: 39
+Confusionsmatrix: 
+[[ 54  16]
+ [ 23 443]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.901119402985
+Fehlerkennung: 53
+Confusionsmatrix: 
+[[ 19  51]
+ [  2 464]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.384836833243
+Fehlerkennung: 536
+Confusionsmatrix: 
+[[ 19  51]
+ [  2 464]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.955223880597
+Fehlerkennung: 24
+Confusionsmatrix: 
+[[ 55  15]
+ [  9 457]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.949626865672
+Fehlerkennung: 27
+Confusionsmatrix: 
+[[ 57  13]
+ [ 14 452]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.942164179104
+Fehlerkennung: 31
+Confusionsmatrix: 
+[[ 56  14]
+ [ 17 449]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.932835820896
+Fehlerkennung: 36
+Confusionsmatrix: 
+[[ 60  10]
+ [ 26 440]]
+--------------------------------------------------
+
+ 

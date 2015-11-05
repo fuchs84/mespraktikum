@@ -26,7 +26,6 @@ def selectLabel(dataMatrix, Matlablabel, labelNumbers):
     output = np.empty(shape=(0, len(dataMatrix[0, :])))
     for i in range (0, len(label)):
         if(label[i, 3] in labelNumbers):
-            print label[i, 3]
             start = label[i,0]
             stop = label[i,1]+1
             output = np.r_[output, dataMatrix[start:stop, :]]
