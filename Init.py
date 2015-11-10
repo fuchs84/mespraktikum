@@ -13,26 +13,21 @@ defaultOffset = 2
 #time: True, False
 #return: Matrix mit ausgewaehlten Werten
 def getData(inputData, sensors = ['STE', 'LUA', 'LLA', 'LNS', 'RUA', 'RLA', 'RNS', 'CEN', 'LUL', 'LLL', 'LUF', 'RUL', 'RLL', 'RUF'],
-            datas = ['acc', 'gyr', 'mag', 'qua', 'rE1', 'rE2', 'rE3'], time = True):
+            datas = ['acc', 'gyr', 'mag', 'qua', 'rE1', 'rE2', 'rE3'], specifiedDatas = ['w', 'x', 'y', 'z'], time = True):
 
     if (time == True):
         output = inputData[:, 0:2]
     else:
         output = np.empty(shape=(len(inputData[:, 0]), 0))
 
-    start, stop, dataString = startStopData(datas)
+    dataRange, dataString = startStopData(datas, specifiedDatas)
     startSensors, sensorString = startSensor(sensors)
-
 
     for sensor in startSensors:
         if (sensor != -1):
-            for i in range(0, len(start)):
-                if(start[i] != -1 and stop[i] != -1):
-                    sensorOffset = 22*sensor
-                    startData = defaultOffset+sensorOffset+start[i]
-                    stopData = defaultOffset+sensorOffset+stop[i]
-                    output = np.c_[output, inputData[:, startData:stopData]]
-                    print ("start: %d stop: %d" % (startData, stopData))
+            for data in dataRange:
+                sensorOffset = 22*sensor+data
+                output = np.c_[output, inputData[:, sensorOffset]]
 
     history = 'getData: \n'  + sensorString + '\n' + dataString + '\n'
     fd = open('History.txt','a')
@@ -42,28 +37,26 @@ def getData(inputData, sensors = ['STE', 'LUA', 'LLA', 'LNS', 'RUA', 'RLA', 'RNS
     return output
 
 
-def getPosition(sensors, datas):
-    start, stop, dataString = startStopData(datas)
-    startSensors, sensorString = startSensor(sensors)
+def getPosition(sensors, datas, specifiedDatas):
+
 
     output = []
-    print output
+
+    dataRange, dataString = startStopData(datas, specifiedDatas)
+    startSensors, sensorString = startSensor(sensors)
 
     for sensor in startSensors:
         if (sensor != -1):
-            for i in range(0, len(start)):
-                if(start[i] != -1 and stop[i] != -1):
-                    sensorOffset = 22*sensor
-                    startData = int(defaultOffset+sensorOffset+start[i])
-                    stopData = int(defaultOffset+sensorOffset+stop[i])
-                    output = output + range(startData, stopData)
-                    print ("start: %d stop: %d" % (startData, stopData))
+            for data in dataRange:
+                sensorOffset = 22*sensor+data
+                output.append(sensorOffset)
 
     history = 'getPosition: \n' + sensorString + '\n' + dataString + '\n'
     fd = open('History.txt','a')
     fd.write(history)
     fd.close()
     return output
+
 
 def startSensor(sensors):
     sensorBools = [False, False, False, False, False, False, False, False, False, False, False, False, False, False]
@@ -149,7 +142,7 @@ def startSensor(sensors):
     return startSensors, sensorString
 
 #Sucht Start und Stopp in den Daten
-def startStopData(datas):
+def startStopData(datas, specifiedDatas):
     qua = False
     acc = False
     gyr = False
@@ -158,50 +151,87 @@ def startStopData(datas):
     rE2 = False
     rE3 = False
 
-    startOffsets = np.zeros(len(datas))
-    stopOffsets = np.zeros(len(datas))
+    dataRange = []
 
     string = 'Daten: '
+    specifiedString = 'Specified: '
 
     for data, i in zip(datas, range(0, len(datas))):
         if (data == 'acc' and acc == False):
+            for specifiedData in specifiedDatas:
+                if (specifiedData == 'x'):
+                    dataRange.append(0)
+                elif (specifiedData == 'y'):
+                    dataRange.append(1)
+                elif (specifiedData == 'z'):
+                    dataRange.append(2)
+            acc = True;
             string = string + data + ' '
-            acc = True
-            startOffsets[i] = 0
-            stopOffsets[i] = 3
         elif (data == 'gyr' and gyr == False):
+            for specifiedData in specifiedDatas:
+                if (specifiedData == 'x'):
+                    dataRange.append(3)
+                elif (specifiedData == 'y'):
+                    dataRange.append(4)
+                elif (specifiedData == 'z'):
+                    dataRange.append(5)
             string = string + data + ' '
             gyr = True
-            startOffsets[i] = 3
-            stopOffsets[i] = 6
+
         elif (data == 'mag' and mag == False):
+            for specifiedData in specifiedDatas:
+                if (specifiedData == 'x'):
+                    dataRange.append(6)
+                elif (specifiedData == 'y'):
+                    dataRange.append(7)
+                elif (specifiedData == 'z'):
+                    dataRange.append(8)
             string = string + data + ' '
             mag = True
-            startOffsets[i] = 6
-            stopOffsets[i] = 9
         elif (data == 'qua' and qua == False):
+            for specifiedData in specifiedDatas:
+                if(specifiedData == 'w'):
+                    dataRange.append(9)
+                elif (specifiedData == 'x'):
+                    dataRange.append(10)
+                elif (specifiedData == 'y'):
+                    dataRange.append(11)
+                elif (specifiedData == 'z'):
+                    dataRange.append(12)
             string = string + data + ' '
             qua = True
-            startOffsets[i] = 9
-            stopOffsets[i] = 13
         elif (data == 'rE1' and rE1 == False):
+            for specifiedData in specifiedDatas:
+                if (specifiedData == 'x'):
+                    dataRange.append(13)
+                elif (specifiedData == 'y'):
+                    dataRange.append(14)
+                elif (specifiedData == 'z'):
+                    dataRange.append(15)
             string = string + data + ' '
             rE1 = True
-            startOffsets[i] = 13
-            stopOffsets[i] = 16
+
         elif (data == 'rE2' and rE2 == False):
+            for specifiedData in specifiedDatas:
+                if (specifiedData == 'x'):
+                    dataRange.append(16)
+                elif (specifiedData == 'y'):
+                    dataRange.append(17)
+                elif (specifiedData == 'z'):
+                    dataRange.append(18)
             string = string + data + ' '
             rE2 = True
-            startOffsets[i] = 16
-            stopOffsets[i] = 19
         elif (data == 'rE3' and rE3 == False):
+            for specifiedData in specifiedDatas:
+                if (specifiedData == 'x'):
+                    dataRange.append(19)
+                elif (specifiedData == 'y'):
+                    dataRange.append(20)
+                elif (specifiedData == 'z'):
+                    dataRange.append(21)
             string = string + data + ' '
             rE3 = True
-            startOffsets[i] = 19
-            stopOffsets[i] = 22
-        else:
-            startOffsets[i] = -1
-            stopOffsets[i] = -1
-            print 'Keine gueltige Eingabe oder doppelte Eingabe (datas)'
 
-    return startOffsets, stopOffsets, string
+        else:
+            print 'Keine gueltige Eingabe oder doppelte Eingabe (datas)'
+    return dataRange, string

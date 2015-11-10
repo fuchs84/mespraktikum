@@ -3792,3 +3792,57 @@ Confusionsmatrix:
 --------------------------------------------------
 
  
+Datum: 10.11.2015 Zeit: 14: 9:19
+Kommentar: 
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+getData: 
+Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF 
+Daten: acc gyr mag qua rE1 rE2 rE3 
+
+ 
+Datum: 10.11.2015 Zeit: 14:10:43
+Kommentar: 
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+getData: 
+Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF 
+Daten: acc gyr mag qua rE1 rE2 rE3 
+
+ 
+Datum: 10.11.2015 Zeit: 14:12:18
+Kommentar: 
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+getData: 
+Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF 
+Daten: acc gyr mag qua rE1 rE2 rE3 
+
+ 
+Datum: 10.11.2015 Zeit: 14:17:34
+Kommentar: 
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+getData: 
+Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF 
+Daten: acc 
+
+ 
+Datum: 10.11.2015 Zeit: 14:18: 3
+Kommentar: 
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+getData: 
+Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF 
+Daten: acc 
+
+ 
+Datum: 10.11.2015 Zeit: 14:25:56
+Kommentar: 
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+getData: 
+Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF 
+Daten: acc 
+
+ 

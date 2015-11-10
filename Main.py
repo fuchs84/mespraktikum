@@ -32,7 +32,7 @@ time = 'Zeit: %2i:%2i:%2i' % (lt[3], lt[4], lt[5])
 
 #Personenauswahl
 #person: 0 = Sebastian, 1 = Tobias, 2 = Matthias
-person = 0
+person = 2
 pathData = ''
 pathLabel = ''
 if(person == 0):
@@ -73,33 +73,10 @@ fd.close()
 matrixnew = Labeling.labeldata(dataMatrix,label)
 matrixnew = Labeling.selectLabel(matrixnew,label, [8, 2])
 #Datenauswahl
-#matrixnew = Init.getData(matrixnew)
-pos = Init.getPosition(['RUF', 'LUF'], ['acc'])
+matrixnew = Init.getData(matrixnew,datas=['acc'], specifiedDatas=['x'])
+print len(matrixnew[0])
 
-
-#signalR = matrixnew[:, pos[2]]
-signalL = matrixnew[:, pos[5]]
-
-#_, freqR = FourierTransformation.maxAbsFreq(signalR)
-_, freqL = FourierTransformation.maxAbsFreq(signalL)
-print dataMatrix[:,1]
-#Sensorauswahl
-Sensor = range(2, 310)
-
-#Test Filter
-Steparray, step = StepExtraction.stepDetectionback(matrixnew)
-FeatureKonstruktion.histogramStride(step)
-
-vari = FeatureKonstruktion.stepmedian(matrixnew,Steparray)
-print vari
-plt.subplot(2,1,1)
-plt.plot(vari[:,290])
-plt.subplot(2,1,2)
-plt.plot(matrixnew[:,290])
-plt.show()
-print vari
-print matrixnew[:,1]
-Classifier.compareclassifier(vari,Sensor)
+np.savetxt('selectedData.csv', matrixnew, delimiter='\t')
 
 
 #Trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
