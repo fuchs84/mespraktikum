@@ -3846,3 +3846,30 @@ Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF
 Daten: acc 
 
  
+Datum: 10.11.2015 Zeit: 18:22:53
+Kommentar: 
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+getData: 
+Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF 
+Daten: acc 
+
+ 
+Datum: 11.11.2015 Zeit: 17:35:13
+Kommentar: 
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+getData: 
+Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF 
+Daten: acc 
+
+ 
+Datum: 11.11.2015 Zeit: 17:43:52
+Kommentar: 
+Datenpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/NWDaten/ID001/20150901/merged+vectors.csv
+Labelpfad: /Users/MatthiasFuchs/Desktop/Daten+Labels/Labels/ID001/MARKER_10.mat
+getData: 
+Sensoren: STE LUA LLA LNS RUA RLA RNS CEN LUL LLL LUF RUL RLL RUF 
+Daten: rE1 
+
+ 

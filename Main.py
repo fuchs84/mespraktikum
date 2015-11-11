@@ -73,10 +73,10 @@ fd.close()
 matrixnew = Labeling.labeldata(dataMatrix,label)
 matrixnew = Labeling.selectLabel(matrixnew,label, [8, 2])
 #Datenauswahl
-matrixnew = Init.getData(matrixnew,datas=['acc'], specifiedDatas=['x'])
-print len(matrixnew[0])
+matrixnew = Init.getData(matrixnew,datas=['rE1'], specifiedDatas=['z'])
 
-np.savetxt('selectedData.csv', matrixnew, delimiter='\t')
+
+np.savetxt('selectedData.csv', matrixnew[7000:9000, :], delimiter='\t')
 
 
 #Trennen der Daten in Trainings und Testdaten fuer die Klassifizierer

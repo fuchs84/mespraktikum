@@ -23,10 +23,11 @@ def getData(inputData, sensors = ['STE', 'LUA', 'LLA', 'LNS', 'RUA', 'RLA', 'RNS
     dataRange, dataString = startStopData(datas, specifiedDatas)
     startSensors, sensorString = startSensor(sensors)
 
+
     for sensor in startSensors:
         if (sensor != -1):
             for data in dataRange:
-                sensorOffset = 22*sensor+data
+                sensorOffset = 22*sensor+data+defaultOffset;
                 output = np.c_[output, inputData[:, sensorOffset]]
 
     history = 'getData: \n'  + sensorString + '\n' + dataString + '\n'
@@ -48,7 +49,7 @@ def getPosition(sensors, datas, specifiedDatas):
     for sensor in startSensors:
         if (sensor != -1):
             for data in dataRange:
-                sensorOffset = 22*sensor+data
+                sensorOffset = 22*sensor+data+defaultOffset
                 output.append(sensorOffset)
 
     history = 'getPosition: \n' + sensorString + '\n' + dataString + '\n'
