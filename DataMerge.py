@@ -12,9 +12,9 @@ import pandas as pd
 import computeAngles as ca
 
 #daten laden die benoetigt werden
-x1bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\c4\xbus.csv', sep = "\t")
+x1bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID003\20151106\x1\xbus.csv', sep = "\t")
 
-x2bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\55\xbus.csv', sep = "\t")
+x2bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID003\20151106\x2\xbus.csv', sep = "\t")
 
 
 
@@ -186,7 +186,7 @@ for i in range(0, numberofsensors):
     print output.shape
     print output[1,:].shape
 
-np.savetxt('merged.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+np.savetxt('mergedID0031.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
                               '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
                               '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
                               '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',

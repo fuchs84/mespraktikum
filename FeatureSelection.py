@@ -59,10 +59,12 @@ def featureSelectionPCA(data, components):
     label = data[:, 1]
     sel = PCA(n_components= components, copy=True)
     dataNew = sel.fit_transform(dataRaw, label)
-    fd = open('History.txt','a')
-    history = 'Feature Selection: PCA' + '\n' + 'Selected Feature: ' + str(sel.get_support(True)) + '\n'
-    fd.write(history)
-    fd.close()
+    fitter = sel.fit(dataRaw, label)
+    print fitter.components_
+   # fd = open('History.txt','a')
+   # history = 'Feature Selection: PCA' + '\n' + 'Selected Feature: ' + str(sel.get_support(True)) + '\n'
+    #fd.write(history)
+    #fd.close()
     return  np.c_[data[:, :2], dataNew]
 
 

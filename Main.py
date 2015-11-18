@@ -21,6 +21,7 @@ import PeakDetection
 import scipy.io
 import time as t
 import FeatureKonstruktion
+import ELANMerger
 
 
 
@@ -32,11 +33,14 @@ time = 'Zeit: %2i:%2i:%2i' % (lt[3], lt[4], lt[5])
 
 #Personenauswahl
 #person: 0 = Sebastian, 1 = Tobias, 2 = Matthias
-person = 2
+person = 0
 pathData = ''
 pathLabel = ''
 if(person == 0):
     print 'Sebastian'
+    elan = pd.read_csv(r'C:\Users\Sebastian\Desktop\adrianLaufLabeled.csv', sep = "\t")
+    elan = pd.DataFrame(elan.as_matrix())
+    elan = ELANMerger.create(elan)
     pathData = r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv'
     pathLabel = r'C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat'
     rawData = pd.read_csv(pathData, sep='\t')
@@ -68,17 +72,22 @@ fd.write(history)
 history = 'Labelpfad: ' + pathLabel + '\n'
 fd.write(history)
 fd.close()
-
+print elan
 #Daten + Label
 matrixnew = Labeling.labeldata(dataMatrix,label)
-matrixnew = Labeling.selectLabel(matrixnew,label, [8, 2])
+matrixnew = Labeling.selectLabel(matrixnew,label,[2,8])
+
 #Datenauswahl
-matrixnew = Init.getData(matrixnew,datas=['rE1'], specifiedDatas=['z'])
+matrixnew = Init.getData(matrixnew,sensors=["CEN"],datas=[ 'mag'])
+print matrixnew.shape
+matrixnew = FeatureKonstruktion.filter(matrixnew,range(2,len(matrixnew[1,:])),2)
+matrixnew = FeatureKonstruktion.Ableitung(matrixnew,range(2,len(matrixnew[1,:])),10)
+matrixnew = FeatureKonstruktion.medianfilter(matrixnew,range(2,len(matrixnew[1,:])),1000)
 
-
-np.savetxt('selectedData.csv', matrixnew[7000:9000, :], delimiter='\t')
-
-
+#np.savetxt('selectedDatapcaVec05000.csv', pca[0:5000, :], delimiter='\t')
+np.savetxt('selectedDatamag.csv', matrixnew[0:20000, :], delimiter='\t')
+plt.plot(matrixnew[:,2:])
+plt.show()
 #Trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
 #clf,X_train, X_test, y_train, y_test = Classifier.classify(matrixnew,Sensor,classifier="AdaBoost")
 

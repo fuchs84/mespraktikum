@@ -86,17 +86,24 @@ def medianfilter(dataMatrix,Sensor, Windowsize):
     for Sensors in Sensor:
         array = []
         for k in range(0, len(dataMatrix)-Windowsize):
-            summand = 0
+            summand = []
             for i in range(1, Windowsize):
-                summand += dataMatrix[k-i,Sensors]
-                summand += dataMatrix[k+i,Sensors]
-            summand += dataMatrix[k,Sensors]
-            array.append(summand/(2*Windowsize+1))
+                summand.append(dataMatrix[k-i,Sensors])
+                summand.append(dataMatrix[k+i,Sensors])
+            summand.append(dataMatrix[k,Sensors])
+            array.append(np.median(summand))
+        for k in range(len(dataMatrix)-Windowsize,len(dataMatrix)):
+            array.append(dataMatrix[k,Sensors])
         median.append(array)
+    print dataMatrix[:,:2].shape
+    median=np.array(median)
+    median=np.array(median.T)
+    print median.shape
     return np.c_[dataMatrix[:, :2], median]
 
 def Ableitung(dataMatrix, Sensor, Windowsize=1):
     Array = []
+    print Sensor
     for Sensors in Sensor:
         array = []
         for k in range(0, len(dataMatrix)-10):
@@ -105,7 +112,16 @@ def Ableitung(dataMatrix, Sensor, Windowsize=1):
             summand += abs(dataMatrix[k+10,Sensors])
             summand = summand - abs(dataMatrix[k,Sensors])
             array.append(abs(summand))
+        for k in range(len(dataMatrix)-Windowsize,len(dataMatrix)):
+            array.append(dataMatrix[k,Sensors])
         Array.append(array)
+    Array=np.array(Array)
+    Array=np.array(Array.T)
+
+    print dataMatrix[:,:2].shape
+    print Array.shape
+
+
     return np.c_[dataMatrix[:, :2], Array]
 
 #gibt durchscnittliche Zeit zwischen den  Peaks im Graphen an
