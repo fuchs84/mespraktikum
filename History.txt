@@ -5745,3 +5745,188 @@ Sensoren: RNS LNS
 Daten: acc 
 
  
+Datum: 25.11.2015 Zeit: 12:49:15
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 25.11.2015 Zeit: 13:10: 6
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 25.11.2015 Zeit: 13:11:24
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 25.11.2015 Zeit: 13:13: 9
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 25.11.2015 Zeit: 13:15: 2
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 25.11.2015 Zeit: 13:15:49
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 25.11.2015 Zeit: 13:16:33
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 25.11.2015 Zeit: 13:18:22
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 25.11.2015 Zeit: 13:20:28
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+Datum: 25.11.2015 Zeit: 13:22:20
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 25.11.2015 Zeit: 13:23:23
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+Datum: 25.11.2015 Zeit: 13:23:26
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+Datum: 25.11.2015 Zeit: 13:24:20
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+
+ 
+
+ 
+
+ 
+
+ 
+Datum: 25.11.2015 Zeit: 13:26:26
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 25.11.2015 Zeit: 13:46:49
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 25.11.2015 Zeit: 13:47:47
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 25.11.2015 Zeit: 13:59:23
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+Datum: 25.11.2015 Zeit: 14: 0: 0
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+Datum: 25.11.2015 Zeit: 14: 1: 7
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 25.11.2015 Zeit: 14: 4:50
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+
+ 

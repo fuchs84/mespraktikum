@@ -175,23 +175,39 @@ def angle(vec1,vec2):
 
 #Fehlerfeatures der verschiedenen Fehler
 #Fehler der Kategorie 1
+def schulterbewegung(matrixnew):
+    angleschulterright = sensorwinkel(matrixnew,Sensoren=["STE","RUA"])
+    angleschulterleft = sensorwinkel(matrixnew,Sensoren=["STE","LUA"])
+    plt.subplot(2,1,1)
+    plt.plot(angleschulterright)
+
+    plt.subplot(2,1,2)
+    plt.plot(angleschulterleft)
+    plt.show()
+    return angleschulterleft,angleschulterright
+
 def armstreckung(matrixnew):
-    re1 = Init.getData(matrixnew,sensors=["RUF","RLL"],datas=[ "rE1","rE2","rE3"])
-    anlematrixre1 = angle(re1[:,2:5],re1[:,5:8])
+    anglearmterright = sensorwinkel(matrixnew,Sensoren=["RLA","RUA"])
+    anglearmlterleft = sensorwinkel(matrixnew,Sensoren=["LLA","LUA"])
+    return anglearmlterleft,anglearmterright
+
+# gibt den das winkelmaximum und minimum eines sensorpaars innerhalb eines schrittes zurueck
+def sensorwinkel(matrixnew, Sensoren= ["RUA","RLA"]):
+    re1 = Init.getData(matrixnew,sensors=Sensoren,datas=[ "rE1","rE2","rE3"])
+    anlematrixre1 = angle(re1[:,11:14],re1[:,2:5])
     anglearm = anlematrixre1[:,0]
-    anlematrixre1 = angle(re1[:,8:11],re1[:,11:14])
+    anlematrixre1 = angle(re1[:,14:17],re1[:,5:8])
     anglearm2 = anlematrixre1[:,0]
-    anlematrixre1 = angle(re1[:,14:17],re1[:,17:20])
+    anlematrixre1 = angle(re1[:,17:20],re1[:,8:11])
     anglearm3 = anlematrixre1[:,0]
     anglecomb= [ ]
     extractedstep,steps = StepExtraction.stepDetectionback(matrixnew)
     for i in range(0,len(anglearm)):
-        anglecomb.append(np.sqrt((np.square(anglearm[i,0])+np.square(anglearm2[i,0])+np.square(anglearm3[i,0]))))
+        anglecomb.append(np.sqrt((np.square(anglearm3[i,0]))+(np.square(anglearm[i,0]))+(np.square(anglearm3[i,0]))))
 
     print anglecomb
     maxanglearm = []
     minanglearm = []
-    print anglearm
     for i in range(0,len(extractedstep)):
         maxpos = (np.argmax(anglecomb[(extractedstep[i,0]):(extractedstep[i,1])]))
         maxanglearm.append((anglecomb[(extractedstep[i,0])+maxpos]))
@@ -199,9 +215,12 @@ def armstreckung(matrixnew):
         minanglearm.append(anglecomb[(extractedstep[i,0])+minpos])
 
     angleE = np.c_[minanglearm,maxanglearm]
+    print "---------------------------------------------------------------------"
+    angleE= 180-angleE
     return angleE
 
 
+#Erkennt zeitunterschied zwischen den
 def Passgang(matrixnew):
     ACC = Init.getData(matrixnew,sensors=["RNS","LLL"],datas=["acc"],specifiedDatas="x")
     ACC2 = Init.getData(matrixnew,sensors=["LNS","RLL"],datas=["acc"],specifiedDatas="x")

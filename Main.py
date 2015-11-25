@@ -74,7 +74,7 @@ fd.write(history)
 fd.close()
 #Daten + Label
 matrixnew = Labeling.labeldata(dataMatrix,label)
-matrixnew = Labeling.selectLabel(matrixnew[0:40000,:],label,[2,8])
+matrixnew = Labeling.selectLabel(matrixnew[0:30000,:],label,[2,8])
 
 arm= FeatureKonstruktion.Stockaufsatz(matrixnew)
 #Datenauswahl
@@ -84,7 +84,8 @@ print arm
 #np.savetxt('selectedDatapcaVec05000.csv', pca[0:5000, :], delimiter='\t')
 #np.savetxt('selectedDatamag.csv', matrixnew[0:20000, :], delimiter='\t')
 plt.subplot(2,1,1)
-plt.plot(arm)
+
+
 
 plt.subplot(2,1,2)
 
