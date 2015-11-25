@@ -72,21 +72,22 @@ fd.write(history)
 history = 'Labelpfad: ' + pathLabel + '\n'
 fd.write(history)
 fd.close()
-print elan
 #Daten + Label
 matrixnew = Labeling.labeldata(dataMatrix,label)
-matrixnew = Labeling.selectLabel(matrixnew,label,[2,8])
+matrixnew = Labeling.selectLabel(matrixnew[0:40000,:],label,[2,8])
 
+arm= FeatureKonstruktion.Stockaufsatz(matrixnew)
 #Datenauswahl
-matrixnew = Init.getData(matrixnew,sensors=["CEN"],datas=[ 'mag'])
-print matrixnew.shape
-matrixnew = FeatureKonstruktion.filter(matrixnew,range(2,len(matrixnew[1,:])),2)
-matrixnew = FeatureKonstruktion.Ableitung(matrixnew,range(2,len(matrixnew[1,:])),10)
-matrixnew = FeatureKonstruktion.medianfilter(matrixnew,range(2,len(matrixnew[1,:])),1000)
+
+print arm
 
 #np.savetxt('selectedDatapcaVec05000.csv', pca[0:5000, :], delimiter='\t')
-np.savetxt('selectedDatamag.csv', matrixnew[0:20000, :], delimiter='\t')
-plt.plot(matrixnew[:,2:])
+#np.savetxt('selectedDatamag.csv', matrixnew[0:20000, :], delimiter='\t')
+plt.subplot(2,1,1)
+plt.plot(arm)
+
+plt.subplot(2,1,2)
+
 plt.show()
 #Trennen der Daten in Trainings und Testdaten fuer die Klassifizierer
 #clf,X_train, X_test, y_train, y_test = Classifier.classify(matrixnew,Sensor,classifier="AdaBoost")
