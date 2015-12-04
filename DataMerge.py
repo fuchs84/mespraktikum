@@ -12,9 +12,9 @@ import pandas as pd
 import computeAngles as ca
 
 #daten laden die benoetigt werden
-x1bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID003\20151106\x1\xbus.csv', sep = "\t")
+x1bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID003\20151203\x1\xbus.csv', sep = "\t")
 
-x2bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID003\20151106\x2\xbus.csv', sep = "\t")
+x2bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID003\20151203\x2\xbus.csv', sep = "\t")
 
 
 
@@ -140,7 +140,7 @@ for i in range(1,len(tempmergedtime)):
             emptylist.append(empty)
 print "mergeok"
 mergerino = pd.DataFrame(tempmergedtime.iloc[0:emptypos[0],:])
-
+print mergerino.iloc[:,93:95]
 for i in range(0,counter):
     addfiller = pd.DataFrame(emptylist[i])
     for k in range(0,len(addfiller)):
@@ -186,7 +186,7 @@ for i in range(0, numberofsensors):
     print output.shape
     print output[1,:].shape
 
-np.savetxt('mergedID0031.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+np.savetxt('mergedID003.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
                               '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
                               '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
                               '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
@@ -220,6 +220,6 @@ plt.subplot(4, 1, 3)
 plt.plot(dfx2.iloc[:,3:])
 
 plt.subplot(4, 1, 4)
-plt.plot(mergerino.iloc[:,2:])
+plt.plot(mergerino.iloc[500:,93:])
 
 plt.show()

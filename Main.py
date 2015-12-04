@@ -38,10 +38,10 @@ pathData = ''
 pathLabel = ''
 if(person == 0):
     print 'Sebastian'
-    elan = pd.read_csv(r'C:\Users\Sebastian\Desktop\adrianLaufLabeled.csv', sep = "\t")
+    elan = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\20151126ID002\20151126ID002.csv', sep = "\t")
     elan = pd.DataFrame(elan.as_matrix())
     elan = ELANMerger.create(elan)
-    pathData = r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20150901\merged.csv'
+    pathData = r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv'
     pathLabel = r'C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat'
     rawData = pd.read_csv(pathData, sep='\t')
     dataMatrix = rawData.as_matrix()
@@ -73,21 +73,33 @@ history = 'Labelpfad: ' + pathLabel + '\n'
 fd.write(history)
 fd.close()
 #Daten + Label
-matrixnew = Labeling.labeldata(dataMatrix,label)
-matrixnew = Labeling.selectLabel(matrixnew[0:30000,:],label,[2,8])
-
-arm= FeatureKonstruktion.Stockaufsatz(matrixnew)
+#matrixnew = Labeling.labeldata(dataMatrix,label)
+#matrixnew = Labeling.selectLabel(matrixnew[0:30000,:],label,[2,8])
+#steparray, x = StepExtraction.stepDetectionback(matrixnew)
+#passg = Init.getData(matrixnew,sensors=["RNS","LUF"],datas=["acc"],specifiedDatas=["z"])
 #Datenauswahl
 
-print arm
+
+dataMatrix,steps = StepExtraction.videosteps(dataMatrix[1830:,:],elan)
+passgang = FeatureKonstruktion.Passgang(dataMatrix,steps[:,[0,1]])
+#rightpeak,leftpeak = FeatureKonstruktion.Stockaufsatz(dataMatrix,steps[:,[0,1]])
+a,b = FeatureKonstruktion.schulterbewegung(dataMatrix,steps[:,[0,1]])
+
+
+
 
 #np.savetxt('selectedDatapcaVec05000.csv', pca[0:5000, :], delimiter='\t')
 #np.savetxt('selectedDatamag.csv', matrixnew[0:20000, :], delimiter='\t')
-plt.subplot(2,1,1)
+plt.subplot(3,1,1)
+plt.plot(passgang)
+#plt.plot(passg[:,2:])
+
+plt.subplot(3,1,2)
+plt.plot(a)
+plt.subplot(3,1,3)
+plt.plot(b)
 
 
-
-plt.subplot(2,1,2)
 
 plt.show()
 #Trennen der Daten in Trainings und Testdaten fuer die Klassifizierer

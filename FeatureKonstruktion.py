@@ -175,24 +175,46 @@ def angle(vec1,vec2):
 
 #Fehlerfeatures der verschiedenen Fehler
 #Fehler der Kategorie 1
-def schulterbewegung(matrixnew):
-    angleschulterright = sensorwinkel(matrixnew,Sensoren=["STE","RUA"])
-    angleschulterleft = sensorwinkel(matrixnew,Sensoren=["STE","LUA"])
+#schulterbewegung und armstreckung ist ein kombiniertes feature zur armverwendung
+def schulterbewegung(matrixnew,extractedstep):
+    angleschulterright = sensorwinkel(matrixnew,extractedstep,Sensoren=["STE","RUA"])
+    angleschulterleft = sensorwinkel(matrixnew,extractedstep,Sensoren=["STE","LUA"])
     plt.subplot(2,1,1)
     plt.plot(angleschulterright)
 
     plt.subplot(2,1,2)
     plt.plot(angleschulterleft)
     plt.show()
+    angleschulterright = abs(angleschulterright[:,0]-angleschulterright[:,1])
+    angleschulterleft = abs(angleschulterleft[:,0]-angleschulterleft[:,1])
+
     return angleschulterleft,angleschulterright
 
-def armstreckung(matrixnew):
-    anglearmterright = sensorwinkel(matrixnew,Sensoren=["RLA","RUA"])
-    anglearmlterleft = sensorwinkel(matrixnew,Sensoren=["LLA","LUA"])
+def armstreckung(matrixnew,extractedstep):
+    anglearmterright = sensorwinkel(matrixnew,extractedstep,Sensoren=["RLA","RUA"])
+    anglearmlterleft = sensorwinkel(matrixnew,extractedstep,Sensoren=["LLA","LUA"])
     return anglearmlterleft,anglearmterright
 
+
+def winkelgesamt(matrixnew,Sensoren= ["RUA","RLA"]):
+    re1 = Init.getData(matrixnew,sensors=Sensoren,datas=[ "rE1","rE2","rE3"])
+    print len(matrixnew)
+    anlematrixre1 = angle(re1[:,11:14],re1[:,2:5])
+    anglearm = anlematrixre1[:,0]
+    anlematrixre1 = angle(re1[:,14:17],re1[:,5:8])
+    anglearm2 = anlematrixre1[:,0]
+    anlematrixre1 = angle(re1[:,17:20],re1[:,8:11])
+    anglearm3 = anlematrixre1[:,0]
+    anglecomb= [ ]
+    for i in range(0,len(anglearm)):
+        anglecomb.append(np.sqrt((np.square(anglearm2[i,0]))+(np.square(anglearm[i,0]))+(np.square(anglearm3[i,0]))))
+    print len(anglecomb)
+    return anglecomb
+
+
+
 # gibt den das winkelmaximum und minimum eines sensorpaars innerhalb eines schrittes zurueck
-def sensorwinkel(matrixnew, Sensoren= ["RUA","RLA"]):
+def sensorwinkel(matrixnew, extractedstep, Sensoren= ["RUA","RLA"]):
     re1 = Init.getData(matrixnew,sensors=Sensoren,datas=[ "rE1","rE2","rE3"])
     anlematrixre1 = angle(re1[:,11:14],re1[:,2:5])
     anglearm = anlematrixre1[:,0]
@@ -201,9 +223,8 @@ def sensorwinkel(matrixnew, Sensoren= ["RUA","RLA"]):
     anlematrixre1 = angle(re1[:,17:20],re1[:,8:11])
     anglearm3 = anlematrixre1[:,0]
     anglecomb= [ ]
-    extractedstep,steps = StepExtraction.stepDetectionback(matrixnew)
     for i in range(0,len(anglearm)):
-        anglecomb.append(np.sqrt((np.square(anglearm3[i,0]))+(np.square(anglearm[i,0]))+(np.square(anglearm3[i,0]))))
+        anglecomb.append(np.sqrt((np.square(anglearm2[i,0]))+(np.square(anglearm[i,0]))+(np.square(anglearm3[i,0]))))
 
     print anglecomb
     maxanglearm = []
@@ -221,15 +242,17 @@ def sensorwinkel(matrixnew, Sensoren= ["RUA","RLA"]):
 
 
 #Erkennt zeitunterschied zwischen den
-def Passgang(matrixnew):
+def Passgang(matrixnew,extractedstep):
     ACC = Init.getData(matrixnew,sensors=["RNS","LLL"],datas=["acc"],specifiedDatas="x")
     ACC2 = Init.getData(matrixnew,sensors=["LNS","RLL"],datas=["acc"],specifiedDatas="x")
-    extractedstep,steps = StepExtraction.stepDetectionback(matrixnew)
+
     ACC = Ableitung(ACC[:,:],[2,3],1)[:,2:]
     ACC2 = Ableitung(ACC2[:,:],[2,3],1)[:,2:]
     zeitverschiebung =[]
     zeitverschiebunglinks =[]
+    print extractedstep
     for i in range(0,len(extractedstep)):
+
         maxpos = (np.argmax(ACC2[(extractedstep[i,0]):(extractedstep[i,1]),0]))
         minpos= (np.argmax(ACC2[(extractedstep[i,0]):(extractedstep[i,1]),1]))
         zeitverschiebung.append(abs(maxpos-minpos))
@@ -245,7 +268,7 @@ def Passgang(matrixnew):
         else: vereinigung.append(zeitverschiebung[j])
     return vereinigung
 
-def Stockaufsatz(matrixnew,Einheitsvektor ="rE1"):
+def Stockaufsatz(matrixnew,extractedstep,Einheitsvektor ="rE1"):
     re1 = Init.getData(matrixnew,sensors=["RNS","LNS"],datas=[ Einheitsvektor])
     ACC = Init.getData(matrixnew,sensors=["RNS","LNS"],datas=["acc"],specifiedDatas="x")
     ACCright =  Ableitung(ACC[:,:],[2],1)[:,2:]
@@ -258,7 +281,7 @@ def Stockaufsatz(matrixnew,Einheitsvektor ="rE1"):
     anlematrixre = angle(re1[:,5:8],Vektor)
     anglestickright = anlematrixre1[:,0]
     anglestickleft = anlematrixre[:,0]
-    extractedstep,steps = StepExtraction.stepDetectionback(matrixnew)
+
     rightpeak = []
     leftpeak = []
     for i in range(0,len(extractedstep)):
@@ -269,13 +292,68 @@ def Stockaufsatz(matrixnew,Einheitsvektor ="rE1"):
 
 
     print rightpeak
-    plt.subplot(2,1,1)
-    plt.plot(rightpeak)
 
-    plt.subplot(2,1,2)
-    plt.plot(leftpeak)
-    plt.show()
     return rightpeak,leftpeak
+
+
+#Fehler 2. Art Muskulatur nicht optimal ausgelastst
+
+#handverkrampft gibt den winkel zwischen stoch und untera
+def handverkrampft(matrixnew,extractedstep):
+    angleright = winkelgesamt(matrixnew,Sensoren=["RNS","RLA"])
+    angleleft = winkelgesamt(matrixnew,Sensoren=["LNS","RLA"])
+    varleft=[]
+    meanleft=[]
+    varright=[]
+    meanright=[]
+    for i in range(0,len(extractedstep)):
+        rightstep = angleright[(extractedstep[i,0]):(extractedstep[i,1])]
+        leftstep = angleleft[(extractedstep[i,0]):(extractedstep[i,1])]
+        sumleft=0
+        sumright =0
+        for j in range(0,len(leftstep)):
+            sumleft+= leftstep[j]
+            sumright+= rightstep[j]
+        meanleft.append(sumleft/abs((extractedstep[i,0])-(extractedstep[i,1])))
+        meanright.append(sumright/abs((extractedstep[i,0])-(extractedstep[i,1])))
+        sumleft =0
+        sumright=0
+        for k in range(0,len(leftstep)):
+            sumleft += np.square((leftstep[k]-meanleft[i]))
+            sumright += np.square((rightstep[k]-meanright[i]))
+        varleft.append(sumleft/abs((extractedstep[i,0])-(extractedstep[i,1])))
+        varright.append(sumright/abs((extractedstep[i,0])-(extractedstep[i,1])))
+
+
+
+
+
+    return meanright,meanleft,varright,varleft
+
+
+def aufrechtgehen(matrixnew):
+        back = Init.getData(matrixnew,sensors=["STE","CEN"],datas=[ "rE1"])
+        Vektor = np.zeros((len(back),3))
+        Vektor[:,0] = 1
+        angleSTEmovement = angle(back[:,2:5],Vektor)
+        angleCENmovement = angle(back[:,5:8],Vektor)
+        Vektor[:,0] = 0
+        Vektor[:,2] = 1
+        angleSTEupwards = angle(back[:,2:5],Vektor)
+        angleCENupwards = angle(back[:,5:8],Vektor)
+        plt.subplot(2,1,1)
+        plt.plot(angleSTEupwards)
+        plt.plot(angleSTEmovement)
+        plt.subplot(2,1,2)
+
+        plt.plot(angleCENupwards)
+        plt.plot(angleCENmovement)
+        plt.show()
+
+        
+
+
+
 
 
 

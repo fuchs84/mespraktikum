@@ -15,13 +15,10 @@ import computeAngles as ca
 
 
 def create(elan):
-    elan = pd.concat([elan.iloc[:,[0,2,3,4,5]]])
 
+    #elan = pd.concat([elan.iloc[:,[0,2,3,4,5]]])
+    elan = pd.DataFrame(elan.iloc[:,[0,2,3,4,5]])
     elan = elan.as_matrix()
-    newdata = elan
-    substract = elan[0,1]
-    for i in range(0,len(elan)):
-        newdata[i,1]= elan[i,1]-substract
-        newdata[i,2]= elan[i,2]-substract
-        newdata[i,4]=i
+
+
     return  elan
