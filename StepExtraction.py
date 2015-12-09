@@ -136,24 +136,24 @@ def stepDetectionright(dataMatrix):
     return extractedstep, np.c_[dataMatrix,  newmatrix[:,0]]
 
 def videosteps(dataMatrix, elan):
-    print elan
+    newMatrix= dataMatrix
+    newlan =elan
     elan = pd.DataFrame(elan[:,1:],index=elan[:,0])
     elan = np.array(elan.ix['Strides'])
     elan = elan/10
     elanhalbe = elan/2
-    stepright, noneed = stepDetectionright(dataMatrix)
-    stepleft, noneed = stepDetectionleft(dataMatrix)
+    stepright, noneed = stepDetectionright(newMatrix)
+    stepleft, noneed = stepDetectionleft(newMatrix)
     steps = np.concatenate((stepright,stepleft))
     realsteps = []
     for i in range(0,len(elan)):
         nearest =  find_nearest(steps[:,0],elanhalbe[i,0])
         nearest2 = steps[nearest,0]
         nearest = steps[nearest,1]
-        realsteps.append([nearest2,nearest,elan[i,0],elan[i,1]])
+        realsteps.append([int(nearest2),int(nearest),int(elan[i,0])*20,int(elan[i,1])*20])
     realsteps = np.array(realsteps)
-    print(len(realsteps))
-    print(len(elanhalbe))
-    plt.plot(dataMatrix[:,9])
+
+    plt.plot(newMatrix[:,9])
     for  xs in elanhalbe[:,0]:
         plt.axvline(x=xs,color = 'r')
     for  xs in elanhalbe[:,1]:
@@ -163,8 +163,7 @@ def videosteps(dataMatrix, elan):
     for  xs in realsteps[:,1]:
         plt.axvline(x=xs,color = 'b')
     plt.show()
-    print realsteps[:,[0,1]]
-    return dataMatrix, realsteps
+    return newMatrix, realsteps
 
 
 def findsync(dataMatrix):

@@ -179,20 +179,16 @@ def angle(vec1,vec2):
 def schulterbewegung(matrixnew,extractedstep):
     angleschulterright = sensorwinkel(matrixnew,extractedstep,Sensoren=["STE","RUA"])
     angleschulterleft = sensorwinkel(matrixnew,extractedstep,Sensoren=["STE","LUA"])
-    plt.subplot(2,1,1)
-    plt.plot(angleschulterright)
-
-    plt.subplot(2,1,2)
-    plt.plot(angleschulterleft)
-    plt.show()
     angleschulterright = abs(angleschulterright[:,0]-angleschulterright[:,1])
     angleschulterleft = abs(angleschulterleft[:,0]-angleschulterleft[:,1])
-
+    print angleschulterleft
     return angleschulterleft,angleschulterright
 
 def armstreckung(matrixnew,extractedstep):
     anglearmterright = sensorwinkel(matrixnew,extractedstep,Sensoren=["RLA","RUA"])
     anglearmlterleft = sensorwinkel(matrixnew,extractedstep,Sensoren=["LLA","LUA"])
+    anglearmterright = abs(anglearmterright[:,0]-anglearmterright[:,1])
+    anglearmlterleft = abs(anglearmlterleft[:,0]-anglearmlterleft[:,1])
     return anglearmlterleft,anglearmterright
 
 
@@ -330,7 +326,7 @@ def handverkrampft(matrixnew,extractedstep):
 
     return meanright,meanleft,varright,varleft
 
-
+#Ueberpruefen des aufrechten winkels
 def aufrechtgehen(matrixnew):
         back = Init.getData(matrixnew,sensors=["STE","CEN"],datas=[ "rE1"])
         Vektor = np.zeros((len(back),3))

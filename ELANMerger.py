@@ -10,6 +10,8 @@ import math
 import pylab as plb
 import pandas as pd
 import computeAngles as ca
+import  StepExtraction
+import FeatureKonstruktion
 
 #daten laden die benoetigt werden
 
@@ -22,3 +24,22 @@ def create(elan):
 
 
     return  elan
+
+def MatrixforAndroid(datamatrix, elan):
+    modifiedmatrix ,steps = StepExtraction.videosteps(datamatrix,elan)
+    passgang = FeatureKonstruktion.Passgang(modifiedmatrix,steps[:,[0,1]])
+    rightpeak,leftpeak = FeatureKonstruktion.Stockaufsatz(modifiedmatrix,steps[:,[0,1]])
+    a,b = FeatureKonstruktion.schulterbewegung(modifiedmatrix,steps[:,[0,1]])
+    c,d = FeatureKonstruktion.armstreckung(modifiedmatrix,steps[:,[0,1]])
+    print len(steps)
+    print len(passgang)
+    print len(rightpeak)
+    print len(leftpeak)
+    print len(a)
+    print len(c)
+    print "Featurfile"
+    print steps
+    print passgang
+    FeatureFile= np.c_[steps,passgang,rightpeak,leftpeak,a,b,c,d]
+    print(FeatureFile)
+    np.savetxt("20151126ID002features.csv",FeatureFile,delimiter="\t")

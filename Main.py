@@ -78,26 +78,44 @@ fd.close()
 #steparray, x = StepExtraction.stepDetectionback(matrixnew)
 #passg = Init.getData(matrixnew,sensors=["RNS","LUF"],datas=["acc"],specifiedDatas=["z"])
 #Datenauswahl
+print(elan)
+Matrix= dataMatrix
+print Matrix[1854:,0]
+newvalue = (dataMatrix[:,0])
+timestamp =  []
+duration = []
+
+FeatureKonstruktion.aufrechtgehen(dataMatrix)
+#ELANMerger.MatrixforAndroid(dataMatrix[1854:,:],elan)
 
 
-dataMatrix,steps = StepExtraction.videosteps(dataMatrix[1830:,:],elan)
-passgang = FeatureKonstruktion.Passgang(dataMatrix,steps[:,[0,1]])
-#rightpeak,leftpeak = FeatureKonstruktion.Stockaufsatz(dataMatrix,steps[:,[0,1]])
-a,b = FeatureKonstruktion.schulterbewegung(dataMatrix,steps[:,[0,1]])
+print "steps"
+print timestamp
+print duration
+
 
 
 
 
 #np.savetxt('selectedDatapcaVec05000.csv', pca[0:5000, :], delimiter='\t')
 #np.savetxt('selectedDatamag.csv', matrixnew[0:20000, :], delimiter='\t')
-plt.subplot(3,1,1)
-plt.plot(passgang)
-#plt.plot(passg[:,2:])
+plt.subplot(4,1,1)
+plt.title("passgang")
+#plt.plot(passgang)
 
-plt.subplot(3,1,2)
-plt.plot(a)
-plt.subplot(3,1,3)
-plt.plot(b)
+plt.subplot(4,1,2)
+plt.title("Stockaufsatz")
+#plt.plot(rightpeak,label="Rechter Stock")
+#plt.plot(leftpeak,label ="Linker Stock")
+plt.subplot(4,1,3)
+plt.title("Schulter")
+#plt.plot(a,label= "Linkeschulter")
+#plt.plot(b, label= "Rechteschulter")
+plt.subplot(4,1,4)
+plt.title("Arm")
+#plt.plot(c,label= "Linker Arm")
+#plt.plot(d, label= "Rechter Arm")
+
 
 
 
@@ -111,8 +129,7 @@ print "classify start"
 #Classifier.compareclassifier(matrixnew,Sensor)
 print "classify finished"
 #short= dataMatrix[46000:,:]
-#np.savetxt('testdataproband001.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f'] ,X= short, delimiter='\t')
-
+np.savetxt('testdataproband001.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f'] ,X= short, delimiter='\t')
 
 fd = open('History.txt','a')
 fd.write('\n \n')
