@@ -13,16 +13,24 @@ __author__ = 'Sebastian'
 
 def getminimas(dataMatrix, Sensor=[290]):
     signal = dataMatrix[:,Sensor[0]]
-    maxAbsValue, maxAbsFreq = FourierTransformation.maxAbsFreq(signal)
+    maxAbsValue, maxAbsFreq = FourierTransformation.maxAbsFreq(signal[0:13000])
     Filtered = FeatureKonstruktion.filter(dataMatrix,Sensor,maxAbsFreq)
+    print maxAbsFreq,maxAbsValue
+    plt.plot(signal)
+    plt.show()
 
     return argrelmin(Filtered[:,Sensor],order=25)
 
 def getmaximas(dataMatrix, Sensor=[290]):
     signal = dataMatrix[:,Sensor[0]]
-    maxAbsValue, maxAbsFreq = FourierTransformation.maxAbsFreq(signal)
+    maxAbsValue, maxAbsFreq = FourierTransformation.maxAbsFreq(signal[0:13000])
     Filtered = FeatureKonstruktion.filter(dataMatrix,Sensor,maxAbsFreq)
-
+    plt.plot(Filtered[:,Sensor],label="z-Acceleration Foot")
+    plt.title("Filtered acceleration")
+    plt.legend()
+    plt.xlabel("Samples")
+    plt.ylabel("m/s^2")
+    plt.show()
     return argrelmax(Filtered[:,Sensor],order=25)
 
 def stepDetectionbackmiddle(dataMatrix):
@@ -92,7 +100,7 @@ def stepDetectionTwoFoot(dataMatrix):
 
 
 def stepDetectionleft(dataMatrix):
-    minimas = getminimas(dataMatrix,Sensor=[202])
+    minimas = getmaximas(dataMatrix,Sensor=[202])
     maxima = minimas[0]
 
     newmatrix = dataMatrix
@@ -114,7 +122,7 @@ def stepDetectionleft(dataMatrix):
     return extractedstep, np.c_[dataMatrix,  newmatrix[:,0]]
 
 def stepDetectionright(dataMatrix):
-    minimas = getminimas(dataMatrix,Sensor=[268])
+    minimas = getmaximas(dataMatrix,Sensor=[268])
     maxima = minimas[0]
 
     newmatrix = dataMatrix
@@ -153,15 +161,25 @@ def videosteps(dataMatrix, elan):
         realsteps.append([int(nearest2),int(nearest),int(elan[i,0])*20,int(elan[i,1])*20])
     realsteps = np.array(realsteps)
 
-    plt.plot(newMatrix[:,9])
+    plt.plot(newMatrix[:,202],label = "z-Vektor")
+
+    plt.axvline(3,color ='r',label="hillclimber step")
+    plt.axvline(3,color ='g',label="videolabeled step")
+    plt.legend()
+    plt.title("Stepextraction")
+    plt.xlabel("Samples")
     for  xs in elanhalbe[:,0]:
         plt.axvline(x=xs,color = 'r')
     for  xs in elanhalbe[:,1]:
         plt.axvline(x=xs,color = 'r')
     for  xs in realsteps[:,0]:
-        plt.axvline(x=xs,color = 'b')
+        plt.axvline(x=xs,color = 'g')
     for  xs in realsteps[:,1]:
-        plt.axvline(x=xs,color = 'b')
+        plt.axvline(x=xs,color = 'g')
+    #for  xs in stepleft[:,0]:
+     #   plt.axvline(x=xs,color = 'g')
+    #for  xs in stepleft[:,1]:
+     #   plt.axvline(x=xs,color = 'g')
     plt.show()
     return newMatrix, realsteps
 

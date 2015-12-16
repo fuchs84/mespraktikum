@@ -8617,3 +8617,3499 @@ Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
 getData: 
 Sensoren: STE CEN 
 Daten: rE1 
+Datum:  9.12.2015 Zeit: 11: 4:16
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+Datum:  9.12.2015 Zeit: 12:30:12
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+Datum:  9.12.2015 Zeit: 12:48:50
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID005\20151127\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum:  9.12.2015 Zeit: 12:49:34
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID005\20151127\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum:  9.12.2015 Zeit: 12:49:57
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID005\20151127\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+Datum:  9.12.2015 Zeit: 12:55:45
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID005\20151127\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+Datum:  9.12.2015 Zeit: 13:35:37
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID005\20151127\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+Datum:  9.12.2015 Zeit: 13:42:28
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID005\20151127\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+Datum:  9.12.2015 Zeit: 13:44:38
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID005\20151127\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+Datum:  9.12.2015 Zeit: 13:45:10
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID005\20151127\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+Datum:  9.12.2015 Zeit: 13:46: 0
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID005\20151127\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+Datum:  9.12.2015 Zeit: 16:28:42
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID005\20151127\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+Datum:  9.12.2015 Zeit: 16:31:35
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID005\20151127\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+Datum:  9.12.2015 Zeit: 16:33:50
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+Datum:  9.12.2015 Zeit: 16:34:53
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+Datum:  9.12.2015 Zeit: 16:42:22
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS RLA 
+Daten: rE1 rE2 rE3 
+Datum:  9.12.2015 Zeit: 16:52:30
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+Datum:  9.12.2015 Zeit: 17: 2:14
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum:  9.12.2015 Zeit: 17: 3:17
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+Datum:  9.12.2015 Zeit: 17: 7:20
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum:  9.12.2015 Zeit: 17: 8:25
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum:  9.12.2015 Zeit: 17: 9: 5
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum:  9.12.2015 Zeit: 17: 9:51
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum:  9.12.2015 Zeit: 17:12: 1
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+Datum:  9.12.2015 Zeit: 17:44: 2
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum:  9.12.2015 Zeit: 17:50: 2
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum:  9.12.2015 Zeit: 17:57:50
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum:  9.12.2015 Zeit: 18: 4:14
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+Datum:  9.12.2015 Zeit: 18: 9:25
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum:  9.12.2015 Zeit: 18:14:33
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+Datum:  9.12.2015 Zeit: 18:22:17
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 10.12.2015 Zeit: 14:53:19
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 10.12.2015 Zeit: 14:58:44
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+Datum: 10.12.2015 Zeit: 15:29:10
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+Datum: 10.12.2015 Zeit: 15:33:48
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+Datum: 10.12.2015 Zeit: 15:38:19
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+Datum: 10.12.2015 Zeit: 15:42:43
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+
+ 
+Datum: 10.12.2015 Zeit: 15:45:25
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+Datum: 10.12.2015 Zeit: 15:49:19
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+
+ 
+Datum: 10.12.2015 Zeit: 15:52:53
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+
+ 
+Datum: 10.12.2015 Zeit: 16: 7:47
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+
+ 
+Datum: 10.12.2015 Zeit: 16:28:52
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RLL LLL 
+Daten: rE1 
+getData: 
+Sensoren: RUF LUF 
+Daten: rE1 
+getData: 
+Sensoren: LLL RLL 
+Daten: acc 
+Datum: 10.12.2015 Zeit: 16:34: 6
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+getData: 
+Sensoren: LLL RLL 
+Daten: acc 
+getData: 
+Sensoren: RLL RUF 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLL LUF 
+Daten: rE1 rE2 rE3 
+Datum: 10.12.2015 Zeit: 16:38: 5
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: LLL RLL 
+Daten: acc 
+getData: 
+Sensoren: RLL RUF 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLL LUF 
+Daten: rE1 rE2 rE3 
+Datum: 10.12.2015 Zeit: 16:42:34
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: LLL RLL 
+Daten: acc 
+getData: 
+Sensoren: RLL RUF 
+Daten: rE1 rE2 rE3 
+Datum: 10.12.2015 Zeit: 16:43: 8
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: LLL RLL 
+Daten: acc 
+getData: 
+Sensoren: RLL RUF 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLL LUF 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLL LUF 
+Daten: rE1 rE2 rE3 
+
+ 
+
+ 
+Datum: 10.12.2015 Zeit: 16:48:29
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: LLL RLL 
+Daten: acc 
+getData: 
+Sensoren: RLL RUF 
+Daten: rE1 rE2 rE3 
+Datum: 10.12.2015 Zeit: 16:49:37
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 10.12.2015 Zeit: 16:50:43
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: LLL RLL 
+Daten: acc 
+getData: 
+Sensoren: RLL RUF 
+Daten: rE1 rE2 rE3 
+Datum: 10.12.2015 Zeit: 16:53:17
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: LLL LUF 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLL RLL 
+Daten: acc 
+getData: 
+Sensoren: RLL RUF 
+Daten: rE1 rE2 rE3 
+Datum: 10.12.2015 Zeit: 16:54:44
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+getData: 
+Sensoren: LLL RLL 
+Daten: acc 
+getData: 
+Sensoren: RLL RUF 
+Daten: rE1 rE2 rE3 
+Datum: 10.12.2015 Zeit: 16:56:50
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: LLL LUF 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLL RLL 
+Daten: acc 
+getData: 
+Sensoren: RLL RUF 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLL LUF 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 10.12.2015 Zeit: 17: 4:25
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: LLL RLL 
+Daten: acc 
+getData: 
+Sensoren: RLL RUF 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLL LUF 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 10.12.2015 Zeit: 17:14:34
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID001\20151203\mergedID001.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LUF LLL 
+Daten: rE1 rE2 rE3 
+Datum: 10.12.2015 Zeit: 17:17:48
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 10.12.2015 Zeit: 17:18:41
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LUF LLL 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 11.12.2015 Zeit: 11:47:22
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUF RLL 
+Daten: rE1 rE2 rE3 
+Datum: 11.12.2015 Zeit: 11:48:17
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUA RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LUF LLL 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LUA LLA 
+Daten: rE1 rE2 rE3 
+
+ 
+
+ 
+Datum: 11.12.2015 Zeit: 11:56: 0
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF 
+Daten: rE1 
+Datum: 11.12.2015 Zeit: 11:56:29
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF 
+Daten: rE1 
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUA RLA 
+Daten: rE1 rE2 rE3 
+Datum: 11.12.2015 Zeit: 11:57:28
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RLL 
+Daten: rE1 
+Datum: 11.12.2015 Zeit: 11:58:12
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUF 
+Daten: rE1 
+Datum: 11.12.2015 Zeit: 11:58:50
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: LUF 
+Daten: rE1 
+Datum: 11.12.2015 Zeit: 11:59:57
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RUA 
+Daten: rE1 
+Datum: 11.12.2015 Zeit: 12: 0:31
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: CEN 
+Daten: rE1 
+Datum: 11.12.2015 Zeit: 12: 1:56
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: LLA 
+Daten: rE1 
+Datum: 11.12.2015 Zeit: 12: 2:28
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 11.12.2015 Zeit: 12: 2:34
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: LUA 
+Daten: rE1 
+getData: 
+Sensoren: RNS 
+Daten: rE1 
+Datum: 12.12.2015 Zeit:  9:59:51
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS 
+Daten: rE1 
+Datum: 12.12.2015 Zeit: 10:16:40
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS 
+Daten: rE1 
+Datum: 12.12.2015 Zeit: 10:17:52
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS 
+Daten: rE1 
+Datum: 12.12.2015 Zeit: 10:18:32
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 10:19:37
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 10:20:20
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUA RLA 
+Daten: rE1 rE2 rE3 
+Datum: 12.12.2015 Zeit: 10:21:24
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUA RLA 
+Daten: rE1 rE2 rE3 
+Datum: 12.12.2015 Zeit: 10:22:20
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 10:23:11
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUA RLA 
+Daten: rE1 rE2 rE3 
+Datum: 12.12.2015 Zeit: 10:33:13
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 10:37:52
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 10:39:34
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 10:40:17
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 10:41:13
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 10:48: 1
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 10:49:40
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 10:50: 2
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 10:50:42
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 10:51:58
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 10:52:22
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 10:53:48
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 10:59: 3
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 10:59:28
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 10:59:49
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 11: 2:16
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 11: 4:41
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 11: 5:12
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 11: 5:36
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 11: 6:42
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 11: 9:37
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 11:10:11
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 11:10:51
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 11:11:42
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 11:12: 3
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 11:12:45
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 11:44: 1
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 11:45:13
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 11:47:16
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 11:52:36
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 11:53:16
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 11:54: 0
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 11:58:32
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 12: 4:23
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 12: 5:16
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 12: 7: 5
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 12: 8: 2
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 12.12.2015 Zeit: 12:11:55
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 12:17:17
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 12:20:31
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 12:23:35
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 12:26: 5
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 12.12.2015 Zeit: 12:27: 1
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 14.12.2015 Zeit:  8:26:50
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 14.12.2015 Zeit:  8:29:38
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit:  8:32:10
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+
+ 
+Datum: 14.12.2015 Zeit:  8:34:44
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 14.12.2015 Zeit:  8:36: 2
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 14.12.2015 Zeit:  8:41:12
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 14.12.2015 Zeit:  8:41:47
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit:  8:48:25
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+
+ 
+Datum: 14.12.2015 Zeit:  8:48:58
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 14.12.2015 Zeit:  9:13:59
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit:  9:14:19
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 14.12.2015 Zeit:  9:22:33
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 14.12.2015 Zeit:  9:31:35
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 14.12.2015 Zeit: 14:29:35
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+Datum: 14.12.2015 Zeit: 14:49:26
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+Datum: 14.12.2015 Zeit: 14:50: 7
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+Datum: 14.12.2015 Zeit: 14:52:19
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+Datum: 14.12.2015 Zeit: 14:58: 4
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+Datum: 14.12.2015 Zeit: 15:19: 8
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+Datum: 14.12.2015 Zeit: 15:27: 4
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+Datum: 14.12.2015 Zeit: 15:35:30
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+Datum: 14.12.2015 Zeit: 15:48:23
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+Datum: 14.12.2015 Zeit: 16:42:24
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 16:43: 7
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 16:43:50
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+Datum: 14.12.2015 Zeit: 16:47: 3
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 14.12.2015 Zeit: 16:47:38
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+Datum: 14.12.2015 Zeit: 16:59:38
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 17: 0:41
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 17: 0:57
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 17: 2:14
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 17: 3: 5
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 17: 4:56
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 17:10:51
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 14.12.2015 Zeit: 17:13: 6
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 17:14:42
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 14.12.2015 Zeit: 17:22:27
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 14.12.2015 Zeit: 17:23: 3
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 17:23:38
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 14.12.2015 Zeit: 17:32: 0
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 17:33:40
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 17:35: 1
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 17:36:28
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 17:37:27
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 17:39:50
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 14.12.2015 Zeit: 17:44:30
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 17:45:25
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 17:55:31
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 14.12.2015 Zeit: 17:56:53
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 14.12.2015 Zeit: 17:58:56
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 17:59:58
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 14.12.2015 Zeit: 18: 0:37
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 14.12.2015 Zeit: 18: 6:18
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+Datum: 15.12.2015 Zeit:  8:23:32
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 15.12.2015 Zeit:  8:25:20
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 15.12.2015 Zeit:  8:27: 3
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 15.12.2015 Zeit:  8:29: 9
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 15.12.2015 Zeit:  8:31: 6
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+Datum: 15.12.2015 Zeit:  8:41:31
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+Datum: 15.12.2015 Zeit:  8:42:26
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+
+ 
+Datum: 15.12.2015 Zeit:  8:46:56
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+
+ 
+Datum: 15.12.2015 Zeit:  8:53:19
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+Datum: 15.12.2015 Zeit:  9:23:24
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+Datum: 15.12.2015 Zeit:  9:25:45
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+Datum: 15.12.2015 Zeit:  9:31:54
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUA RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LUA LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+Datum: 15.12.2015 Zeit:  9:46:11
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 15.12.2015 Zeit:  9:46:38
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 15.12.2015 Zeit:  9:47:28
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 15.12.2015 Zeit:  9:48: 3
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 15.12.2015 Zeit:  9:48:26
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 15.12.2015 Zeit:  9:48:41
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+Datum: 15.12.2015 Zeit:  9:55:40
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 15.12.2015 Zeit:  9:55:54
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 15.12.2015 Zeit: 10: 7:25
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 15.12.2015 Zeit: 10: 7:30
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 15.12.2015 Zeit: 10: 8: 1
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 15.12.2015 Zeit: 10: 8: 8
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 15.12.2015 Zeit: 10:10:49
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 15.12.2015 Zeit: 10:10:51
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 15.12.2015 Zeit: 10:12:29
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+
+ 
+
+ 
+Datum: 15.12.2015 Zeit: 15:21:11
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+Datum: 15.12.2015 Zeit: 15:24:10
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+Datum: 15.12.2015 Zeit: 15:27:39
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+Datum: 15.12.2015 Zeit: 15:32:34
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 15.12.2015 Zeit: 15:33:53
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUA RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LUA LLA 
+Daten: rE1 rE2 rE3 
+Datum: 15.12.2015 Zeit: 15:47:57
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUA RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LUA LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+Datum: 15.12.2015 Zeit: 18: 0:41
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[ 277    0    0]
+ [   0 2370    0]
+ [   0    0  341]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.0927041499331
+Fehlerkennung: 2711
+Confusionsmatrix: 
+[[ 277    0    0]
+ [2370    0    0]
+ [ 341    0    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 1.0
+Fehlerkennung: 2895
+Confusionsmatrix: 
+[[ 277    0    0]
+ [2370    0    0]
+ [ 341    0    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.979250334672
+Fehlerkennung: 62
+Confusionsmatrix: 
+[[ 274    3    0]
+ [   7 2358    5]
+ [   0   47  294]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[ 277    0    0]
+ [   0 2370    0]
+ [   0    0  341]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.997991967871
+Fehlerkennung: 6
+Confusionsmatrix: 
+[[ 277    0    0]
+ [   0 2370    0]
+ [   0    6  335]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[ 277    0    0]
+ [   0 2370    0]
+ [   0    0  341]]
+--------------------------------------------------
+Datum: 15.12.2015 Zeit: 18: 1:39
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[ 277    0    0]
+ [   0 2370    0]
+ [   0    0  341]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.793172690763
+Fehlerkennung: 618
+Confusionsmatrix: 
+[[   0  277    0]
+ [   0 2370    0]
+ [   0  341    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 1.0
+Fehlerkennung: 2895
+Confusionsmatrix: 
+[[   0  277    0]
+ [   0 2370    0]
+ [   0  341    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.979250334672
+Fehlerkennung: 62
+Confusionsmatrix: 
+[[ 274    3    0]
+ [   7 2358    5]
+ [   0   47  294]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[ 277    0    0]
+ [   0 2370    0]
+ [   0    0  341]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.997991967871
+Fehlerkennung: 6
+Confusionsmatrix: 
+[[ 277    0    0]
+ [   0 2370    0]
+ [   0    6  335]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[ 277    0    0]
+ [   0 2370    0]
+ [   0    0  341]]
+--------------------------------------------------
+Datum: 15.12.2015 Zeit: 18: 3: 2
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2967    0]
+ [   0   21]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.99297188755
+Fehlerkennung: 21
+Confusionsmatrix: 
+[[2967    0]
+ [  21    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 1.0
+Fehlerkennung: 2883
+Confusionsmatrix: 
+[[2967    0]
+ [  21    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.998326639893
+Fehlerkennung: 5
+Confusionsmatrix: 
+[[2967    0]
+ [   5   16]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2967    0]
+ [   0   21]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.998661311914
+Fehlerkennung: 4
+Confusionsmatrix: 
+[[2967    0]
+ [   4   17]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2967    0]
+ [   0   21]]
+--------------------------------------------------
+Datum: 15.12.2015 Zeit: 18: 3:32
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.533467202142
+Fehlerkennung: 1394
+Confusionsmatrix: 
+[[ 277    0    0]
+ [ 650 1028  692]
+ [   0   52  289]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.817938420348
+Fehlerkennung: 544
+Confusionsmatrix: 
+[[ 104  170    3]
+ [  82 2211   77]
+ [   0  212  129]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.721855042068
+Fehlerkennung: 2988
+Confusionsmatrix: 
+[[ 104  170    3]
+ [  82 2211   77]
+ [   0  212  129]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.975234270415
+Fehlerkennung: 74
+Confusionsmatrix: 
+[[ 269    8    0]
+ [   4 2362    4]
+ [   0   58  283]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.786479250335
+Fehlerkennung: 638
+Confusionsmatrix: 
+[[   0  277    0]
+ [   0 2084  286]
+ [   0   75  266]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.991967871486
+Fehlerkennung: 24
+Confusionsmatrix: 
+[[ 277    0    0]
+ [   1 2366    3]
+ [   0   20  321]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.986613119143
+Fehlerkennung: 40
+Confusionsmatrix: 
+[[ 273    4    0]
+ [   6 2359    5]
+ [   0   25  316]]
+--------------------------------------------------
+Datum: 15.12.2015 Zeit: 18: 9:55
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.343713956171
+Fehlerkennung: 2276
+Confusionsmatrix: 
+[[   0  616    0]
+ [  86 1192 1574]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.651672433679
+Fehlerkennung: 1208
+Confusionsmatrix: 
+[[   0  616    0]
+ [ 140 2260  452]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -14.8153969259
+Fehlerkennung: 3468
+Confusionsmatrix: 
+[[   0  616    0]
+ [ 140 2260  452]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.471453287197
+Fehlerkennung: 1833
+Confusionsmatrix: 
+[[ 114  368  134]
+ [ 880 1521  451]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.354671280277
+Fehlerkennung: 2238
+Confusionsmatrix: 
+[[   0  616    0]
+ [   0 1230 1622]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.659457900807
+Fehlerkennung: 1181
+Confusionsmatrix: 
+[[  18  581   17]
+ [ 161 2269  422]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.774509803922
+Fehlerkennung: 782
+Confusionsmatrix: 
+[[   0  616    0]
+ [ 101 2686   65]
+ [   0    0    0]]
+--------------------------------------------------
+Datum: 15.12.2015 Zeit: 18:10:48
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.743079584775
+Fehlerkennung: 891
+Confusionsmatrix: 
+[[1570  620]
+ [ 271 1007]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.677047289504
+Fehlerkennung: 1120
+Confusionsmatrix: 
+[[1602  588]
+ [ 532  746]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -3.64625078002
+Fehlerkennung: 3468
+Confusionsmatrix: 
+[[1602  588]
+ [ 532  746]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.509515570934
+Fehlerkennung: 1701
+Confusionsmatrix: 
+[[ 910 1280]
+ [ 421  857]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.668396770473
+Fehlerkennung: 1150
+Confusionsmatrix: 
+[[1321  869]
+ [ 281  997]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.716839677047
+Fehlerkennung: 982
+Confusionsmatrix: 
+[[1745  445]
+ [ 537  741]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.657439446367
+Fehlerkennung: 1188
+Confusionsmatrix: 
+[[1244  946]
+ [ 242 1036]]
+--------------------------------------------------
+Datum: 15.12.2015 Zeit: 18:11:45
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.343713956171
+Fehlerkennung: 2276
+Confusionsmatrix: 
+[[   0  616    0]
+ [  86 1192 1574]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.641291810842
+Fehlerkennung: 1244
+Confusionsmatrix: 
+[[   0  613    3]
+ [ 125 2224  503]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -14.7631224467
+Fehlerkennung: 3468
+Confusionsmatrix: 
+[[   0  613    3]
+ [ 125 2224  503]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.470588235294
+Fehlerkennung: 1836
+Confusionsmatrix: 
+[[ 114  369  133]
+ [ 880 1518  454]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.354671280277
+Fehlerkennung: 2238
+Confusionsmatrix: 
+[[   0  616    0]
+ [   0 1230 1622]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.669261822376
+Fehlerkennung: 1147
+Confusionsmatrix: 
+[[   0  615    1]
+ [ 179 2321  352]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.753748558247
+Fehlerkennung: 854
+Confusionsmatrix: 
+[[   0  616    0]
+ [ 101 2614  137]
+ [   0    0    0]]
+--------------------------------------------------
+Datum: 15.12.2015 Zeit: 18:13:43
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.378444084279
+Fehlerkennung: 1534
+Confusionsmatrix: 
+[[   0  503    0]
+ [   0  934 1031]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.658833063209
+Fehlerkennung: 842
+Confusionsmatrix: 
+[[   0  503    0]
+ [   2 1626  337]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -4.19017009977
+Fehlerkennung: 2468
+Confusionsmatrix: 
+[[   0  503    0]
+ [   2 1626  337]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.424230145867
+Fehlerkennung: 1421
+Confusionsmatrix: 
+[[  21  482    0]
+ [ 252 1026  687]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.619124797407
+Fehlerkennung: 940
+Confusionsmatrix: 
+[[   5  498    0]
+ [   8 1523  434]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.742706645057
+Fehlerkennung: 635
+Confusionsmatrix: 
+[[   0  503    0]
+ [   0 1833  132]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.701782820097
+Fehlerkennung: 736
+Confusionsmatrix: 
+[[   0  503    0]
+ [   0 1732  233]
+ [   0    0    0]]
+--------------------------------------------------
+Datum: 15.12.2015 Zeit: 18:16:39
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 15.12.2015 Zeit: 18:17:49
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Datum: 15.12.2015 Zeit: 18:18:52
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Datum: 15.12.2015 Zeit: 18:20:38
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Datum: 15.12.2015 Zeit: 18:21: 7
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.0
+Fehlerkennung: 31
+Confusionsmatrix: 
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.0
+Fehlerkennung: 31
+Confusionsmatrix: 
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 1 0 ..., 0 0 0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -56.2828429992
+Fehlerkennung: 31
+Confusionsmatrix: 
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 1 0 ..., 0 0 0]]
+--------------------------------------------------
+Datum: 15.12.2015 Zeit: 18:21:44
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.709677419355
+Fehlerkennung: 9
+Confusionsmatrix: 
+[[ 0  8]
+ [ 1 22]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.741935483871
+Fehlerkennung: 8
+Confusionsmatrix: 
+[[ 0  8]
+ [ 0 23]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -0.397476491383
+Fehlerkennung: 31
+Confusionsmatrix: 
+[[ 0  8]
+ [ 0 23]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.741935483871
+Fehlerkennung: 8
+Confusionsmatrix: 
+[[ 0  8]
+ [ 0 23]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.709677419355
+Fehlerkennung: 9
+Confusionsmatrix: 
+[[ 0  8  0]
+ [ 0 22  1]
+ [ 0  0  0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.741935483871
+Fehlerkennung: 8
+Confusionsmatrix: 
+[[ 0  8]
+ [ 0 23]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.612903225806
+Fehlerkennung: 12
+Confusionsmatrix: 
+[[ 1  6  1]
+ [ 2 18  3]
+ [ 0  0  0]]
+--------------------------------------------------
+Datum: 15.12.2015 Zeit: 18:23:28
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 15.12.2015 Zeit: 18:23:49
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.785714285714
+Fehlerkennung: 15
+Confusionsmatrix: 
+[[55  5]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.371428571429
+Fehlerkennung: 44
+Confusionsmatrix: 
+[[17 43]
+ [ 1  9]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -0.585646518393
+Fehlerkennung: 70
+Confusionsmatrix: 
+[[17 43]
+ [ 1  9]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.728571428571
+Fehlerkennung: 19
+Confusionsmatrix: 
+[[51  9]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.742857142857
+Fehlerkennung: 18
+Confusionsmatrix: 
+[[52  8]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.757142857143
+Fehlerkennung: 17
+Confusionsmatrix: 
+[[53  7]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.785714285714
+Fehlerkennung: 15
+Confusionsmatrix: 
+[[53  7]
+ [ 8  2]]
+--------------------------------------------------
+Datum: 15.12.2015 Zeit: 18:38:25
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.785714285714
+Fehlerkennung: 15
+Confusionsmatrix: 
+[[55  5]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.157142857143
+Fehlerkennung: 59
+Confusionsmatrix: 
+[[ 1 59]
+ [ 0 10]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -0.585646518393
+Fehlerkennung: 70
+Confusionsmatrix: 
+[[ 1 59]
+ [ 0 10]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.728571428571
+Fehlerkennung: 19
+Confusionsmatrix: 
+[[51  9]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.742857142857
+Fehlerkennung: 18
+Confusionsmatrix: 
+[[52  8]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.842857142857
+Fehlerkennung: 11
+Confusionsmatrix: 
+[[58  2]
+ [ 9  1]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.814285714286
+Fehlerkennung: 13
+Confusionsmatrix: 
+[[55  5]
+ [ 8  2]]
+--------------------------------------------------
+Datum: 15.12.2015 Zeit: 18:40:44
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.785714285714
+Fehlerkennung: 15
+Confusionsmatrix: 
+[[55  5]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.8
+Fehlerkennung: 14
+Confusionsmatrix: 
+[[56  4]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -0.585646518393
+Fehlerkennung: 70
+Confusionsmatrix: 
+[[56  4]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.728571428571
+Fehlerkennung: 19
+Confusionsmatrix: 
+[[51  9]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.742857142857
+Fehlerkennung: 18
+Confusionsmatrix: 
+[[52  8]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.857142857143
+Fehlerkennung: 10
+Confusionsmatrix: 
+[[59  1]
+ [ 9  1]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.8
+Fehlerkennung: 14
+Confusionsmatrix: 
+[[55  5]
+ [ 9  1]]
+--------------------------------------------------
+Datum: 15.12.2015 Zeit: 18:43:47
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.785714285714
+Fehlerkennung: 15
+Confusionsmatrix: 
+[[55  5]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.857142857143
+Fehlerkennung: 10
+Confusionsmatrix: 
+[[60  0]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -0.585646518393
+Fehlerkennung: 70
+Confusionsmatrix: 
+[[60  0]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.728571428571
+Fehlerkennung: 19
+Confusionsmatrix: 
+[[51  9]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.742857142857
+Fehlerkennung: 18
+Confusionsmatrix: 
+[[52  8]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.814285714286
+Fehlerkennung: 13
+Confusionsmatrix: 
+[[57  3]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.814285714286
+Fehlerkennung: 13
+Confusionsmatrix: 
+[[55  5]
+ [ 8  2]]
+--------------------------------------------------
+Datum: 16.12.2015 Zeit:  8:54:40
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 16.12.2015 Zeit:  8:55:24
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.785714285714
+Fehlerkennung: 15
+Confusionsmatrix: 
+[[55  5]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.857142857143
+Fehlerkennung: 10
+Confusionsmatrix: 
+[[60  0]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -0.585646518393
+Fehlerkennung: 70
+Confusionsmatrix: 
+[[60  0]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.728571428571
+Fehlerkennung: 19
+Confusionsmatrix: 
+[[51  9]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.742857142857
+Fehlerkennung: 18
+Confusionsmatrix: 
+[[52  8]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.842857142857
+Fehlerkennung: 11
+Confusionsmatrix: 
+[[58  2]
+ [ 9  1]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.8
+Fehlerkennung: 14
+Confusionsmatrix: 
+[[55  5]
+ [ 9  1]]
+--------------------------------------------------
+Datum: 16.12.2015 Zeit:  8:55:55
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.785714285714
+Fehlerkennung: 15
+Confusionsmatrix: 
+[[55  5]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.142857142857
+Fehlerkennung: 60
+Confusionsmatrix: 
+[[ 0 60]
+ [ 0 10]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -0.585646518393
+Fehlerkennung: 70
+Confusionsmatrix: 
+[[ 0 60]
+ [ 0 10]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.728571428571
+Fehlerkennung: 19
+Confusionsmatrix: 
+[[51  9]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.742857142857
+Fehlerkennung: 18
+Confusionsmatrix: 
+[[52  8]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.828571428571
+Fehlerkennung: 12
+Confusionsmatrix: 
+[[58  2]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.8
+Fehlerkennung: 14
+Confusionsmatrix: 
+[[55  5]
+ [ 9  1]]
+--------------------------------------------------
+Datum: 16.12.2015 Zeit:  8:58:28
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 16.12.2015 Zeit:  9: 2: 3
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 16.12.2015 Zeit:  9: 3:47
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 16.12.2015 Zeit:  9: 4:15
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 16.12.2015 Zeit:  9: 6:41
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.785714285714
+Fehlerkennung: 15
+Confusionsmatrix: 
+[[55  5]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.857142857143
+Fehlerkennung: 10
+Confusionsmatrix: 
+[[60  0]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -0.585646518393
+Fehlerkennung: 70
+Confusionsmatrix: 
+[[60  0]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.728571428571
+Fehlerkennung: 19
+Confusionsmatrix: 
+[[51  9]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.742857142857
+Fehlerkennung: 18
+Confusionsmatrix: 
+[[52  8]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.842857142857
+Fehlerkennung: 11
+Confusionsmatrix: 
+[[59  1]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.828571428571
+Fehlerkennung: 12
+Confusionsmatrix: 
+[[56  4]
+ [ 8  2]]
+--------------------------------------------------
+Datum: 16.12.2015 Zeit:  9: 9:10
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151203\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 16.12.2015 Zeit:  9:10:31
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151203\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 16.12.2015 Zeit:  9:10:54
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151203\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 16.12.2015 Zeit:  9:10:55
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151203\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.785714285714
+Fehlerkennung: 15
+Confusionsmatrix: 
+[[55  5]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.357142857143
+Fehlerkennung: 45
+Confusionsmatrix: 
+[[16 44]
+ [ 1  9]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -0.585646518393
+Fehlerkennung: 70
+Confusionsmatrix: 
+[[16 44]
+ [ 1  9]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.728571428571
+Fehlerkennung: 19
+Confusionsmatrix: 
+[[51  9]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.742857142857
+Fehlerkennung: 18
+Confusionsmatrix: 
+[[52  8]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.828571428571
+Fehlerkennung: 12
+Confusionsmatrix: 
+[[57  3]
+ [ 9  1]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.742857142857
+Fehlerkennung: 18
+Confusionsmatrix: 
+[[50 10]
+ [ 8  2]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.785714285714
+Fehlerkennung: 15
+Confusionsmatrix: 
+[[55  5]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.157142857143
+Fehlerkennung: 59
+Confusionsmatrix: 
+[[ 1 59]
+ [ 0 10]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -0.585646518393
+Fehlerkennung: 70
+Confusionsmatrix: 
+[[ 1 59]
+ [ 0 10]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.728571428571
+Fehlerkennung: 19
+Confusionsmatrix: 
+[[51  9]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.742857142857
+Fehlerkennung: 18
+Confusionsmatrix: 
+[[52  8]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.828571428571
+Fehlerkennung: 12
+Confusionsmatrix: 
+[[58  2]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.771428571429
+Fehlerkennung: 16
+Confusionsmatrix: 
+[[53  7]
+ [ 9  1]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.785714285714
+Fehlerkennung: 15
+Confusionsmatrix: 
+[[55  5]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.771428571429
+Fehlerkennung: 16
+Confusionsmatrix: 
+[[54  6]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -0.585646518393
+Fehlerkennung: 70
+Confusionsmatrix: 
+[[54  6]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.728571428571
+Fehlerkennung: 19
+Confusionsmatrix: 
+[[51  9]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.742857142857
+Fehlerkennung: 18
+Confusionsmatrix: 
+[[52  8]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.842857142857
+Fehlerkennung: 11
+Confusionsmatrix: 
+[[59  1]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.714285714286
+Fehlerkennung: 20
+Confusionsmatrix: 
+[[49 11]
+ [ 9  1]]
+--------------------------------------------------
+Datum: 16.12.2015 Zeit:  9:14:48
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.785714285714
+Fehlerkennung: 15
+Confusionsmatrix: 
+[[55  5]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.671428571429
+Fehlerkennung: 23
+Confusionsmatrix: 
+[[47 13]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -0.585646518393
+Fehlerkennung: 70
+Confusionsmatrix: 
+[[47 13]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.728571428571
+Fehlerkennung: 19
+Confusionsmatrix: 
+[[51  9]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.742857142857
+Fehlerkennung: 18
+Confusionsmatrix: 
+[[52  8]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.814285714286
+Fehlerkennung: 13
+Confusionsmatrix: 
+[[57  3]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.785714285714
+Fehlerkennung: 15
+Confusionsmatrix: 
+[[54  6]
+ [ 9  1]]
+--------------------------------------------------
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+Datum: 16.12.2015 Zeit:  9:17:20
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\merged.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 16.12.2015 Zeit:  9:17:33
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 16.12.2015 Zeit:  9:44:47
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.785714285714
+Fehlerkennung: 15
+Confusionsmatrix: 
+[[55  5]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.857142857143
+Fehlerkennung: 10
+Confusionsmatrix: 
+[[60  0]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -0.585646518393
+Fehlerkennung: 70
+Confusionsmatrix: 
+[[60  0]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.728571428571
+Fehlerkennung: 19
+Confusionsmatrix: 
+[[51  9]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.742857142857
+Fehlerkennung: 18
+Confusionsmatrix: 
+[[52  8]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.842857142857
+Fehlerkennung: 11
+Confusionsmatrix: 
+[[59  1]
+ [10  0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.785714285714
+Fehlerkennung: 15
+Confusionsmatrix: 
+[[53  7]
+ [ 8  2]]
+--------------------------------------------------
+Datum: 16.12.2015 Zeit:  9:48:31
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.441423199306
+Fehlerkennung: 1931
+Confusionsmatrix: 
+[[   0  615    0]
+ [  31 1526 1285]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.449233439398
+Fehlerkennung: 1904
+Confusionsmatrix: 
+[[   3  586   26]
+ [ 117 1550 1175]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -7.69037829854
+Fehlerkennung: 3457
+Confusionsmatrix: 
+[[   3  586   26]
+ [ 117 1550 1175]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.507665606017
+Fehlerkennung: 1702
+Confusionsmatrix: 
+[[ 114  397  104]
+ [ 664 1641  537]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.594156783338
+Fehlerkennung: 1403
+Confusionsmatrix: 
+[[ 113  502    0]
+ [ 112 1941  789]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.664738212323
+Fehlerkennung: 1159
+Confusionsmatrix: 
+[[  65  550    0]
+ [ 113 2233  496]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.478160254556
+Fehlerkennung: 1804
+Confusionsmatrix: 
+[[   0  615    0]
+ [ 112 1653 1077]
+ [   0    0    0]]
+--------------------------------------------------
+Datum: 16.12.2015 Zeit:  9:49:38
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 16.12.2015 Zeit:  9:51:21
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.742262076945
+Fehlerkennung: 891
+Confusionsmatrix: 
+[[1567  620]
+ [ 271  999]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.68990454151
+Fehlerkennung: 1072
+Confusionsmatrix: 
+[[1475  712]
+ [ 360  910]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -3.91663194772
+Fehlerkennung: 3457
+Confusionsmatrix: 
+[[1475  712]
+ [ 360  910]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.526468035869
+Fehlerkennung: 1637
+Confusionsmatrix: 
+[[1184 1003]
+ [ 634  636]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.608041654614
+Fehlerkennung: 1355
+Confusionsmatrix: 
+[[1299  888]
+ [ 467  803]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.741972808794
+Fehlerkennung: 892
+Confusionsmatrix: 
+[[1566  621]
+ [ 271  999]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.529071449233
+Fehlerkennung: 1628
+Confusionsmatrix: 
+[[1127 1060]
+ [ 568  702]]
+--------------------------------------------------
+Datum: 16.12.2015 Zeit:  9:52:49
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 16.12.2015 Zeit:  9:53: 2
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.441423199306
+Fehlerkennung: 1931
+Confusionsmatrix: 
+[[   0  615    0]
+ [  31 1526 1285]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.578247035001
+Fehlerkennung: 1458
+Confusionsmatrix: 
+[[   0  609    6]
+ [  68 1999  775]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -7.69037829854
+Fehlerkennung: 3457
+Confusionsmatrix: 
+[[   0  609    6]
+ [  68 1999  775]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.507665606017
+Fehlerkennung: 1702
+Confusionsmatrix: 
+[[ 114  397  104]
+ [ 664 1641  537]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.594156783338
+Fehlerkennung: 1403
+Confusionsmatrix: 
+[[ 113  502    0]
+ [ 112 1941  789]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.745444026613
+Fehlerkennung: 880
+Confusionsmatrix: 
+[[  65  550    0]
+ [ 131 2512  199]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.708417703211
+Fehlerkennung: 1008
+Confusionsmatrix: 
+[[   0  615    0]
+ [ 112 2449  281]
+ [   0    0    0]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.742262076945
+Fehlerkennung: 891
+Confusionsmatrix: 
+[[1567  620]
+ [ 271  999]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.62019091698
+Fehlerkennung: 1313
+Confusionsmatrix: 
+[[1145 1042]
+ [ 271  999]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -3.91663194772
+Fehlerkennung: 3457
+Confusionsmatrix: 
+[[1145 1042]
+ [ 271  999]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.526468035869
+Fehlerkennung: 1637
+Confusionsmatrix: 
+[[1184 1003]
+ [ 634  636]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.608041654614
+Fehlerkennung: 1355
+Confusionsmatrix: 
+[[1299  888]
+ [ 467  803]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.722302574487
+Fehlerkennung: 960
+Confusionsmatrix: 
+[[1691  496]
+ [ 464  806]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.567254845242
+Fehlerkennung: 1496
+Confusionsmatrix: 
+[[1385  802]
+ [ 694  576]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[3457]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[3457]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0
+Fehlerkennung: 3457
+Confusionsmatrix: 
+[[3457]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.99623951403
+Fehlerkennung: 13
+Confusionsmatrix: 
+[[3444   13]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.97975122939
+Fehlerkennung: 70
+Confusionsmatrix: 
+[[3387   70]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[3457]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.891235175007
+Fehlerkennung: 376
+Confusionsmatrix: 
+[[3081  376]
+ [   0    0]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.967891235175
+Fehlerkennung: 111
+Confusionsmatrix: 
+[[   0    0]
+ [ 111 3346]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.972808793752
+Fehlerkennung: 94
+Confusionsmatrix: 
+[[   0    0]
+ [  94 3363]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0
+Fehlerkennung: 3457
+Confusionsmatrix: 
+[[   0    0]
+ [  94 3363]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.596181660399
+Fehlerkennung: 1396
+Confusionsmatrix: 
+[[   0    0]
+ [1396 2061]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.892102979462
+Fehlerkennung: 373
+Confusionsmatrix: 
+[[   0    0]
+ [ 373 3084]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.952849291293
+Fehlerkennung: 163
+Confusionsmatrix: 
+[[   0    0]
+ [ 163 3294]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.98351171536
+Fehlerkennung: 57
+Confusionsmatrix: 
+[[   0    0]
+ [  57 3400]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.935203934047
+Fehlerkennung: 224
+Confusionsmatrix: 
+[[   0  114]
+ [ 110 3233]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.95227075499
+Fehlerkennung: 165
+Confusionsmatrix: 
+[[   1  113]
+ [  52 3291]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -19.9500625018
+Fehlerkennung: 3457
+Confusionsmatrix: 
+[[   1  113]
+ [  52 3291]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.681805033266
+Fehlerkennung: 1100
+Confusionsmatrix: 
+[[  56   58]
+ [1042 2301]]
+--------------------------------------------------

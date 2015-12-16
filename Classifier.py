@@ -23,6 +23,10 @@ import math
 def classify(data, Sensoren, classifier="Bayes"):
     X_train, X_test, y_train, y_test = cross_validation.train_test_split(data[:,Sensoren], data[:,1], test_size=0.4, random_state=0)
 
+    X_train = data[:4000,Sensoren]
+    y_train = data[:4000,1]
+    X_test = data[4000:,Sensoren]
+    y_test = data[4000:,1]
 
     #Auswahl des Klassifizierers
     if classifier is "Bayes":
@@ -81,6 +85,13 @@ def classify(data, Sensoren, classifier="Bayes"):
 def compareclassifier(data, Sensoren):
     X_train, X_test, y_train, y_test = cross_validation.train_test_split(data[:,Sensoren], data[:,1], test_size=0.4, random_state=0)
 
+    X_train = data[:4000,Sensoren]
+    y_train = data[:4000,1]
+    X_test = data[4000:,Sensoren]
+    y_test = data[4000:,1]
+    print len(data)
+    print "test"
+    print len(data)
     history = 'Vergleiche Klassifizierer: \n'
     fd = open('History.txt','a')
     fd.write(history)
