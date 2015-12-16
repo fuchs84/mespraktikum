@@ -37,11 +37,15 @@ person = 0
 pathData = ''
 pathLabel = ''
 if(person == 0):
+    testmatrix = pd.read_csv(r'C:\Users\Sebastian\Documents\PycharmMES\mespraktikum\dataMatrix.csv',sep = "\t")
+    testlabel = pd.read_csv(r'C:\Users\Sebastian\Documents\PycharmMES\mespraktikum\Labels.csv',sep = "\t")
+    testmatrix = testmatrix.as_matrix()
+    testlabel = testlabel.as_matrix()
     print 'Sebastian'
-    elan = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\20151126ID002\20151126ID002.csv', sep = "\t")
+    elan = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\20151126.csv', sep = "\t",error_bad_lines=False)
     elan = pd.DataFrame(elan.as_matrix())
     elan = ELANMerger.create(elan)
-    pathData = r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID002\20151126\merged.csv'
+    pathData = r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv'
     pathLabel = r'C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat'
     rawData = pd.read_csv(pathData, sep='\t')
     dataMatrix = rawData.as_matrix()
@@ -78,22 +82,38 @@ fd.close()
 #steparray, x = StepExtraction.stepDetectionback(matrixnew)
 #passg = Init.getData(matrixnew,sensors=["RNS","LUF"],datas=["acc"],specifiedDatas=["z"])
 #Datenauswahl
+senrange = range(0,310)
+plt.subplot(3,1,1)
+plt.plot(dataMatrix[900:1100,156:159])
+plt.subplot(3,1,2)
+plt.plot(dataMatrix[900:1100,2:5])
+plt.subplot(3,1,3)
+plt.plot(dataMatrix[860:1860,175:178])
+plt.show()
+for i in range(1,len(testlabel[1,:])):
+    testmatrix[:,1] = testlabel[:,i]
+    test = range(4,310)
+    Classifier.compareclassifier(testmatrix,test)
+
+
 print(elan)
 Matrix= dataMatrix
-print Matrix[1854:,0]
 newvalue = (dataMatrix[:,0])
 timestamp =  []
 duration = []
 
-FeatureKonstruktion.aufrechtgehen(dataMatrix)
-#ELANMerger.MatrixforAndroid(dataMatrix[1854:,:],elan)
-
+plt.plot(dataMatrix[:,212:215])
+plt.show()
+#ELANMerger.MatrixforAndroid(dataMatrix[860:,:],elan)
+senrange = range(0,310)
+dataMatrix = FeatureKonstruktion.filter(dataMatrix,Sensors=senrange,lowcut=0.2,filtertype="highpass")
+plt.plot(dataMatrix[:,212:215])
+plt.show()
 
 print "steps"
 print timestamp
 print duration
-
-
+ELANMerger.MatrixforAndroid(dataMatrix[860:,:],elan)
 
 
 
@@ -101,19 +121,19 @@ print duration
 #np.savetxt('selectedDatamag.csv', matrixnew[0:20000, :], delimiter='\t')
 plt.subplot(4,1,1)
 plt.title("passgang")
-#plt.plot(passgang)
+#plt.plot(a)
 
 plt.subplot(4,1,2)
 plt.title("Stockaufsatz")
-#plt.plot(rightpeak,label="Rechter Stock")
+#plt.plot(b)
 #plt.plot(leftpeak,label ="Linker Stock")
 plt.subplot(4,1,3)
-plt.title("Schulter")
-#plt.plot(a,label= "Linkeschulter")
+#plt.plot(c)
 #plt.plot(b, label= "Rechteschulter")
 plt.subplot(4,1,4)
 plt.title("Arm")
-#plt.plot(c,label= "Linker Arm")
+#plt.plot(d)
+
 #plt.plot(d, label= "Rechter Arm")
 
 
@@ -129,7 +149,7 @@ print "classify start"
 #Classifier.compareclassifier(matrixnew,Sensor)
 print "classify finished"
 #short= dataMatrix[46000:,:]
-np.savetxt('testdataproband001.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f'] ,X= short, delimiter='\t')
+#np.savetxt('testdataproband001.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f'] ,X= short, delimiter='\t')
 
 fd = open('History.txt','a')
 fd.write('\n \n')
