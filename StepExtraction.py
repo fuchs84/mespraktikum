@@ -147,9 +147,11 @@ def videosteps(dataMatrix, elan):
     newMatrix= dataMatrix
     newlan =elan
     elan = pd.DataFrame(elan[:,1:],index=elan[:,0])
-    elan = np.array(elan.ix['Strides'])
-    elan = elan/10
-    elanhalbe = elan/2
+    elan = np.array(elan.ix['1Passgang'])
+    print len(elan)
+    print elan
+    elan[:,:2] = elan[:,:2]/10
+    elanhalbe = elan[:,:2]/2
     stepright, noneed = stepDetectionright(newMatrix)
     stepleft, noneed = stepDetectionleft(newMatrix)
     steps = np.concatenate((stepright,stepleft))
@@ -168,6 +170,7 @@ def videosteps(dataMatrix, elan):
     plt.legend()
     plt.title("Stepextraction")
     plt.xlabel("Samples")
+
     for  xs in elanhalbe[:,0]:
         plt.axvline(x=xs,color = 'r')
     for  xs in elanhalbe[:,1]:

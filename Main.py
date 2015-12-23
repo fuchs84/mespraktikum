@@ -37,15 +37,15 @@ person = 0
 pathData = ''
 pathLabel = ''
 if(person == 0):
-    testmatrix = pd.read_csv(r'C:\Users\Sebastian\Documents\PycharmMES\mespraktikum\dataMatrix.csv',sep = "\t")
-    testlabel = pd.read_csv(r'C:\Users\Sebastian\Documents\PycharmMES\mespraktikum\Labels.csv',sep = "\t")
+    testmatrix = pd.read_csv(r'C:\Users\Sebastian\Desktop\Labels and data\ID004\1211\dataMatrix.csv',sep = "\t")
+    testlabel = pd.read_csv(r'C:\Users\Sebastian\Desktop\Labels and data\ID004\1211\Labels.csv',sep = "\t")
     testmatrix = testmatrix.as_matrix()
     testlabel = testlabel.as_matrix()
     print 'Sebastian'
-    elan = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\20151126.csv', sep = "\t",error_bad_lines=False)
+    elan = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151217\20151217.csv', sep = "\t",error_bad_lines=False)
     elan = pd.DataFrame(elan.as_matrix())
     elan = ELANMerger.create(elan)
-    pathData = r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv'
+    pathData = r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151217\mergedID004.csv'
     pathLabel = r'C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat'
     rawData = pd.read_csv(pathData, sep='\t')
     dataMatrix = rawData.as_matrix()
@@ -82,38 +82,26 @@ fd.close()
 #steparray, x = StepExtraction.stepDetectionback(matrixnew)
 #passg = Init.getData(matrixnew,sensors=["RNS","LUF"],datas=["acc"],specifiedDatas=["z"])
 #Datenauswahl
-senrange = range(0,310)
-plt.subplot(3,1,1)
-plt.plot(dataMatrix[900:1100,156:159])
-plt.subplot(3,1,2)
-plt.plot(dataMatrix[900:1100,2:5])
-plt.subplot(3,1,3)
-plt.plot(dataMatrix[860:1860,175:178])
-plt.show()
-for i in range(1,len(testlabel[1,:])):
-    testmatrix[:,1] = testlabel[:,i]
-    test = range(4,310)
-    Classifier.compareclassifier(testmatrix,test)
+
+print "finished"
 
 
-print(elan)
-Matrix= dataMatrix
-newvalue = (dataMatrix[:,0])
-timestamp =  []
-duration = []
 
-plt.plot(dataMatrix[:,212:215])
-plt.show()
-#ELANMerger.MatrixforAndroid(dataMatrix[860:,:],elan)
-senrange = range(0,310)
-dataMatrix = FeatureKonstruktion.filter(dataMatrix,Sensors=senrange,lowcut=0.2,filtertype="highpass")
-plt.plot(dataMatrix[:,212:215])
-plt.show()
+
+
+
+
 
 print "steps"
-print timestamp
-print duration
-ELANMerger.MatrixforAndroid(dataMatrix[860:,:],elan)
+plt.subplot(2,1,1)
+plt.plot(dataMatrix[:,156:159])
+plt.subplot(2,1,2)
+plt.plot(dataMatrix[:,2:5])
+plt.show()
+Sensor = range(2,310)
+ELANMerger.wholedataelan(dataMatrix[454:,:],elan)
+ELANMerger.MatrixforAndroid(dataMatrix[454:,:],elan)
+
 
 
 

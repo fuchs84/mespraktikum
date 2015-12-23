@@ -12113,3 +12113,2139 @@ Confusionsmatrix:
 [[  56   58]
  [1042 2301]]
 --------------------------------------------------
+Datum: 16.12.2015 Zeit: 10:28:41
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.409442409442
+Fehlerkennung: 1451
+Confusionsmatrix: 
+[[   0  502    0]
+ [   0 1006  949]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.583638583639
+Fehlerkennung: 1023
+Confusionsmatrix: 
+[[   0  502    0]
+ [   0 1434  521]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -12.0418148671
+Fehlerkennung: 2457
+Confusionsmatrix: 
+[[   0  502    0]
+ [   0 1434  521]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.478225478225
+Fehlerkennung: 1282
+Confusionsmatrix: 
+[[  46  171  285]
+ [ 219 1129  607]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.422466422466
+Fehlerkennung: 1419
+Confusionsmatrix: 
+[[   0  493    9]
+ [   0 1038  917]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.616198616199
+Fehlerkennung: 943
+Confusionsmatrix: 
+[[   0  502    0]
+ [   0 1514  441]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.528693528694
+Fehlerkennung: 1158
+Confusionsmatrix: 
+[[   0  502    0]
+ [   0 1299  656]
+ [   0    0    0]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.750101750102
+Fehlerkennung: 614
+Confusionsmatrix: 
+[[1235  508]
+ [ 106  608]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.485551485551
+Fehlerkennung: 1264
+Confusionsmatrix: 
+[[ 563 1180]
+ [  84  630]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -9.78518619775
+Fehlerkennung: 2457
+Confusionsmatrix: 
+[[ 563 1180]
+ [  84  630]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.389499389499
+Fehlerkennung: 1500
+Confusionsmatrix: 
+[[ 684 1059]
+ [ 441  273]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.528286528287
+Fehlerkennung: 1159
+Confusionsmatrix: 
+[[814 929]
+ [230 484]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.610907610908
+Fehlerkennung: 956
+Confusionsmatrix: 
+[[1049  694]
+ [ 262  452]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.565323565324
+Fehlerkennung: 1068
+Confusionsmatrix: 
+[[782 961]
+ [107 607]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2457]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.999185999186
+Fehlerkennung: 2
+Confusionsmatrix: 
+[[2455    2]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0
+Fehlerkennung: 2457
+Confusionsmatrix: 
+[[2455    2]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2457]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2457]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2457]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.903133903134
+Fehlerkennung: 238
+Confusionsmatrix: 
+[[2219  238]
+ [   0    0]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2457]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2457]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0
+Fehlerkennung: 2457
+Confusionsmatrix: 
+[[2457]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.913715913716
+Fehlerkennung: 212
+Confusionsmatrix: 
+[[   0    0]
+ [ 212 2245]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.982091982092
+Fehlerkennung: 44
+Confusionsmatrix: 
+[[   0    0]
+ [  44 2413]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2457]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2457]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.953601953602
+Fehlerkennung: 114
+Confusionsmatrix: 
+[[   0  114]
+ [   0 2343]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.934472934473
+Fehlerkennung: 161
+Confusionsmatrix: 
+[[   3  111]
+ [  50 2293]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -4.34144216313
+Fehlerkennung: 2457
+Confusionsmatrix: 
+[[   3  111]
+ [  50 2293]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.790394790395
+Fehlerkennung: 515
+Confusionsmatrix: 
+[[   0  114]
+ [ 401 1942]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.953601953602
+Fehlerkennung: 114
+Confusionsmatrix: 
+[[   0  114]
+ [   0 2343]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.953601953602
+Fehlerkennung: 114
+Confusionsmatrix: 
+[[   0  114]
+ [   0 2343]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.953601953602
+Fehlerkennung: 114
+Confusionsmatrix: 
+[[   0  114]
+ [   0 2343]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.953601953602
+Fehlerkennung: 114
+Confusionsmatrix: 
+[[   0  114]
+ [   0 2343]]
+--------------------------------------------------
+Datum: 16.12.2015 Zeit: 13: 5: 9
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.409442409442
+Fehlerkennung: 1451
+Confusionsmatrix: 
+[[   0  502    0]
+ [   0 1006  949]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.444037444037
+Fehlerkennung: 1366
+Confusionsmatrix: 
+[[   0  502    0]
+ [   0 1091  864]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -12.0418148671
+Fehlerkennung: 2457
+Confusionsmatrix: 
+[[   0  502    0]
+ [   0 1091  864]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.478225478225
+Fehlerkennung: 1282
+Confusionsmatrix: 
+[[  46  171  285]
+ [ 219 1129  607]
+ [   0    0    0]]
+--------------------------------------------------
+Datum: 16.12.2015 Zeit: 13: 7:20
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 16.12.2015 Zeit: 13: 8: 9
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 16.12.2015 Zeit: 13: 8:33
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 16.12.2015 Zeit: 13: 9: 5
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 16.12.2015 Zeit: 13:10: 7
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 16.12.2015 Zeit: 13:10:51
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.409442409442
+Fehlerkennung: 1451
+Confusionsmatrix: 
+[[   0  502    0]
+ [   0 1006  949]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.488807488807
+Fehlerkennung: 1256
+Confusionsmatrix: 
+[[   0  502    0]
+ [  14 1201  740]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -12.0418148671
+Fehlerkennung: 2457
+Confusionsmatrix: 
+[[   0  502    0]
+ [  14 1201  740]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.478225478225
+Fehlerkennung: 1282
+Confusionsmatrix: 
+[[  46  171  285]
+ [ 219 1129  607]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.422466422466
+Fehlerkennung: 1419
+Confusionsmatrix: 
+[[   0  493    9]
+ [   0 1038  917]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.781440781441
+Fehlerkennung: 537
+Confusionsmatrix: 
+[[   0  502    0]
+ [   0 1920   35]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.564102564103
+Fehlerkennung: 1071
+Confusionsmatrix: 
+[[   0  502    0]
+ [   0 1386  569]
+ [   0    0    0]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.750101750102
+Fehlerkennung: 614
+Confusionsmatrix: 
+[[1235  508]
+ [ 106  608]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.586487586488
+Fehlerkennung: 1016
+Confusionsmatrix: 
+[[882 861]
+ [155 559]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -9.78518619775
+Fehlerkennung: 2457
+Confusionsmatrix: 
+[[882 861]
+ [155 559]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.389499389499
+Fehlerkennung: 1500
+Confusionsmatrix: 
+[[ 684 1059]
+ [ 441  273]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.528286528287
+Fehlerkennung: 1159
+Confusionsmatrix: 
+[[814 929]
+ [230 484]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.641025641026
+Fehlerkennung: 882
+Confusionsmatrix: 
+[[1081  662]
+ [ 220  494]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.568172568173
+Fehlerkennung: 1061
+Confusionsmatrix: 
+[[794 949]
+ [112 602]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2457]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.999185999186
+Fehlerkennung: 2
+Confusionsmatrix: 
+[[2455    2]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0
+Fehlerkennung: 2457
+Confusionsmatrix: 
+[[2455    2]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2457]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2457]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2457]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.904354904355
+Fehlerkennung: 235
+Confusionsmatrix: 
+[[2222  235]
+ [   0    0]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2457]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2457]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0
+Fehlerkennung: 2457
+Confusionsmatrix: 
+[[2457]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.913715913716
+Fehlerkennung: 212
+Confusionsmatrix: 
+[[   0    0]
+ [ 212 2245]]
+--------------------------------------------------
+Datum: 16.12.2015 Zeit: 13:12:57
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.405813953488
+Fehlerkennung: 1533
+Confusionsmatrix: 
+[[   0  494    0]
+ [   0 1047 1039]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.568604651163
+Fehlerkennung: 1113
+Confusionsmatrix: 
+[[   0  494    0]
+ [   6 1467  613]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -12.0403843536
+Fehlerkennung: 2580
+Confusionsmatrix: 
+[[   0  494    0]
+ [   6 1467  613]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.478682170543
+Fehlerkennung: 1345
+Confusionsmatrix: 
+[[  63  131  300]
+ [ 228 1172  686]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.204651162791
+Fehlerkennung: 2052
+Confusionsmatrix: 
+[[   0  403   91]
+ [   0  528 1558]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.792635658915
+Fehlerkennung: 535
+Confusionsmatrix: 
+[[   0  491    3]
+ [   0 2045   41]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.477519379845
+Fehlerkennung: 1348
+Confusionsmatrix: 
+[[   0  418   76]
+ [   0 1232  854]
+ [   0    0    0]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.755813953488
+Fehlerkennung: 630
+Confusionsmatrix: 
+[[1337  521]
+ [ 109  613]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.564341085271
+Fehlerkennung: 1124
+Confusionsmatrix: 
+[[1007  851]
+ [ 273  449]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -12.6569018941
+Fehlerkennung: 2580
+Confusionsmatrix: 
+[[1007  851]
+ [ 273  449]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.369379844961
+Fehlerkennung: 1627
+Confusionsmatrix: 
+[[ 669 1189]
+ [ 438  284]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.438372093023
+Fehlerkennung: 1449
+Confusionsmatrix: 
+[[ 778 1080]
+ [ 369  353]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.605813953488
+Fehlerkennung: 1017
+Confusionsmatrix: 
+[[970 888]
+ [129 593]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.358914728682
+Fehlerkennung: 1654
+Confusionsmatrix: 
+[[ 376 1482]
+ [ 172  550]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2580]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2580]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0
+Fehlerkennung: 2580
+Confusionsmatrix: 
+[[2580]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.98992248062
+Fehlerkennung: 26
+Confusionsmatrix: 
+[[2554   26]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2580]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2580]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.991860465116
+Fehlerkennung: 21
+Confusionsmatrix: 
+[[2559   21]
+ [   0    0]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2580]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.998062015504
+Fehlerkennung: 5
+Confusionsmatrix: 
+[[   0    0]
+ [   5 2575]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0
+Fehlerkennung: 2580
+Confusionsmatrix: 
+[[   0    0]
+ [   5 2575]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.907751937984
+Fehlerkennung: 238
+Confusionsmatrix: 
+[[   0    0]
+ [ 238 2342]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2580]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2580]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2580]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.956589147287
+Fehlerkennung: 112
+Confusionsmatrix: 
+[[   0  112]
+ [   0 2468]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.936046511628
+Fehlerkennung: 165
+Confusionsmatrix: 
+[[   0  112]
+ [  53 2415]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -9.56397360264
+Fehlerkennung: 2580
+Confusionsmatrix: 
+[[   0  112]
+ [  53 2415]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.763953488372
+Fehlerkennung: 609
+Confusionsmatrix: 
+[[   0  112]
+ [ 497 1971]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.940310077519
+Fehlerkennung: 154
+Confusionsmatrix: 
+[[   0  112]
+ [  42 2426]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.956589147287
+Fehlerkennung: 112
+Confusionsmatrix: 
+[[   0  112]
+ [   0 2468]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.956589147287
+Fehlerkennung: 112
+Confusionsmatrix: 
+[[   0  112]
+ [   0 2468]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.956589147287
+Fehlerkennung: 112
+Confusionsmatrix: 
+[[   0  112]
+ [   0 2468]]
+--------------------------------------------------
+Datum: 17.12.2015 Zeit: 16: 9:50
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 16:10:38
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 16:14:12
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 16:14:51
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 16:19:25
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 16:20:46
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 16:21:58
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 16:22:58
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 16:28:36
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 16:29:27
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 16:30:58
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 16:32: 5
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 16:37:33
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 16:43: 0
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.405813953488
+Fehlerkennung: 1533
+Confusionsmatrix: 
+[[   0  494    0]
+ [   0 1047 1039]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.692635658915
+Fehlerkennung: 793
+Confusionsmatrix: 
+[[   0  494    0]
+ [   4 1787  295]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -12.0403843536
+Fehlerkennung: 2580
+Confusionsmatrix: 
+[[   0  494    0]
+ [   4 1787  295]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.478682170543
+Fehlerkennung: 1345
+Confusionsmatrix: 
+[[  63  131  300]
+ [ 228 1172  686]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.204651162791
+Fehlerkennung: 2052
+Confusionsmatrix: 
+[[   0  403   91]
+ [   0  528 1558]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.756589147287
+Fehlerkennung: 628
+Confusionsmatrix: 
+[[   0  494    0]
+ [   0 1952  134]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.470542635659
+Fehlerkennung: 1366
+Confusionsmatrix: 
+[[   0  393  101]
+ [   0 1214  872]
+ [   0    0    0]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.755813953488
+Fehlerkennung: 630
+Confusionsmatrix: 
+[[1337  521]
+ [ 109  613]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.589147286822
+Fehlerkennung: 1060
+Confusionsmatrix: 
+[[973 885]
+ [175 547]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -12.6569018941
+Fehlerkennung: 2580
+Confusionsmatrix: 
+[[973 885]
+ [175 547]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.369379844961
+Fehlerkennung: 1627
+Confusionsmatrix: 
+[[ 669 1189]
+ [ 438  284]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.438372093023
+Fehlerkennung: 1449
+Confusionsmatrix: 
+[[ 778 1080]
+ [ 369  353]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.535658914729
+Fehlerkennung: 1198
+Confusionsmatrix: 
+[[889 969]
+ [229 493]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.467829457364
+Fehlerkennung: 1373
+Confusionsmatrix: 
+[[ 636 1222]
+ [ 151  571]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2580]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2580]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0
+Fehlerkennung: 2580
+Confusionsmatrix: 
+[[2580]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.98992248062
+Fehlerkennung: 26
+Confusionsmatrix: 
+[[2554   26]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2580]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.997674418605
+Fehlerkennung: 6
+Confusionsmatrix: 
+[[2574    6]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.991860465116
+Fehlerkennung: 21
+Confusionsmatrix: 
+[[2559   21]
+ [   0    0]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2580]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.997674418605
+Fehlerkennung: 6
+Confusionsmatrix: 
+[[   0    0]
+ [   6 2574]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0
+Fehlerkennung: 2580
+Confusionsmatrix: 
+[[   0    0]
+ [   6 2574]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.907751937984
+Fehlerkennung: 238
+Confusionsmatrix: 
+[[   0    0]
+ [ 238 2342]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2580]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2580]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[2580]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.956589147287
+Fehlerkennung: 112
+Confusionsmatrix: 
+[[   0  112]
+ [   0 2468]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.936821705426
+Fehlerkennung: 163
+Confusionsmatrix: 
+[[   0  112]
+ [  51 2417]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -9.56397360264
+Fehlerkennung: 2580
+Confusionsmatrix: 
+[[   0  112]
+ [  51 2417]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.763953488372
+Fehlerkennung: 609
+Confusionsmatrix: 
+[[   0  112]
+ [ 497 1971]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.940310077519
+Fehlerkennung: 154
+Confusionsmatrix: 
+[[   0  112]
+ [  42 2426]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.956589147287
+Fehlerkennung: 112
+Confusionsmatrix: 
+[[   0  112]
+ [   0 2468]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.956589147287
+Fehlerkennung: 112
+Confusionsmatrix: 
+[[   0  112]
+ [   0 2468]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.956589147287
+Fehlerkennung: 112
+Confusionsmatrix: 
+[[   0  112]
+ [   0 2468]]
+--------------------------------------------------
+Datum: 17.12.2015 Zeit: 16:47:38
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[7287]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.99972553863
+Fehlerkennung: 2
+Confusionsmatrix: 
+[[7285    1    1]
+ [   0    0    0]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0
+Fehlerkennung: 7287
+Confusionsmatrix: 
+[[7285    1    1]
+ [   0    0    0]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.280087827638
+Fehlerkennung: 5246
+Confusionsmatrix: 
+[[2041 2532 2714]
+ [   0    0    0]
+ [   0    0    0]]
+--------------------------------------------------
+Datum: 17.12.2015 Zeit: 16:51:29
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 16:54:35
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[7156]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.878842929011
+Fehlerkennung: 867
+Confusionsmatrix: 
+[[6289  867]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0
+Fehlerkennung: 7156
+Confusionsmatrix: 
+[[6289  867]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.687814421465
+Fehlerkennung: 2234
+Confusionsmatrix: 
+[[4922 2234]
+ [   0    0]]
+--------------------------------------------------
+Datum: 17.12.2015 Zeit: 16:57:29
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 16:58:12
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 16:59:23
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 17: 0:42
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 17: 3:52
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 17: 5:37
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 17: 9:23
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 17: 9:48
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 17:12:52
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 17:14:10
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 17:15: 1
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[7156]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.998742314142
+Fehlerkennung: 9
+Confusionsmatrix: 
+[[7147    9]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0
+Fehlerkennung: 7156
+Confusionsmatrix: 
+[[7147    9]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.687814421465
+Fehlerkennung: 2234
+Confusionsmatrix: 
+[[4922 2234]
+ [   0    0]]
+--------------------------------------------------
+Datum: 17.12.2015 Zeit: 17:18:52
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 17:19:56
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 17.12.2015 Zeit: 17:22: 3
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[7156]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[7156]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0
+Fehlerkennung: 7156
+Confusionsmatrix: 
+[[7156]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.687814421465
+Fehlerkennung: 2234
+Confusionsmatrix: 
+[[4922 2234]
+ [   0    0]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[7156]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[7156]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0
+Fehlerkennung: 7156
+Confusionsmatrix: 
+[[7156]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.687814421465
+Fehlerkennung: 2234
+Confusionsmatrix: 
+[[4922 2234]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.997205142538
+Fehlerkennung: 20
+Confusionsmatrix: 
+[[7136   20]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[7156]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.921045276691
+Fehlerkennung: 565
+Confusionsmatrix: 
+[[6591  565]
+ [   0    0]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[7156]]
+--------------------------------------------------
+Datum: 17.12.2015 Zeit: 17:44:25
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.0723349392685
+Fehlerkennung: 13671
+Confusionsmatrix: 
+[[    0   742 11717]
+ [    0  1066  1212]
+ [    0     0     0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.111691660446
+Fehlerkennung: 13091
+Confusionsmatrix: 
+[[    3 11021  1435]
+ [    2  1643   633]
+ [    0     0     0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -148.840074064
+Fehlerkennung: 14737
+Confusionsmatrix: 
+[[    3 11021  1435]
+ [    2  1643   633]
+ [    0     0     0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.443102395331
+Fehlerkennung: 8207
+Confusionsmatrix: 
+[[5359 4178 2922]
+ [ 314 1171  793]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.0487887629775
+Fehlerkennung: 14018
+Confusionsmatrix: 
+[[   0 5328 7131]
+ [   0  719 1559]
+ [   0    0    0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.146637714596
+Fehlerkennung: 12576
+Confusionsmatrix: 
+[[    0 11658   801]
+ [    0  2161   117]
+ [    0     0     0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.111488091199
+Fehlerkennung: 13094
+Confusionsmatrix: 
+[[    0 10506  1953]
+ [    0  1643   635]
+ [    0     0     0]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.139716360182
+Fehlerkennung: 12678
+Confusionsmatrix: 
+[[ 1446 12569]
+ [  109   613]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.454095134695
+Fehlerkennung: 8045
+Confusionsmatrix: 
+[[6163 7852]
+ [ 193  529]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -957.579101312
+Fehlerkennung: 14737
+Confusionsmatrix: 
+[[6163 7852]
+ [ 193  529]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.540408495623
+Fehlerkennung: 6773
+Confusionsmatrix: 
+[[7679 6336]
+ [ 437  285]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.464884304811
+Fehlerkennung: 7886
+Confusionsmatrix: 
+[[6482 7533]
+ [ 353  369]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.520662278618
+Fehlerkennung: 7064
+Confusionsmatrix: 
+[[7155 6860]
+ [ 204  518]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.369071045667
+Fehlerkennung: 9298
+Confusionsmatrix: 
+[[4858 9157]
+ [ 141  581]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.527990771527
+Fehlerkennung: 6956
+Confusionsmatrix: 
+[[7781 6956]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.917825880437
+Fehlerkennung: 1211
+Confusionsmatrix: 
+[[13526  1211]
+ [    0     0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0
+Fehlerkennung: 14737
+Confusionsmatrix: 
+[[13526  1211]
+ [    0     0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.589740109927
+Fehlerkennung: 6046
+Confusionsmatrix: 
+[[8691 6046]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.979778788084
+Fehlerkennung: 298
+Confusionsmatrix: 
+[[14439   298]
+ [    0     0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.930515030196
+Fehlerkennung: 1024
+Confusionsmatrix: 
+[[13713  1024]
+ [    0     0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.536540679921
+Fehlerkennung: 6830
+Confusionsmatrix: 
+[[7907 6830]
+ [   0    0]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.539254936554
+Fehlerkennung: 6790
+Confusionsmatrix: 
+[[   0 6790]
+ [   0 7947]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.537015674832
+Fehlerkennung: 6823
+Confusionsmatrix: 
+[[  20 6770]
+ [  53 7894]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -65.2555542166
+Fehlerkennung: 14737
+Confusionsmatrix: 
+[[  20 6770]
+ [  53 7894]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.548144127027
+Fehlerkennung: 6659
+Confusionsmatrix: 
+[[2574 4216]
+ [2443 5504]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.53932279297
+Fehlerkennung: 6789
+Confusionsmatrix: 
+[[   1 6789]
+ [   0 7947]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.538440659564
+Fehlerkennung: 6802
+Confusionsmatrix: 
+[[   0 6790]
+ [  12 7935]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.539254936554
+Fehlerkennung: 6790
+Confusionsmatrix: 
+[[   0 6790]
+ [   0 7947]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.527990771527
+Fehlerkennung: 6956
+Confusionsmatrix: 
+[[7781 6956]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.943475605619
+Fehlerkennung: 833
+Confusionsmatrix: 
+[[13904   833]
+ [    0     0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0
+Fehlerkennung: 14737
+Confusionsmatrix: 
+[[13904   833]
+ [    0     0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.589740109927
+Fehlerkennung: 6046
+Confusionsmatrix: 
+[[8691 6046]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.979778788084
+Fehlerkennung: 298
+Confusionsmatrix: 
+[[14439   298]
+ [    0     0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.988939404221
+Fehlerkennung: 163
+Confusionsmatrix: 
+[[14574   163]
+ [    0     0]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.990771527448
+Fehlerkennung: 136
+Confusionsmatrix: 
+[[14601   136]
+ [    0     0]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.233968921762
+Fehlerkennung: 11289
+Confusionsmatrix: 
+[[    0 11289]
+ [    0  3448]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.233629639682
+Fehlerkennung: 11294
+Confusionsmatrix: 
+[[    1 11288]
+ [    6  3442]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: -98.0031162557
+Fehlerkennung: 14737
+Confusionsmatrix: 
+[[    1 11288]
+ [    6  3442]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.479812716292
+Fehlerkennung: 7666
+Confusionsmatrix: 
+[[4478 6811]
+ [ 855 2593]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.231118952297
+Fehlerkennung: 11331
+Confusionsmatrix: 
+[[    0 11289]
+ [   42  3406]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 0.233968921762
+Fehlerkennung: 11289
+Confusionsmatrix: 
+[[    0 11289]
+ [    0  3448]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.233968921762
+Fehlerkennung: 11289
+Confusionsmatrix: 
+[[    0 11289]
+ [    0  3448]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 0.264911447377
+Fehlerkennung: 10833
+Confusionsmatrix: 
+[[    0 10833]
+ [    0  3904]]
+--------------------------------------------------
+Datum: 17.12.2015 Zeit: 17:46:47
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[7156]]
+--------------------------------------------------
+Klassifizier: Gradient Decent
+Score: 0.993432084964
+Fehlerkennung: 47
+Confusionsmatrix: 
+[[7109   47]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: Linear Regression
+Score: 0.0
+Fehlerkennung: 7156
+Confusionsmatrix: 
+[[7109   47]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: LDA
+Score: 0.687814421465
+Fehlerkennung: 2234
+Confusionsmatrix: 
+[[4922 2234]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: AdaBoost
+Score: 0.997205142538
+Fehlerkennung: 20
+Confusionsmatrix: 
+[[7136   20]
+ [   0    0]]
+--------------------------------------------------
+Klassifizier: Randomforest
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[7156]]
+--------------------------------------------------
+Klassifizier: Decision Tree
+Score: 0.953745108999
+Fehlerkennung: 331
+Confusionsmatrix: 
+[[6825  331]
+ [   0    0]]
+--------------------------------------------------
+Vergleiche Klassifizierer: 
+Klassifizier: Naive Bayes
+Score: 1.0
+Fehlerkennung: 0
+Confusionsmatrix: 
+[[7156]]
+--------------------------------------------------
+Datum: 22.12.2015 Zeit:  9:53:25
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUA RLA 
+Daten: rE1 rE2 rE3 
+Datum: 22.12.2015 Zeit: 10: 3: 5
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\mergedx.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 22.12.2015 Zeit: 10: 5:52
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 22.12.2015 Zeit: 10: 6:42
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUA RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LUA LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+Datum: 22.12.2015 Zeit: 10:54: 1
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUA RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LUA LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 22.12.2015 Zeit: 12:21:54
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUA RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LUA LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+Datum: 22.12.2015 Zeit: 13: 2:56
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUA RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LUA LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 22.12.2015 Zeit: 16: 6:25
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151203\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 22.12.2015 Zeit: 16: 7: 0
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151203\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 22.12.2015 Zeit: 16: 7:26
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151203\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 22.12.2015 Zeit: 16: 7:27
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151203\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 22.12.2015 Zeit: 16: 8:24
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151203\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 22.12.2015 Zeit: 16: 9:57
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151217\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 22.12.2015 Zeit: 16:15:55
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151217\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 22.12.2015 Zeit: 16:16:23
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151217\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 22.12.2015 Zeit: 16:17: 0
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151217\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 22.12.2015 Zeit: 16:17:39
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151217\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 22.12.2015 Zeit: 18: 6: 9
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\201512172\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 23.12.2015 Zeit: 11:48:56
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151203\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 23.12.2015 Zeit: 11:49:32
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151203\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 23.12.2015 Zeit: 11:51:22
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151203\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 23.12.2015 Zeit: 11:51:47
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151203\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 23.12.2015 Zeit: 11:52:31
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151203\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUA RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LUA LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+Datum: 23.12.2015 Zeit: 12: 6:23
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151217\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 23.12.2015 Zeit: 12: 6:49
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151217\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 23.12.2015 Zeit: 12:17: 7
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151217\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 23.12.2015 Zeit: 12:19:11
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151217\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 23.12.2015 Zeit: 12:21:30
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151217\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 23.12.2015 Zeit: 12:25:32
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\201512172\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 23.12.2015 Zeit: 12:50:13
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\201512172\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 23.12.2015 Zeit: 12:51:14
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\201512172\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+Datum: 23.12.2015 Zeit: 13: 1: 8
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\201512172\mergedxID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUA RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LUA LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+
+ 
+Datum: 23.12.2015 Zeit: 13:12:43
+Kommentar: 
+Datenpfad: C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151217\mergedID004.csv
+Labelpfad: C:\Users\Sebastian\Desktop\Labels\MARKER_10.mat
+getData: 
+Sensoren: RNS RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LNS LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE CEN 
+Daten: rE1 
+getData: 
+Sensoren: RLL LLL 
+Daten: acc 
+getData: 
+Sensoren: RUA RLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LUA LLA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RNS LLL 
+Daten: acc 
+getData: 
+Sensoren: LNS RLL 
+Daten: acc 
+getData: 
+Sensoren: RNS LNS 
+Daten: rE1 
+getData: 
+Sensoren: RNS LNS 
+Daten: acc 
+getData: 
+Sensoren: STE RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: STE LUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: RLA RUA 
+Daten: rE1 rE2 rE3 
+getData: 
+Sensoren: LLA LUA 
+Daten: rE1 rE2 rE3 
+
+ 

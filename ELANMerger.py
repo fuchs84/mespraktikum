@@ -41,24 +41,36 @@ def MatrixforAndroid(datamatrix, elan):
     elan = pd.DataFrame(elan[:,1:],index=elan[:,0])
     elanpass = np.array(elan.ix['1Passgang'])[:,3]
     elanstock = np.array(elan.ix['1Stockeinsatz'])[:,3]
-    elanarm = np.array(elan.ix['1Armarbeit'])[:,3]
+    elanarm = np.array(elan.ix['1Armeinsatz'])[:,3]
     elanschritt = np.array(elan.ix['2Schrittlaenge'])[:,3]
     elanschub = np.array(elan.ix['2Schub'])[:,3]
     elanverkrampfung = np.array(elan.ix['2Verkrampfung'])[:,3]
     elanober = np.array(elan.ix['2Oberkoerper'])[:,3]
+    elanfuss = np.array(elan.ix['2Fussaufsatz'])[:,3]
     elantiming = np.array(elan.ix['2Timing'])[:,3]
     elanshwingen = np.array(elan.ix['3Vorschwingen'])[:,3]
     elanblick = np.array(elan.ix['3Blick'])[:,3]
-
+    print len(steps)
+    print len(elanpass)
+    print len(elanstock)
     print len(elanarm)
+    print len(elanschritt)
+    print len(elanschub)
+    print len(elanfuss)
+    print len(elanverkrampfung)
+    print len(elanober)
+    print len(elantiming)
+    print len(elanshwingen)
+    print len(elanblick)
     new = np.c_[steps,elanpass]
     new = np.c_[new,elanstock]
     new = np.c_[new,elanarm]
     new = np.c_[new,elanschritt]
     new = np.c_[new,elanschub]
+    new = np.c_[new,elanfuss]
     new = np.c_[new,elanverkrampfung]
-    #new = np.c_[new,elanober]
-    #new = np.c_[new,elantiming]
+    new = np.c_[new,elanober]
+    new = np.c_[new,elantiming]
     new = np.c_[new,elanshwingen]
     new = np.c_[new,elanblick]
 
@@ -69,34 +81,44 @@ def MatrixforAndroid(datamatrix, elan):
 
     plt.subplot(4,1,2)
     plt.title("Stockaufsatz")
-    plt.plot(e)
-    plt.plot(f)
+    plt.plot(rightpeak)
+    plt.plot(leftpeak)
     plt.subplot(4,1,3)
     plt.title("schulter")
-    plt.plot(g)
-    plt.plot(h, label= "Rechteschulter")
+    plt.plot(a)
+    plt.plot(b, label= "Rechteschulter")
     plt.subplot(4,1,4)
     plt.title("Arm")
-    plt.plot(i)
-    plt.plot(j)
+    plt.plot(c)
+    plt.plot(d)
     #plt.plot(d, label= "Rechter Arm")
     plt.show()
     file = []
     label= []
     FeatureFile= np.c_[steps,passgang,rightpeak,leftpeak,a,b,c,d,e,f,g,h,i,j,k]
+    for k in range(4,len(new[1,:])):
+        for t in range(0,len(new)):
+            if new[t,k]==3 or new[t,k]==2 or new[t,k]==1:
+                temp = new[t,k]
+            else:
+                new[t,k]= temp
+
     for i in range(0,len(new)):
         temp = new[i,4]
-        if temp=="3":
-            new[i,4:]="3"
+        if temp==3:
+            new[i,4:]=3
+
+
     for i in range(0,len(new)):
-        if new[i,4]=="2" or new[i,4]=="1":
+        if new[i,4]==2 or new[i,4]==1:
             print new[i,4]
             file.append(FeatureFile[i,:])
             label.append(new[i,:])
+
     labelpass = []
     filepass = []
     for i in range(0,len(new)):
-        if new[i,4]=="2" or new[i,4]=="1" or new[i,4]== "3":
+        if new[i,4]==2 or new[i,4]==1 or new[i,4]== 3:
             filepass.append(FeatureFile[i,:])
             labelpass.append(new[i,:5])
 
@@ -109,15 +131,7 @@ def MatrixforAndroid(datamatrix, elan):
     np.savetxt("20151127ID005featurespass.csv",filepass,delimiter="\t")
     np.savetxt("20151127ID005labelspass.csv",labelpass,delimiter="\t",fmt="%s")
     print "finished"
-    plt.subplot(4,1,1)
-    plt.plot(label[:,4:])
-    plt.subplot(4,1,2)
-    plt.plot(file[:,4:])
-    plt.subplot(4,1,3)
-    plt.plot(labelpass[:,4:])
-    plt.subplot(4,1,4)
-    plt.plot(filepass[:,4:])
-    plt.show()
+
 
 def wholedataelan(dataMatrix,elan):
     matrix, step = StepExtraction.videosteps(dataMatrix[:,:],elan)
@@ -125,38 +139,60 @@ def wholedataelan(dataMatrix,elan):
     elan = pd.DataFrame(elan[:,1:],index=elan[:,0])
     elanpass = np.array(elan.ix['1Passgang'])[:,3]
     elanstock = np.array(elan.ix['1Stockeinsatz'])[:,3]
-    elanarm = np.array(elan.ix['1Armarbeit'])[:,3]
+    elanarm = np.array(elan.ix['1Armeinsatz'])[:,3]
     elanschritt = np.array(elan.ix['2Schrittlaenge'])[:,3]
     elanschub = np.array(elan.ix['2Schub'])[:,3]
     elanverkrampfung = np.array(elan.ix['2Verkrampfung'])[:,3]
     elanober = np.array(elan.ix['2Oberkoerper'])[:,3]
+    elanfuss = np.array(elan.ix['2Fussaufsatz'])[:,3]
     elantiming = np.array(elan.ix['2Timing'])[:,3]
     elanshwingen = np.array(elan.ix['3Vorschwingen'])[:,3]
     elanblick = np.array(elan.ix['3Blick'])[:,3]
-
+    print len(step)
+    print len(elanpass)
+    print len(elanstock)
     print len(elanarm)
+    print len(elanschritt)
+    print len(elanschub)
+    print len(elanfuss)
+    print len(elanverkrampfung)
+    print len(elanober)
+    print len(elantiming)
+    print len(elanshwingen)
+    print len(elanblick)
     new = np.c_[step,elanpass]
     new = np.c_[new,elanstock]
     new = np.c_[new,elanarm]
     new = np.c_[new,elanschritt]
     new = np.c_[new,elanschub]
+    new = np.c_[new,elanfuss]
     new = np.c_[new,elanverkrampfung]
-    #new = np.c_[new,elanober]
-    #new = np.c_[new,elantiming]
+    new = np.c_[new,elanober]
+    new = np.c_[new,elantiming]
     new = np.c_[new,elanshwingen]
     new = np.c_[new,elanblick]
+    print new[:,4]
+    for k in range(4,len(new[1,:])):
+        for t in range(0,len(new)):
+            if new[t,k]==3 or new[t,k]==2 or new[t,k]==1:
+                temp = new[t,k]
+            else:
+                new[t,k]= temp
+
+
     for i in range(0,len(new)):
         temp = new[i,4]
-        if temp=="3":
+        if temp==3:
             print "test"
 
-            new[i,4:]="3"
+            new[i,4:]=3
     labeldata = []
     for i in range(0,len(new)):
-            if new[i,4]=="3" or new[i,4]=="2" or new[i,4]=="1":
+            if new[i,4]==3 or new[i,4]==2 or new[i,4]==1:
                 print new[i,4]
                 labeldata.append(new[i,:])
     labeldata = np.array(labeldata)
+    print labeldata
     matrixsteps = pd.DataFrame(matrix[labeldata[0,0]:labeldata[0,1],:])
     matrix = pd.DataFrame(matrix)
     for i in range(1,len(labeldata)):
@@ -189,7 +225,7 @@ def wholedataelan(dataMatrix,elan):
     label =[]
     for i in range(0,len(labeldata)):
         temp = labeldata[i,4]
-        if temp != "3":
+        if temp != 3:
             label.append(labeldata[i,:])
 
     label = np.array(label)

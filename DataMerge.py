@@ -12,26 +12,26 @@ import pandas as pd
 import computeAngles as ca
 
 #daten laden die benoetigt werden
-x1bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\x1\xbus.csv', sep = "\t")
-x1bus2 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\201511262\x1\xbus.csv', sep = "\t")
+x1bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\x1\xbus.csv', sep = "\t")
+#x1bus2 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\201511262\x1\xbus.csv', sep = "\t")
 
-x2bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\x2\xbus.csv', sep = "\t")
-x2bus2 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\x2\xbus.csv', sep = "\t")
+x2bus1 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151211\x2\xbus.csv', sep = "\t")
+#x2bus2 = pd.read_csv(r'C:\Users\Sebastian\Desktop\ProbandenWalk\ID004\20151126\x2\xbus.csv', sep = "\t")
 
 
 
 
 #speichern der daten als dataframes
 datax11 = pd.DataFrame(x1bus1.as_matrix())
-datax12 = pd.DataFrame(x1bus2.as_matrix())
+#datax12 = pd.DataFrame(x1bus2.as_matrix())
 datax21 = pd.DataFrame(x2bus1.as_matrix())
-datax22 = pd.DataFrame(x2bus2.as_matrix())
+#datax22 = pd.DataFrame(x2bus2.as_matrix())
 #datax23 = pd.DataFrame(x2bus3.as_matrix())
 
 
 #aneinanderfuegen von daten des gleichen sensorsets
-x1bus = pd.concat([datax11,datax12])
-x2bus = pd.concat([datax21,datax22])
+x1bus = pd.concat([datax11])
+x2bus = pd.concat([datax21])
 
 #wieder als matrix speichern //nicht sicher ob das dauernde formataendern wirklich noetig ist
 datax1 = x1bus.as_matrix()
@@ -189,7 +189,7 @@ for i in range(0, numberofsensors):
     print output.shape
     print output[1,:].shape
 
-np.savetxt('mergedID001.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
+np.savetxt('mergedID004.csv', fmt=['%i','%i','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
                               '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
                               '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
                               '%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f','%f',
@@ -213,7 +213,7 @@ print "saved"
 
 #plots zeigen zum vergleich, keine eigentliche relevanz
 plt.subplot(4, 1, 1)
-plt.plot(mergerino.iloc[:,2:93])
+plt.plot(mergerino.iloc[:,2:5])
 
 plt.subplot(4, 1, 2)
 plt.plot(dfx1.iloc[:,9:])
@@ -223,6 +223,6 @@ plt.subplot(4, 1, 3)
 plt.plot(dfx2.iloc[:,3:])
 
 plt.subplot(4, 1, 4)
-plt.plot(mergerino.iloc[500:,93:])
+plt.plot(mergerino.iloc[:,156:159])
 
 plt.show()
